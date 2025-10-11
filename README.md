@@ -7,5 +7,5 @@ Hi, I'm Nell! I'm a Senior Technical Writer with a background as an editor and r
 - Formerly Ohio (college) and Illinois (grad school).
 
 <H2>Writing Samples</H2>
-<a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/HC-Article-Sample-Chronicle.pdf" target="_blank">Help Center Sample</a>
-<a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Release%20notes%20for%20e-reader%20app%20%5BGram%20Sample%5D.pdf target="_blank">Release notes Sample</a>
+<a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/HC%20Article%20Sample%20-%20Chronicle.pdf" target="_blank">Help Center </a>
+<a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Release%20notes%20for%20e-reader%20app%20%5BGram%20Sample%5D.pdf" target="_blank">Release Notes</a>
