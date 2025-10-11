@@ -10,4 +10,4 @@ Hi, I'm Nell! I'm a Senior Technical Writer with a background as an editor and r
 
 - <a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">Help Center</a>
 - <a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Knowledge%20Base%20article%20%5BGram%20Sample%5D.pdf" target="_blank">Knowledge Base</a>
-- <a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Release%20notes%20for%20e-reader%20app%20%5BGram%20Sample%5D.pdf" target="_blank">Release Notes</a>
+- <a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Release%20Notes%20eReader%20App%20%5BGram%20Sample%5D.pdf" target="_blank">Release Notes</a>
