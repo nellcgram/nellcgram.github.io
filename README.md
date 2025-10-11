@@ -5,3 +5,6 @@ Hi, I'm Nell! I'm a Senior Technical Writer with a background as an editor and r
 - Currently: Los Angeles and New York City. Open to relocation.
 - Los Angeles born and raised.
 - Formerly Ohio (college) and Illinois (grad school).
+
+<H2>Writing Samples</H2>
+<a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/HC%20Article%20Sample%20-%20Chronicle.pdf" target="_blank">Help Center Sample</a>
