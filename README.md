@@ -1,4 +1,7 @@
 # About
-Hi, I'm Nell! Welcome to my portfolio website. I'm a technical writer with a background as an editor and researcher and experience managing small teams. 
+Hi, I'm Nell! I'm a Senior Technical Writer with a background as an editor and researcher and experience managing small teams. Currently I work for Accenture supporting Google, writing documentation for [the Google Play Help Center](https://support.google.com/googleplay/?hl=en#topic=3364260) and Knowledge Base. Welcome to my portfolio website. 
 
-<b>Geography:</b> I was born and raised in Los Angeles, but I lived in Ohio for college and Illinois for graduate school. Today I spend time in Los Angeles and New York City (I have family in both places) and I'm open to relocating for work.
+<b>Geography</b>
+- Currently: Los Angeles and New York City. Open to relocating for work.
+- Los Angeles born and raised
+- Formerly Ohio (college) and Illinois (grad school)
