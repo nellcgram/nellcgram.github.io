@@ -9,19 +9,22 @@ Hi, I'm Nell! I'm a Senior Technical Writer with 6+ years of experience and a ba
 <H2>Writing Samples</H2>
 
 <h3>Help Center article</h3>
-- About: 
-
-- <a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">Help Center</a>
+<ul>
+  <li><b>About:</b></li>
+<li><a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">Help Center</a></li>
+</ul>
 
 <h3>Knowledge Base article</h3>
-- About: 
-
-- <a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Knowledge%20Base%20article%20%5BGram%20Sample%5D.pdf" target="_blank">Knowledge Base</a>
+<ul>
+  <li><b>About:</li></b>
+<li><a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Knowledge%20Base%20article%20%5BGram%20Sample%5D.pdf" target="_blank">Knowledge Base</a></li>
+</ul>
 
 <h3>Release notes</h3>
-- About:  For this sample, I created release notes from the user’s perspective in user-friendly language. I wanted to mirror the type of release notes I write and edit for Google Play. An example of this type: https://support.google.com/googleplay/answer/13585779
-
-- <a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Release%20Notes%20eReader%20App%20%5BGram%20Sample%5D.pdf" target="_blank">Release Notes</a>
+<ul>
+  <li><b>About:</b>  For this sample, I created release notes from the user’s perspective in user-friendly language. I wanted to mirror the type of release notes I write and edit for Google Play. An example of this type: https://support.google.com/googleplay/answer/13585779</li>
+<li><a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Release%20Notes%20eReader%20App%20%5BGram%20Sample%5D.pdf" target="_blank">Release Notes</a></li>
+</ul>
 
 <H2> Contact Me</H2>
  <ul>
