@@ -10,14 +10,14 @@ Hi, I'm Nell! I'm a Senior Technical Writer with 6+ years of experience and a ba
 
 <h3>Help Center article</h3>
 <ul>
-  <li><b>About:</b></li>
+  <li><b>About:</b> ??</li>
 <li><a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">Help Center</a></li>
 </ul>
 
 <h3>Knowledge Base article</h3>
 <ul>
-  <li><b>About:</li></b>
-<li><a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Knowledge%20Base%20article%20%5BGram%20Sample%5D.pdf" target="_blank">Knowledge Base</a></li>
+  <li><b>About:</b> ??</li>
+<li><a href="??" target="_blank">Knowledge Base</a></li>
 </ul>
 
 <h3>Release notes</h3>
