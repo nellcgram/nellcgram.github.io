@@ -24,6 +24,7 @@ Hi, I'm Nell! I'm a Senior Technical Writer with 6+ years of experience and a ba
 - <a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Release%20Notes%20eReader%20App%20%5BGram%20Sample%5D.pdf" target="_blank">Release Notes</a>
 
 <H2> Contact Me</H2>
-- [Email me](mailto:nellcgram@gmail.com)
+- <a href="mailo:nellcgram@gmail.com">Email me</a>
+
 
 - <a href="https://www.linkedin.com/in/nellgram" target="_blank">LinkedIn Profile</a>
