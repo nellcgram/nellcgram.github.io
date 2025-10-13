@@ -1,10 +1,7 @@
 # About
 Hi, I'm Nell! I'm a Senior Technical Writer with 6+ years of experience and a background as an editor and researcher. Currently I work for Accenture supporting Google, where I manage a small team of writers. I write, edit and publish documentation for the public-facing [Google Play Help Center](https://support.google.com/googleplay/?hl=en#topic=3364260). I also work on other documentation types including internal, agent-facing Knowledge Base troubleshooting guides, canned responses, and agent announcements. 
 
-<b>Geography</b>
-- Currently: Los Angeles and New York City. Open to relocation.
-- Los Angeles born and raised.
-- Formerly Ohio (college) and Illinois (grad school).
+<b>Location:</b> Split time between Los Angeles and New York City. Open to relocation.
 
 <H2>Writing Samples</H2>
 
