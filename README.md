@@ -40,24 +40,20 @@ I organized this article to help users quickly find what they need. Instructions
 
 
 
-<h3>Release notes</h3>
+<h3>Release notes: <a href="https://nellcgram.github.io/Release%20Notes%20eReader%20App%20%5BGram%20Sample%5D.pdf" target="_blank">eReader App Release Notes</a></h3>
 
-<h4><b>About:</b></h4> ??
-
-<h4><b>What this demonstrates:</b></h4>
-<p>??</p>
+<h4><b>About:</b></h4>
+I wrote these sample release notes for a fictional eReader app in the style of the release notes I write for Google Play. A real-world example of this type of work: <a href="https://support.google.com/googleplay/answer/13585779" target="_blank">Release notes for Google Play Games on PC</a>
 
 <h4><b>Key elements included:</b></h4>
-<ul><li>?</li>
-<li>?</li>
-<li>?</li></ul>
+<ul><li>Not just what’s new, but how it benefits the user (for example, "Adds a streak tracker that shows how many days you've read in a row," instead of "Implements streak tracking functionality")</li>
+<li>Action-oriented language to help users understand new app functions</li>
+<li>A mix of major features and performance improvements to set user expectations</li></ul>
+</ul>
 
 <h4><b>My approach:</b></h4>
-?
-<ul>
-  <li><b>About:</b>  For this sample, I created release notes from the user’s perspective in user-friendly language. I wanted to mirror the type of release notes I write and edit for Google Play. An example of this type: https://support.google.com/googleplay/answer/13585779</li>
-<li><a href="https://nellcgram.github.io/Release%20Notes%20eReader%20App%20%5BGram%20Sample%5D.pdf" target="_blank">Release Notes</a></li>
-</ul>
+I wrote user-focused release notes instead of technical changelogs so that users would understand why new features are valuable. The idea is to reduce support inquiries and increase the chance users will adopt new features.
+
 
 <H2> Contact Me</H2>
  <ul>
