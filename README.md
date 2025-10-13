@@ -13,7 +13,7 @@ This portfolio includes:
 
 <H2>Writing Samples</H2>
 
-<h3>Help Center Article Sample: <a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">App Store Personalization and Data Privacy</a></h3>
+<h3>Help Center Article Sample: <a href="https://nellcgram.github.io/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">App Store Personalization and Data Privacy</a></h3>
 
 <h4><b>What this demonstrates:</b></h4>
 <p>I wrote this sample about a fictional app store called Chronicle in the style of the structured Help Center documentation I write for Google Play. It demonstrates how I build user-friendly articles that balance instructions with explanatory text, similar to the Google Play Help Center articles I create in my job.</p>
