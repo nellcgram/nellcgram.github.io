@@ -1,12 +1,7 @@
 # About
-Hi, I'm Nell! I'm a Senior Technical Writer with 6+ years of experience creating documentation for consumer products at Google (contracted through Accenture). Currently I supervise a global team of 5 writers, where I create documentation for Google Play (2+ billion users) across 80+ languages. I specialize in Help Center articles and internal content for support teams. 
+<p>Hi, I'm Nell! I'm a Senior Technical Writer with 6+ years of experience creating documentation for consumer products at Google (contracted through Accenture). Currently I supervise a global team of 5 writers and create documentation for Google Play (2+ billion users) across 80+ languages. My work at Google includes public-facing help documentation, internal knowledge base guides, and agent-facing content (announcements and canned responses). Most recently I have been training AI systems to generate documentation that aligns with Google's style guide.</p>
 
-Currently, I supervise a global team of 5 writers creating documentation for Google Play (2+ billion users) across 80+ languages. My work includes public-facing Help Center articles, internal knowledge base guides for customer service agents, agent announcements, canned responses, and training AI systems to generate documentation.
-
-This portfolio includes:
-- Customer-facing help documentation with informatiom architecture
-- Release notes for a product update
-- An internal knowledge base article for support agents
+<p>This portfolio includes samples of a Help Center article, release notes, and internal KB documentation similar to the work I create at Google.</p>
 
 <p><b>Location:</b> Remote (currently in Los Angeles, relocating to the East Coast)</p>
 
