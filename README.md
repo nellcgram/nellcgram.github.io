@@ -9,7 +9,7 @@ This portfolio includes:
 - Internal knowledge base articles for support agents
 - Structured authoring and information architecture
 
-<b>Location:</b> Split time between Los Angeles and New York City. Open to relocation.
+<b>Location:</b> Remote (currently in Los Angeles, relocating to the East Coast)
 
 <H2>Writing Samples</H2>
 
