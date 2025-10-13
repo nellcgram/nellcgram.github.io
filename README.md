@@ -28,16 +28,41 @@ I organized this article to help users quickly find what they need. Instructions
 
 <h4><b>Information architecture:</b></h4>  This sample includes IA annotations showing the content model used for single-source publishing in content management systems. Content is structured into reusable blocks that can be published across multiple platforms and localized into 80+ languages - the same approach I use for Google Play documentation
 
-<h3>Knowledge Base article</h3>
-<ul>
-  <li><b>About:</b> ??</li>
-<li><a href="??" target="_blank">Knowledge Base</a></li>
-</ul>
+<h3>Knowledge Base Article Sample: <a href="??" target="_blank">Knowledge Base</a></li></h3>
+<h4><b>About:</b></h4> ??
+
+<h4><b>What this demonstrates:</b></h4>
+<p>??</p>
+
+<h4><b>Key elements included:</b></h4>
+<ul><li>?</li>
+<li>?</li>
+<li>?</li></ul>
+
+<h4><b>My approach:</b></h4>
+
+
+
+
+
 
 <h3>Release notes</h3>
+
+<h4><b>About:</b></h4> ??
+
+<h4><b>What this demonstrates:</b></h4>
+<p>??</p>
+
+<h4><b>Key elements included:</b></h4>
+<ul><li>?</li>
+<li>?</li>
+<li>?</li></ul>
+
+<h4><b>My approach:</b></h4>
+?
 <ul>
   <li><b>About:</b>  For this sample, I created release notes from the user’s perspective in user-friendly language. I wanted to mirror the type of release notes I write and edit for Google Play. An example of this type: https://support.google.com/googleplay/answer/13585779</li>
-<li><a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Release%20Notes%20eReader%20App%20%5BGram%20Sample%5D.pdf" target="_blank">Release Notes</a></li>
+<li><a href="https://nellcgram.github.io/Release%20Notes%20eReader%20App%20%5BGram%20Sample%5D.pdf" target="_blank">Release Notes</a></li>
 </ul>
 
 <H2> Contact Me</H2>
