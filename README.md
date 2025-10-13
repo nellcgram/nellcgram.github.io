@@ -9,7 +9,7 @@
 
 <h3>Help Center Article Sample: <a href="https://nellcgram.github.io/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">App Store Personalization and Data Privacy</a></h3>
 
-<h4><b>What this demonstrates:</b></h4>
+<h4><b>About:</b></h4>
 <p>I wrote this sample about a fictional app store called Chronicle in the style of the structured Help Center documentation I write for Google Play. It demonstrates how I build user-friendly articles that balance instructions with explanatory text, similar to the Google Play Help Center articles I create in my job.</p>
 
 <h4><b>Key elements included:</b></h4>
@@ -23,9 +23,8 @@ I organized this article to help users quickly find what they need. Instructions
 <h4><b>Information architecture:</b></h4>  This sample includes IA annotations showing the content model used for single-source publishing in content management systems. Content is structured into reusable blocks that can be published across multiple platforms and localized into 80+ languages - the same approach I use for Google Play documentation
 
 <h3>Knowledge Base Article Sample: <a href="??" target="_blank">Knowledge Base</a></li></h3>
-<h4><b>About:</b></h4> ??
 
-<h4><b>What this demonstrates:</b></h4>
+<h4><b>About:</b></h4>
 <p>??</p>
 
 <h4><b>Key elements included:</b></h4>
