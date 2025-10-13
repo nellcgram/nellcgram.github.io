@@ -8,7 +8,7 @@ Hi, I'm Nell! I'm a Senior Technical Writer with 6+ years of experience and a ba
 
 <H2>Writing Samples</H2>
 
-<h3>Help Center Article Sample: <a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">App Store Personalization and Data Privacy</a></h3>
+<h3>Help Center Article Sample: <a href="https://nellcgram.github.io/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">App Store Personalization and Data Privacy</a></h3>
 
 <h4><b>About:</b></h4>
 <p>I wrote this sample about a fictional app store called Chronicle in the style of the structured Help Center documentation I write for Google Play. The sample includes information architecture to demonstrate the content model used for single-source publishing in a Content Management System.</p>
