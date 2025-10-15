@@ -13,13 +13,13 @@
 
 <H2>Writing Samples</H2>
 
-<h3>Help Center Article Sample: <a href="https://github.com/nellcgram/nellcgram.github.io/blob/3b084a5cda79eeb79b1d172f15caa28b71c84fa6/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">App Store Personalization and Data Privacy</a></h3>
+<h3>Help Center Article Sample: <a href="https://nellcgram.github.io/HC%20Sample.html" target="_blank">App Store Personalization and Data Privacy</a></h3>
 
 <h4><b>About:</b></h4>
 <p>I wrote this sample about a fictional app store called Chronicle in the style of the structured Help Center documentation I write for Google Play. It demonstrates how I build user-friendly articles that balance instructions with explanatory text, similar to the Google Play Help Center articles I create in my job.</p>
 
 <h4><b>Key elements included:</b></h4>
-<ul><li>Structured content with block types (instructions, definitions, tips) for readability</li>
+<ul><li>Structured content with block types (instructions, definitions, tips) for readability </h4><a href="https://nellcgram.github.io/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">(in this version of the article)</a></h4></li>
 <li>Multi-platform support with separate instructions for computer and phone experiences (computer text included only).</li>
 <li>User-centered explanations: The "what will change" section helps users understand their choices.</li></ul>
 
