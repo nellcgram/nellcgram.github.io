@@ -25,18 +25,19 @@ I organized this article to help users quickly find what they need. Instructions
 <h3>Knowledge Base Article Sample: <a href="https://nellcgram.github.io/Agent%20guide%20to%20processing%20loan%20extensions%20%5BGram%20Sample%5D.pdf" target="_blank">How to Process Loan Extension Requests</a></li></h3>
 
 <h4><b>About:</b></h4>
-<p>??</p>
+<p>I wrote this internal Knowledge Base sample article for library circulation agents based on publicly-available Los Angeles Public Library policies. It is similar to the work I do for Google in that it’s agent-facing, structured documentation to help support teams handle patron requests.</p>
 
 <h4><b>Key elements included:</b></h4>
-<ul><li>?</li>
-<li>?</li>
-<li>?</li></ul>
+<ul>
+<li>Step-by-step workflows that demonstrate agent tasks, from patron verification to case logging</li>
+<li>Canned response emails that agents can copy and customize for common situations</li>
+<li>Color-coded reference and callout boxes (including policy notes, best practices, critical alerts, escalation guidelines) so agents can quickly find information</li>
+<li>Special scenarios section covering items on hold, maximum renewals, and overdue items</li>
+<li>A "Common Patron Questions" section with scripted responses for agents</li>
+</ul>
 
 <h4><b>My approach:</b></h4>
-
-
-
-
+<p>I organized this article to focus on agent tasks while also adding reference boxes and an eligibility table so agents can quickly scan for important information. I started with every-day tasks and moved to more unusual scenarios so agents could find only the section they needed. The canned responses and scripted answers are meant to give agents a starting point for talking to customers, and are similar to the canned responses and FAQs I work on for Google.</p>
 
 
 <h3>Release notes: <a href="https://nellcgram.github.io/Release%20Notes%20eReader%20App%20%5BGram%20Sample%5D.pdf" target="_blank">eReader App Release Notes</a></h3>
