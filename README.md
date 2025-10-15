@@ -1,8 +1,12 @@
 # About
-<p>Hi, I'm Nell! I'm a Senior Technical Writer with 6+ years of experience creating documentation for consumer products at Google (contracted through Accenture). Currently I supervise a global team of 5 writers and create documentation for Google Play (2+ billion users) across 80+ languages. My work includes public-facing help documentation, internal knowledge base guides, and agent-facing content (announcements and canned responses). Most recently I have been training AI systems to generate documentation that aligns with Google's style guide.</p>
+<p>Hi, I'm Nell! I'm a Senior Technical Writer with 4 years of experience creating documentation for consumer products at Google (contracted through Accenture). Currently I supervise a global team of 5 writers and create documentation for Google Play (2+ billion users) across 80+ languages.</p>
+<p>My work includes public-facing help documentation, internal knowledge base guides, and agent-facing content (announcements and canned responses). Most recently I have been training AI systems to generate documentation that aligns with Google's style guide.</p>
 
-<p>This portfolio includes samples of a Help Center article, release notes, and internal KB documentation similar to the work I create at Google.</p>
-
+<p><b>This portfolio includes the following samples:</b>
+ <ul><li>Help Center article</li>
+  <li>Knowledge Base article (with canned responses)</li>
+  <li>Release notes</li></ul>
+  
 <p><b>Location:</b> Remote (currently in Los Angeles, relocating to the East Coast)</p>
 
 <H2>Writing Samples</H2>
@@ -21,6 +25,7 @@
 I organized this article to help users quickly find what they need. Instructions are separated from explanatory content, and the article moves from simple (turn off all personalization) to advanced (manage specific data types). 
 
 <h4><b>Information architecture:</b></h4>  This sample includes IA annotations showing the content model used for single-source publishing in content management systems. Content is structured into reusable blocks that can be published across multiple platforms and localized into 80+ languages - the same approach I use for Google Play documentation
+<hr/>
 
 <h3>Knowledge Base Article Sample: <a href="https://nellcgram.github.io/Agent%20guide%20to%20processing%20loan%20extensions%20%5BGram%20Sample%5D.pdf" target="_blank">How to Process Loan Extension Requests</a></li></h3>
 
@@ -39,6 +44,7 @@ I organized this article to help users quickly find what they need. Instructions
 <h4><b>My approach:</b></h4>
 <p>I organized this article to focus on agent tasks while also adding reference boxes and an eligibility table so agents can quickly scan for important information. I started with every-day tasks and moved to more unusual scenarios so agents could find only the section they needed. The canned responses and scripted answers are meant to give agents a starting point for talking to customers, and are similar to the canned responses and FAQs I work on for Google.</p>
 
+<hr/>
 
 <h3>Release notes: <a href="https://nellcgram.github.io/Release%20Notes%20eReader%20App%20%5BGram%20Sample%5D.pdf" target="_blank">eReader App Release Notes</a></h3>
 
@@ -53,7 +59,7 @@ I wrote these sample release notes for a fictional eReader app in the style of t
 
 <h4><b>My approach:</b></h4>
 I wrote user-focused release notes instead of technical changelogs so that users would understand why new features are valuable. The idea is to reduce support inquiries and increase the chance users will adopt new features.
-
+<hr/>
 
 <H2> Contact Me</H2>
  <ul>
