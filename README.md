@@ -11,7 +11,7 @@
 
 <H2>Writing Samples</H2>
 
-<h3>Help Center Article Sample: <a href="https://nellcgram.github.io/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">App Store Personalization and Data Privacy</a></h3>
+<h3>Help Center Article Sample: <a href="https://github.com/nellcgram/nellcgram.github.io/blob/3b084a5cda79eeb79b1d172f15caa28b71c84fa6/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">App Store Personalization and Data Privacy</a></h3>
 
 <h4><b>About:</b></h4>
 <p>I wrote this sample about a fictional app store called Chronicle in the style of the structured Help Center documentation I write for Google Play. It demonstrates how I build user-friendly articles that balance instructions with explanatory text, similar to the Google Play Help Center articles I create in my job.</p>
@@ -27,7 +27,7 @@ I organized this article to help users quickly find what they need. Instructions
 <h4><b>Information architecture:</b></h4>  This sample includes IA annotations showing the content model used for single-source publishing in content management systems. Content is structured into reusable blocks that can be published across multiple platforms and localized into 80+ languages - the same approach I use for Google Play documentation
 <hr/>
 
-<h3>Knowledge Base Article Sample: <a href="https://nellcgram.github.io/Agent%20guide%20to%20processing%20loan%20extensions%20%5BGram%20Sample%5D.pdf" target="_blank">How to Process Loan Extension Requests</a></li></h3>
+<h3>Knowledge Base Article Sample: <a href="https://github.com/nellcgram/nellcgram.github.io/blob/3b084a5cda79eeb79b1d172f15caa28b71c84fa6/Agent%20guide%20to%20processing%20loan%20extensions%20%5BGram%20Sample%5D.pdf" target="_blank">How to Process Loan Extension Requests</a></li></h3>
 
 <h4><b>About:</b></h4>
 <p>I wrote this internal Knowledge Base sample article for library circulation agents based on publicly-available Los Angeles Public Library policies. It is similar to the work I do for Google in that it’s agent-facing, structured documentation to help support teams handle patron requests.</p>
@@ -46,7 +46,7 @@ I organized this article to help users quickly find what they need. Instructions
 
 <hr/>
 
-<h3>Release notes: <a href="https://nellcgram.github.io/Release%20Notes%20eReader%20App%20%5BGram%20Sample%5D.pdf" target="_blank">eReader App Release Notes</a></h3>
+<h3>Release notes: <a href="https://github.com/nellcgram/nellcgram.github.io/blob/3b084a5cda79eeb79b1d172f15caa28b71c84fa6/Release%20Notes%20eReader%20App%20%5BGram%20Sample%5D.pdf" target="_blank">eReader App Release Notes</a></h3>
 
 <h4><b>About:</b></h4>
 I wrote these sample release notes for a fictional eReader app in the style of the release notes I write for Google Play. A real-world example of this type of work: <a href="https://support.google.com/googleplay/answer/13585779" target="_blank">Release notes for Google Play Games on PC</a>
