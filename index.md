@@ -15,9 +15,9 @@ nav_order: 1
 
 <p>
  <ul>
-  <li><a href="samples/help-article.md" target="_blank">Help Center article</a><br></li>
-  <li><a href="samples/kb-article.md" target="_blank">Knowledge Base article</a><br></li>
-  <li><a href="samples/release-notes.md" target="_blank">Release notes</a></li>
+  <li><a href="https://nellcgram.github.io/samples/help-article" target="_blank">Help Center article</a><br></li>
+  <li><a href="https://nellcgram.github.io/samples/kb-article" target="_blank">Knowledge Base article</a><br></li>
+  <li><a href="https://nellcgram.github.io/samples/release-notes" target="_blank">Release notes</a></li>
  </ul>
 
 ---
