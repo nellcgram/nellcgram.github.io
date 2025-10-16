@@ -1,3 +1,8 @@
+---
+title: Home
+nav_order: 1
+---
+
 # Nell C. Gram
 
 <p>Hi, I'm Nell! I'm a **Senior Technical Writer** who creates documentation for consumer products at Google (contracted through Accenture). Currently I supervise a global team of 5 writers and create documentation for Google Play (2+ billion users) across 80+ languages.</p>
