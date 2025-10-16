@@ -19,14 +19,14 @@
 <p>I wrote this sample about a fictional app store called Chronicle in the style of the structured Help Center documentation I write for Google Play. It demonstrates how I build user-friendly articles that balance instructions with explanatory text, similar to the Google Play Help Center articles I create in my job.</p>
 
 <h4><b>Key elements included:</b></h4>
-<ul><li>Structured content with block types (instructions, definitions, tips) for readability </h4><a href="https://nellcgram.github.io/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">(in this version of the article)</a></h4></li>
+<ul><li>Structured content with block types (instructions, definitions, tips) for readability <a href="https://nellcgram.github.io/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">(in this version of the article)</a></li>
 <li>Multi-platform support with separate instructions for computer and phone experiences (computer text included only).</li>
 <li>User-centered explanations: The "what will change" section helps users understand their choices.</li></ul>
 
 <h4><b>My approach:</b></h4>
 I organized this article to help users quickly find what they need. Instructions are separated from explanatory content, and the article moves from simple (turn off all personalization) to advanced (manage specific data types). 
 
-<p><h4><b>Information architecture:</b></h4>  This sample includes IA annotations showing the content model used for single-source publishing in content management systems. Content is structured into reusable blocks that can be published across multiple platforms and localized into other languages, which is the same approach I use for Google Play documentationz</p>
+<p><h4><b>Information architecture:</b></h4>  This sample includes IA annotations showing the content model used for single-source publishing in content management systems. Content is structured into reusable blocks that can be published across multiple platforms and localized into other languages, which is the same approach I use for Google Play documentation.</p>
 
 <hr/>
 
