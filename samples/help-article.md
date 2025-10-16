@@ -1,6 +1,6 @@
 ---
 title: Help Center Article
-parent: samples.md
+parent: Samples
 nav_order: 1
 layout: default
 ---
