@@ -2,6 +2,7 @@
 title: Samples
 nav_order: 2
 has_children: true
+layout: default
 ---
 
 # Writing Samples
