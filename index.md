@@ -19,7 +19,7 @@ nav_order: 1
 
 # 📬 Contact
 
-Where you can find me:
+<p>Where you can find me:</p>
 
 <p>Email: <a href="mailto:nellcgram@gmail.com">nellcgram@gmail.com</a><br>
 LinkedIn: <a href="https://www.linkedin.com/in/nellgram" target="_blank">linkedin.com/in/nellgram</a><br>
