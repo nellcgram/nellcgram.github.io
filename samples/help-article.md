@@ -5,14 +5,14 @@ nav_order: 1
 ---
 
 # Help Center Article
-<h2><a href="https://nellcgram.github.io/HC%20Sample.html" target="_blank">Chronicle App Store personalization and data</a></h2>
+<h2><a href="https://nellcgram.github.io/html/HC%20Sample.html" target="_blank">Chronicle App Store personalization and data</a></h2>
 
 <h3><b>About:</b></h3>
 <p>I wrote this sample about a fictional app store called Chronicle in the style of the structured Help Center documentation I write for Google Play. It demonstrates how I build user-friendly articles that balance instructions with explanatory text, similar to the Google Play Help Center articles I create in my job.</p>
 
 <h3><b>Key elements included:</b></h3>
 <ul>
-<li>Structured content with block types (instructions, definitions, tips) for readability <a href="https://nellcgram.github.io/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">(in this version of the article)</a></li>
+<li>Structured content with block types (instructions, definitions, tips) for readability <a href="https://nellcgram.github.io/pdf/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">(in this version of the article)</a></li>
 <li>Multi-platform support with separate instructions for computer and phone experiences (computer text included only).</li>
 <li>User-centered explanations: The "what will change" section helps users understand their choices.</li>
 </ul>
