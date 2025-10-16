@@ -1,7 +1,8 @@
 ---
 title: Internal KB Article
-parent: Samples
+parent: samples.md
 nav_order: 2
+layout: default
 ---
 
 # Internal Knowledge Base Article
