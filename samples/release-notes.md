@@ -6,10 +6,10 @@ nav_order: 3
 
 # Release Notes
 
-<h2><a href="https://nellcgram.github.io/Release notes [Gram Sample].html" target="_blank">eReader App Monthly Updates</a></h2>
+<h2><a href="https://nellcgram.github.io/html/Release notes [Gram Sample].html" target="_blank" rel="noopener noreferrer">eReader App Monthly Updates</a></h2>
 
 <h3><b>About:</b></h3>
-<p>I wrote these sample release notes for a fictional eReader app in the style of the release notes I write for Google Play. A real-world example of this type of work: <a href="https://support.google.com/googleplay/answer/13585779" target="_blank">Release notes for Google Play Games on PC</a></p>
+<p>I wrote these sample release notes for a fictional eReader app in the style of the release notes I write for Google Play. A real-world example of this type of work: <a href="https://support.google.com/googleplay/answer/13585779" target="_blank" rel="noopener noreferrer">Release notes for Google Play Games on PC</a></p>
 
 <h3><b>Key elements included:</b></h3>
 <ul>
