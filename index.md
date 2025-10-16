@@ -14,7 +14,7 @@ layout: default
 <p><b>Location:</b> Remote (currently in Los Angeles, relocating to the East Coast)</p>
 
 ---
-## 🧾 Portfolio Samples
+## 🧾 Portfolio Sample Pages
 
 <p>
  <ul>
