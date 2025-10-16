@@ -19,9 +19,10 @@ nav_order: 1
   <li><a href="https://nellcgram.github.io/samples/kb-article" target="_blank" rel="noopener noreferrer">Knowledge Base article</a><br></li>
   <li><a href="https://nellcgram.github.io/samples/release-notes" target="_blank" rel="noopener noreferrer">Release notes</a></li>
  </ul>
+</p>
 
 ---
-📬 <strong>Contact</strong>
+## 📬 Contact
 
 <p>Email: <a href="mailto:nellcgram@gmail.com">nellcgram@gmail.com</a><br>
 LinkedIn: <a href="https://www.linkedin.com/in/nellgram" target="_blank" rel="noopener noreferrer">linkedin.com/in/nellgram</a><br>
