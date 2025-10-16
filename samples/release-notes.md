@@ -21,3 +21,7 @@ layout: default
 
 <h3><b>My approach:</b></h3>
 <p>I wrote user-focused release notes instead of technical changelogs so that users would understand why new features are valuable. The idea is to reduce support inquiries and increase the chance users will adopt new features.</p>
+
+---
+
+<a href="https://nellcgram.github.io" target="_blank" rel="noopener noreferrer">Homepage</a>
