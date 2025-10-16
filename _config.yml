@@ -10,4 +10,5 @@ plugins:
 color_scheme: light
 
 # Optional: Enable navigation
+nav_enabled: true
 nav_sort: case_insensitive
