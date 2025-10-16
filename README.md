@@ -1,8 +1,3 @@
----
-title: Home
-nav_order: 1
----
-
 # Nell C. Gram
 
 👋 Hi, I'm Nell — a **Senior Technical Writer** for Accenture supporting Google Play.
