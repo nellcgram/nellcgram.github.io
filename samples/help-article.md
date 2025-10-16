@@ -6,7 +6,7 @@ layout: default
 ---
 
 # Help Center Article
-<h2><a href="https://nellcgram.github.io/html/HC%20Sample.html" target="_blank" rel="noopener noreferrer">Chronicle App Store personalization and data</a></h2>
+<h2><a href="?" target="_blank" rel="noopener noreferrer">Chronicle App Store personalization and data</a></h2>
 
 <h3><b>About:</b></h3>
 <p>I wrote this sample about a fictional app store called Chronicle in the style of the structured Help Center documentation I write for Google Play. It demonstrates how I build user-friendly articles that balance instructions with explanatory text, similar to the Google Play Help Center articles I create in my job.</p>
