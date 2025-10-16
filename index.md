@@ -13,13 +13,14 @@ nav_order: 1
 ---
 ## 🧾 Portfolio Samples
 
-<p>This portfolio includes the following samples:
+<p>
  <ul>
   <li><a href="samples/help-article.md" target="_blank">Help Center article</a><br></li>
   <li><a href="samples/kb-article.md" target="_blank">Knowledge Base article</a><br></li>
   <li><a href="samples/release-notes.md" target="_blank">Release notes</a></li>
  </ul>
 
+---
 ## 📬 Contact
 
 <p>Email: <a href="mailto:nellcgram@gmail.com">nellcgram@gmail.com</a><br>
