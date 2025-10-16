@@ -1,7 +1,8 @@
 ---
 title: Release Notes
-parent: Samples
+parent: samples.md
 nav_order: 3
+layout: default
 ---
 
 # Release Notes
