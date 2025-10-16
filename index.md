@@ -8,18 +8,21 @@ nav_order: 1
 <p>Hi, I'm Nell! I'm a Senior Technical Writer who creates documentation for consumer products at Google (contracted through Accenture). Currently I supervise a global team of 5 writers and create documentation for Google Play (2+ billion users) across 80+ languages.</p>
 <p>My work includes public-facing help documentation, internal knowledge base guides, and agent-facing content (announcements and canned responses). Most recently I have been training AI systems to generate documentation that aligns with Google's style guide.</p>
 
-<p><b>This portfolio includes the following samples:</b>
- <ul><li>Help Center article</li>
-  <li>Knowledge Base article with canned responses</li>
-  <li>Release notes</li></ul>
-  
 <p><b>Location:</b> Remote (currently in Los Angeles, relocating to the East Coast)</p>
 
 ---
+## 🧾 Portfolio Samples
+
+<p>This portfolio includes the following samples:
+ <ul>
+  <li><a href="samples/help-article.md" target="_blank">Help Center article</a><br></li>
+  <li><a href="samples/kb-article.md" target="_blank">Knowledge Base article</a><br></li>
+  <li><a href="samples/release-notes.md" target="_blank">Release notes</a></li>
+ </ul>
+  
+
 
 # 📬 Contact
-
-<p>Where you can find me:</p>
 
 <p>Email: <a href="mailto:nellcgram@gmail.com">nellcgram@gmail.com</a><br>
 LinkedIn: <a href="https://www.linkedin.com/in/nellgram" target="_blank">linkedin.com/in/nellgram</a><br>
