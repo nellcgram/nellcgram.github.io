@@ -49,7 +49,7 @@ I organized this article to help users quickly find what they need. Instructions
 
 <hr/>
 
-<h3>Release notes: <a href="https://github.com/nellcgram/nellcgram.github.io/blob/3b084a5cda79eeb79b1d172f15caa28b71c84fa6/Release%20Notes%20eReader%20App%20%5BGram%20Sample%5D.pdf" target="_blank">eReader App Release Notes</a></h3>
+<h3>Release notes: <a href="https://nellcgram.github.io/Release notes [Gram Sample].html" target="_blank">eReader App Release Notes</a></h3>
 
 <h4><b>About:</b></h4>
 I wrote these sample release notes for a fictional eReader app in the style of the release notes I write for Google Play. A real-world example of this type of work: <a href="https://support.google.com/googleplay/answer/13585779" target="_blank">Release notes for Google Play Games on PC</a>
