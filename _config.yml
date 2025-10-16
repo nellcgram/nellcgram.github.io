@@ -1,4 +1,13 @@
-remote_theme: pages-themes/bay_jekyll_theme
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Nell's Portfolio
+description: >-
+  Senior Technical Writer
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+
+# Just the Docs settings
+color_scheme: light
+
+# Optional: Enable navigation
+nav_sort: case_insensitive
