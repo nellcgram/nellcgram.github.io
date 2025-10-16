@@ -30,7 +30,7 @@ I organized this article to help users quickly find what they need. Instructions
 
 <hr/>
 
-<h3>Knowledge Base Article Sample: <a href="https://github.com/nellcgram/nellcgram.github.io/blob/3b084a5cda79eeb79b1d172f15caa28b71c84fa6/Agent%20guide%20to%20processing%20loan%20extensions%20%5BGram%20Sample%5D.pdf" target="_blank">How to Process Loan Extension Requests</a></h3>
+<h3>Knowledge Base Article Sample: <a href="https://nellcgram.github.io/Agent guide to processing loan extensions [Gram Sample].html" target="_blank">Agent guide to processing loan extensions</a></h3>
 
 <h4><b>About:</b></h4>
 <p>I wrote this internal Knowledge Base sample article for library circulation agents based on publicly-available Los Angeles Public Library policies. It is similar to the work I do for Google in that it’s agent-facing, structured documentation to help support teams handle patron requests.</p>
