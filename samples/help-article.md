@@ -23,3 +23,8 @@ layout: default
 
 <h3><b>Information architecture:</b></h3> 
 <p>This sample includes IA annotations showing the content model used for single-source publishing in content management systems. Content is structured into reusable blocks that can be published across multiple platforms and localized into other languages, which is the same approach I use for Google Play documentation.</p>
+
+
+___
+
+<a href="https://nellcgram.github.io" target="_blank" rel="noopener noreferrer">Homepage</a>
