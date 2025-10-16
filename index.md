@@ -29,5 +29,5 @@ GitHub: <a href="https://github.com/nellcgram" target="_blank">Nell C Gram</a></
 
 ---
 
-<p>This site is powered by:</p>
-<a href="https://jekyllrb.com/" target="_blank">Jekyll</a> | <a href="https://just-the-docs.github.io/just-the-docs" target="_blank">Just the Docs theme</a> | <a href="https://pages.github.com" target="_blank">Hosted via GitHub Pages</a>
+<p>This site is powered by:
+<a href="https://jekyllrb.com/" target="_blank">Jekyll</a> | <a href="https://just-the-docs.github.io/just-the-docs" target="_blank">Just the Docs theme</a> | <a href="https://pages.github.com" target="_blank">Hosted via GitHub Pages</a></p>
