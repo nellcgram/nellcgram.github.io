@@ -22,3 +22,5 @@ layout: default
 
 <h3><b>My approach:</b></h3>
 <p>I organized this article to focus on agent tasks while also adding reference boxes and an eligibility table so agents can quickly scan for important information. I started with every-day tasks and moved to more unusual scenarios so agents could find only the section they needed. The canned responses and scripted answers are meant to give agents a starting point for talking to customers, and are similar to the canned responses and FAQs I work on for Google.</p>
+
+<a href="https://nellcgram.github.io" target="_blank" rel="noopener noreferrer">Homepage</a>
