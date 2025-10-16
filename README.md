@@ -20,7 +20,7 @@
 
 <h4><b>Key elements included:</b></h4>
 <ul>
- <li>Structured content with block types (instructions, definitions, tips) for readability <a href="https://nellcgram.github.io/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">(in this version of the article)</a></li>
+<li>Structured content with block types (instructions, definitions, tips) for readability <a href="https://nellcgram.github.io/Help%20Center%20article%20%5BGram%20Sample%5D.pdf" target="_blank">(in this version of the article)</a></li>
 <li>Multi-platform support with separate instructions for computer and phone experiences (computer text included only).</li>
 <li>User-centered explanations: The "what will change" section helps users understand their choices.</li>
 </ul>
