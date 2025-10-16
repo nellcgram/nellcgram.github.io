@@ -2,6 +2,7 @@
 title: Home
 nav_order: 1
 layout: default
+nav: collapse: false
 ---
 
 # Nell C. Gram
