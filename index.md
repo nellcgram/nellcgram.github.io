@@ -21,7 +21,7 @@ nav_order: 1
  </ul>
 
 ---
-## 📬 Contact
+📬 <strong>Contact</strong>
 
 <p>Email: <a href="mailto:nellcgram@gmail.com">nellcgram@gmail.com</a><br>
 LinkedIn: <a href="https://www.linkedin.com/in/nellgram" target="_blank" rel="noopener noreferrer">linkedin.com/in/nellgram</a><br>
