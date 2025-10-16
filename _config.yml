@@ -13,3 +13,6 @@ color_scheme: light
 nav_enabled: true
 nav_sort: case_insensitive
 nav: show_all
+
+# Enable or disable heading anchors
+heading_anchors: true
