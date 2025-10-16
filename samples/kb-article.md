@@ -1,6 +1,6 @@
 ---
 title: Internal KB Article
-parent: samples.md
+parent: Samples
 nav_order: 2
 layout: default
 ---
