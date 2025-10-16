@@ -2,11 +2,6 @@
 
 👋 Hi, I'm Nell — a **Senior Technical Writer** for Accenture supporting Google Play.
 
-Cares about:
-- Accessibile design
-- Logical information organization
-- User-friendliness
-
 ---
 
 ## 🧾 Portfolio Samples
