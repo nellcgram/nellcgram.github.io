@@ -24,10 +24,10 @@ nav_order: 1
 ## 📬 Contact
 
 <p>Email: <a href="mailto:nellcgram@gmail.com">nellcgram@gmail.com</a><br>
-LinkedIn: <a href="https://www.linkedin.com/in/nellgram" target="_blank">linkedin.com/in/nellgram</a><br>
-GitHub: <a href="https://github.com/nellcgram" target="_blank">Nell C Gram</a></p>
+LinkedIn: <a href="https://www.linkedin.com/in/nellgram" target="_blank" rel="noopener noreferrer">linkedin.com/in/nellgram</a><br>
+GitHub: <a href="https://github.com/nellcgram" target="_blank" rel="noopener noreferrer">Nell C Gram</a></p>
 
 ---
 
 <p>This site is powered by:
-<a href="https://jekyllrb.com/" target="_blank">Jekyll</a> | <a href="https://just-the-docs.github.io/just-the-docs" target="_blank">Just the Docs theme</a> | <a href="https://pages.github.com" target="_blank">Hosted via GitHub Pages</a></p>
+<a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> | <a href="https://just-the-docs.github.io/just-the-docs" target="_blank" rel="noopener noreferrer">Just the Docs theme</a> | <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer">Hosted via GitHub Pages</a></p>
