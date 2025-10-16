@@ -5,7 +5,7 @@ nav_order: 2
 ---
 
 # Internal Knowledge Base Article
-<h2><a href="https://nellcgram.github.io/Agent guide to processing loan extensions [Gram Sample].html" target="_blank">Agent guide to processing loan extensions</a></h2>
+<h2><a href="https://nellcgram.github.io/html/Agent guide to processing loan extensions [Gram Sample].html" target="_blank"  rel="noopener noreferrer">Agent guide to processing loan extensions</a></h2>
 
 <h3><b>About:</b></h3>
 <p>I wrote this internal Knowledge Base sample article for library circulation agents based on publicly-available Los Angeles Public Library policies. It is similar to the work I do for Google in that it’s agent-facing, structured documentation to help support teams handle patron requests.</p>
