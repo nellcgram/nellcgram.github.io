@@ -13,7 +13,7 @@
 
 <H2>Writing Samples</H2>
 
-<h3>Help Center Article Sample: <a href="https://nellcgram.github.io/HC%20Sample.html" target="_blank">App Store Personalization and Data Privacy</a></h3>
+<h3>Help Center Article Sample: <a href="https://nellcgram.github.io/HC%20Sample.html" target="_blank">Chronicle App Store personalization and data</a></h3>
 
 <h4><b>About:</b></h4>
 <p>I wrote this sample about a fictional app store called Chronicle in the style of the structured Help Center documentation I write for Google Play. It demonstrates how I build user-friendly articles that balance instructions with explanatory text, similar to the Google Play Help Center articles I create in my job.</p>
