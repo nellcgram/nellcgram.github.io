@@ -19,10 +19,8 @@ nav_order: 1
   <li><a href="samples/kb-article.md" target="_blank">Knowledge Base article</a><br></li>
   <li><a href="samples/release-notes.md" target="_blank">Release notes</a></li>
  </ul>
-  
 
-
-# 📬 Contact
+## 📬 Contact
 
 <p>Email: <a href="mailto:nellcgram@gmail.com">nellcgram@gmail.com</a><br>
 LinkedIn: <a href="https://www.linkedin.com/in/nellgram" target="_blank">linkedin.com/in/nellgram</a><br>
@@ -30,5 +28,5 @@ GitHub: <a href="https://github.com/nellcgram" target="_blank">Nell C Gram</a></
 
 ---
 
-This site is powered by:
+<p>This site is powered by:</p>
 <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> | <a href="https://just-the-docs.github.io/just-the-docs" target="_blank">Just the Docs theme</a> | <a href="https://pages.github.com" target="_blank">Hosted via GitHub Pages</a>
