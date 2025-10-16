@@ -5,7 +5,7 @@ nav_order: 1
 
 # Nell C. Gram
 
-<p>Hi, I'm Nell! I'm a **Senior Technical Writer** who creates documentation for consumer products at Google (contracted through Accenture). Currently I supervise a global team of 5 writers and create documentation for Google Play (2+ billion users) across 80+ languages.</p>
+<p>Hi, I'm Nell! I'm a Senior Technical Writer who creates documentation for consumer products at Google (contracted through Accenture). Currently I supervise a global team of 5 writers and create documentation for Google Play (2+ billion users) across 80+ languages.</p>
 <p>My work includes public-facing help documentation, internal knowledge base guides, and agent-facing content (announcements and canned responses). Most recently I have been training AI systems to generate documentation that aligns with Google's style guide.</p>
 
 <p><b>This portfolio includes the following samples:</b>
@@ -17,7 +17,7 @@ nav_order: 1
 
 ---
 
-## 📬 Contact
+# 📬 Contact
 
 Where you can find me:
 
@@ -28,4 +28,4 @@ GitHub: <a href="https://github.com/nellcgram" target="_blank">Nell C Gram</a></
 ---
 
 This site is powered by:
-- [Jekyll](https://jekyllrb.com/) | [Just the Docs theme](https://just-the-docs.github.io/just-the-docs/) |  Hosted via [GitHub Pages](https://pages.github.com/)
+<a href="https://jekyllrb.com/" target="_blank">Jekyll</a> | <a href="https://just-the-docs.github.io/just-the-docs" target="_blank">Just the Docs theme</a> | <a href="https://pages.github.com" target="_blank">Hosted via GitHub Pages</a>
