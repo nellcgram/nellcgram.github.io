@@ -18,7 +18,7 @@ layout: default
 
 <p>
  <ul>
-  <li><a href="https://nellcgram.github.io/samples/help-article" target="_blank" rel="noopener noreferrer">Help Center article</a><br></li>
+  <li><a href="https://nellcgram.github.io/samples/help-article.md" target="_blank" rel="noopener noreferrer">Help Center article</a><br></li>
   <li><a href="https://nellcgram.github.io/samples/kb-article" target="_blank" rel="noopener noreferrer">Knowledge Base article</a><br></li>
   <li><a href="https://nellcgram.github.io/samples/release-notes" target="_blank" rel="noopener noreferrer">Release notes</a></li>
  </ul>
