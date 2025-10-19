@@ -24,11 +24,12 @@ layout: default
 <h3>Key elements included</h3>
 <p>I used a rough approximation of Google's style guide:</p>
  <ul>
-<li>About a 7th grade reading level</li>
-<li>Front-loading sentences to begin with location ("In the toolbar on the left")</li>
-<li>An informal tone</li>
-<li>Sentence case for titles</li>
-<li>Breadcrumb navigation with the "and then" or < icon</li>
+<li>Address the user directly, in a friendly tone that expresses empathy for the user experience.</li>
+<li>Be informal; contraction use is OK.</li>
+<li>Write at about a 7th grade reading level so the language is accessible to a broad range of users.</li>
+<li>Front-load sentences to begin with location ("In the toolbar on the left") for readability.</li>
+<li>Use sentence case for titles, but title case for product names and user interface names</li>
+<li>Breadcrumb navigation, using the "and then" or < icon</li>
 </ul>
 
 <h3>Design decisions:</h3>
