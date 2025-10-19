@@ -280,7 +280,7 @@
         </div>
 
         <h2>Overview</h2>
-        <p>This guide covers how agents can process renewal of library materials. Patrons can renew most items up to 3 times by web, phone, or in-person. Agents should verify eligibility before processing renewals and escalate exceptions to a supervisor.</p>
+        <p>This guide covers how agents can process renewal of library materials. Patrons can renew most items up to 3 times by web, phone, or in-person. Before you process renewals and escalate exceptions to a supervisor, verify renewal eligibility with the patron.</p>
 
         <h2>Eligibility criteria</h2>
         
@@ -306,27 +306,27 @@
                 <tr>
                     <td>Items with pending holds or reserves</td>
                     <td>❌ No</td>
-                    <td>Explain that a hold prevents renewal and offer alternatives</td>
+                    <td>Explain that you can’t renew because of a hold and offer them an alternative option</td>
                 </tr>
                 <tr>
                     <td>Reference materials</td>
                     <td>❌ No</td>
-                    <td>Explain reference policy and suggest in-library use</td>
+                    <td>Explain the reference policy, then suggest in-library use</td>
                 </tr>
                 <tr>
                     <td>Items already renewed 3 times</td>
                     <td>❌ No</td>
-                    <td>Item must be returned and checked out again</td>
+                    <td>Patron must return item and check it out again</td>
                 </tr>
                 <tr>
                     <td>Overdue items with unpaid fines</td>
                     <td>⚠️ Maybe</td>
-                    <td>Check account status; this may need supervisor override</td>
+                    <td>Check patron's account status; you may need supervisor override</td>
                 </tr>
                 <tr>
                     <td>Teacher card items (50-item limit)</td>
                     <td>✅ Yes</td>
-                    <td>Follow standard renewal process with librarian approval</td>
+                    <td>Get librarian approval, then follow standard renewal process</td>
                 </tr>
             </tbody>
         </table>
@@ -458,18 +458,18 @@
         <ol>
             <li>Open a JIRA ticket with the patron's library card number and issue details.</li>
             <li>Tag a supervisor in the ticket.</li>
-            <li>Tell the patron: "I need to review this with my supervisor to ensure I'm giving you the right information. Can I follow up with you within 2 hours?"</li>
+            <li>Tell the patron, "I need to review this with my supervisor to ensure I'm giving you the right information. May I follow up with you within 2 hours?"</li>
         </ol>
 		
         <h2>Special scenarios</h2>
 
 		<h3>Items with holds can't be renewed</h3>
-        <p>When an item has a pending hold:</p>
+        <p>When there's a pending hold on an item:</p>
         <ol>
             <li>Explain that another patron is waiting for the item.</li>
-            <li>Inform them that they must return the item by the due date or they will get a late fee.</li>
-            <li>Suggest that they place a hold to borrow it again after the current hold queue is filled.</li>
-            <li>Offer to help place the hold if they would like.</li>
+            <li>Tell them they need to return the item by the due date or they'll get a late fee.</li>
+            <li>Suggest they place a hold to borrow it again after the current hold queue is filled.</li>
+            <li>Offer to help them place the hold.</li>
         </ol>
 
         <div class="canned-response">
@@ -489,25 +489,24 @@
             Circulation Services Team</p>
         </div>
 
-        <h3>Maximum renewals reached (3 times)</h3>
+        <h3>Maximum renewals reached</h3>
         <p>When a patron has already renewed an item 3 times:</p>
         <ol>
-            <li>Explain the 3-renewal maximum policy.</li>
-            <li>The item must be returned and can be checked out again (if available).</li>
-            <li>Suggest they return the item and immediately check it out again if no holds exist.</li>
+            <li>Explain there's a 3-renewal maximum policy.</li>
+            <li>The  patron must return the item and check it out again if there are no holds on it.</li>
             <li>If holds exist, offer to place a hold for them.</li>
         </ol>
 
         <h3>Overdue items with fines</h3>
-        <p>For overdue materials:</p>
-        <div class="tip">
+         <div class="tip">
             <strong>Tip:</strong> You can still renew overdue items if they're eligible. The renewal extends the due date from the renewal date (not the original due date), which <strong>will increase the fine.</strong> Make sure patrons understand this before processing.
         </div>
-        <ol>
+           <p>For overdue materials:</p>
+   		<ol>
             <li>Check if the item is eligible for renewal (no holds, under 3 renewals).</li>
-            <li>Explain that renewing will extend the due date but fines continue to accrue from the original due date.</li>
-            <li>Process the renewal if the patron confirms they want to proceed.</li>
-            <li>Remind them to return items promptly to avoid additional fines.</li>
+            <li>Explain to the patron that renewing will extend the due date but fines continue to accrue from the original due date.</li>
+            <li>If the patron confirms they want to proceed, process the renewal.</li>
+            <li>Remind them to return items on time to avoid more fines.</li>
         </ol>
 
         <h3>Teacher cards (50-item limit)</h3>
@@ -515,17 +514,16 @@
         <ol>
             <li>Verify the patron is using a valid teacher card.</li>
             <li>Follow the standard renewal process.</li>
-            <li>Some teacher materials may require librarian approval for renewal/</li>
-            <li>If you need approval, tag your supervisor in a JIRA ticket/</li>
+            <li>Some teacher materials may require librarian approval for renewal.</li>
+            <li>If you need approval, tag your supervisor in a JIRA ticket.</li>
         </ol>
 
 	<h2>Reporting & metrics</h2>
         <p>Renewal requests impact circulation metrics. All agents should:</p>
         <ul>
             <li>Maintain accurate case logging for renewal requests</li>
-            <li>Document reasons when renewals are denied</li>
-            <li>Track patron confusion about auto-renewal features</li>
-            <li>Report system issues preventing renewals by filing a JIRA ticket</li>
+            <li>When renewals are denied, document the reasons</li>
+            <li>File a JIRA ticket to report system issues preventing renewals</li>
         </ul>
 
         <div class="tip">
