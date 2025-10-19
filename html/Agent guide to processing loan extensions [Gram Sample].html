@@ -297,10 +297,10 @@
             <h4><span class="step-number">2</span> Access patron record</h4>
             <p>In the Integrated Library System:</p>
             <ol>
-                <li>Select <strong>Patron Services</strong> > <strong>Search</strong></li>
+                <li>Select <code>Patron Services</code> > <code>Search</code></li>
                 <li>Type the patron's library card number</li>
                 <li>Click on their account profile</li>
-                <li>Select the <strong>Account Activity</strong> tab</li>
+                <li>Select the <code>Account Activity</code> tab</li>
                 <li>Review their current loans and due dates</li>
             </ol>
  <div class="critical">
@@ -309,7 +309,7 @@
         </div>
 
         <div class="workflow-step">
-            <h4><span class="step-number">3</span> Verify item eligibility</h4>
+            <h4><span class="step-number">3</span>Verify item eligibility</h4>
             <p>Check the following before proceeding:</p>
             <ul>
                 <li>✅ Item has been renewed fewer than 3 times (check renewal count in system)</li>
@@ -323,18 +323,18 @@
         </div>
 
         <div class="workflow-step">
-            <h4><span class="step-number">4</span> Process the Renewal</h4>
+            <h4><span class="step-number">4</span>Process the renewal</h4>
             <p>You can renew items through two methods:</p>
             
             <h3>Method 1: Web renewal (patron self-service)</h3>
             <p>Guide patrons to renew online:</p>
             <ol>
                 <li>Visit www.lapl.org</li>
-   	<li>At top of page, click <strong>Books & Media</strong> to the left of the toolbar</li>
-	<li>In the options listed on the next page, click <strong>Catalog</strong></li>
-                <li>Click <strong>My Account</strong> and sign in with library card number and PIN (default is last 4 digits of your phone number, but that can be manually changed)</li>
-                <li>Go to <strong>Account Activity</strong></li>
-                <li>On the left, check the box next to the item, below the word <strong>Renew</strong>, or click the box at the top of the list, next to the word <strong>Renew All</strong> for all eligible items</li>
+   	<li>At top of page, click <code>Books & Media</code> to the left of the toolbar</li>
+	<li>In the options listed on the next page, click <code>Catalog</code></li>
+                <li>Click <code>My Account</code> and sign in with library card number and PIN (default is last 4 digits of your phone number, but that can be manually changed)</li>
+                <li>Go to <code>Account Activity</code></li>
+                <li>On the left, check the box next to the item, below the word <code>Renew</code>, or click the box at the top of the list, next to the word <code>Renew All</code> for all eligible items</li>
                 <li>Confirm the new due date (the original loan period from the renewal date). If the item cannot be renewed, a box will pop up saying “The following title(s) could not be renewed” followed by a list of titles.</li>
             </ol>
 
@@ -397,8 +397,8 @@
             <h5>📧 Canned Response: RENEWAL_DENIED_HOLD</h5>
             <p>Hi [Patron Name],</p>
             <p>Thank you for contacting the library. I hope you're doing well.</p>
-            <p>I understand you reached out about renewing [ITEM TITLE]. Unfortunately, I'm unable to process this renewal because another patron has placed a hold on this item. To ensure fair access to popular materials, we can't renew items when someone else is waiting.</p>
-            <p><strong>Your current due date:</strong> [DUE DATE]</p>
+            <p>I understand you reached out about renewing {ITEM TITLE}. Unfortunately, I'm unable to process this renewal because another patron has placed a hold on this item. To ensure fair access to popular materials, we can't renew items when someone else is waiting.</p>
+            <p><strong>Your current due date:</strong> {DUE DATE}</p>
             <p><strong>What you can do:</strong><br>
             • Return the item by the due date to avoid a late fee<br>
             • Place a hold on the item to borrow it again after the current waitlist is filled<br></p>
