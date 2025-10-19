@@ -382,9 +382,31 @@
             </div>
         </div>
 
+        <h2>Escalations</h2>
+
+        <div class="escalation">
+            <h4>⚠️ Escalate to a supervisor when:</h4>
+            <ul>
+                <li>Patron requests renewal beyond 3-renewal maximum</li>
+                <li>Account has blocks or restrictions preventing renewal</li>
+                <li>Patron disputes that item has a hold (verify in the system first)</li>
+                <li>Patron requests waiver of late fees to process renewal</li>
+                <li>System shows error message you can't resolve</li>
+                <li>Patron claims auto-renewal didn't work as expected</li>
+                <li>Teacher card materials require special approval</li>
+            </ul>
+        </div>
+
+        <h3>How to escalate:</h3>
+        <ol>
+            <li>Open a JIRA ticket with the patron's library card number and issue details.</li>
+            <li>Tag a supervisor in the ticket.</li>
+            <li>Tell the patron: "I need to review this with my supervisor to ensure I'm giving you the right information. Can I follow up with you within 2 hours?"</li>
+        </ol>
+		
         <h2>Special scenarios</h2>
 
-        <h3>Items with holds can't be renewed</h3>
+		<h3>Items with holds can't be renewed</h3>
         <p>When an item has a pending hold:</p>
         <ol>
             <li>Explain that another patron is waiting for the item.</li>
@@ -440,27 +462,18 @@
             <li>If you need approval, tag your supervisor in a JIRA ticket/</li>
         </ol>
 
-        <h3>When to escalate</h3>
+        <h2>Reporting & metrics</h2>
+        <p>Renewal requests impact circulation metrics. All agents should:</p>
+        <ul>
+            <li>Maintain accurate case logging for renewal requests</li>
+            <li>Document reasons when renewals are denied</li>
+            <li>Track patron confusion about auto-renewal features</li>
+            <li>Report system issues preventing renewals by filing a JIRA ticket</li>
+        </ul>
 
-        <div class="escalation">
-            <h4>⚠️ Escalate to a supervisor when:</h4>
-            <ul>
-                <li>Patron requests renewal beyond 3-renewal maximum</li>
-                <li>Account has blocks or restrictions preventing renewal</li>
-                <li>Patron disputes that item has a hold (verify in the system first)</li>
-                <li>Patron requests waiver of late fees to process renewal</li>
-                <li>System shows error message you can't resolve</li>
-                <li>Patron claims auto-renewal didn't work as expected</li>
-                <li>Teacher card materials require special approval</li>
-            </ul>
+        <div class="tip">
+            <strong>Tip</strong>:</strong> If you notice multiple patrons confused about why auto-renewal failed, document the pattern by filing a JIRA ticket so we can improve patron communication.
         </div>
-
-        <h3>How to escalate:</h3>
-        <ol>
-            <li>Open a JIRA ticket with the patron's library card number and issue details.</li>
-            <li>Tag a supervisor in the ticket.</li>
-            <li>Tell the patron: "I need to review this with my supervisor to ensure I'm giving you the right information. Can I follow up with you within 2 hours?"</li>
-        </ol>
 
         <h2>Common patron questions</h2>
 
@@ -475,19 +488,6 @@
 
         <h3>"Can I renew items in person at any branch?"</h3>
         <p><strong>Response:</strong> "Yes! You can renew items in person at any of our 72 library branches or at Central Library. Just bring your library card, and circulation staff can help you at the desk. You can also renew 24/7 online at lapl.org or by calling our automated line at 1-888-577-5275."</p>
-
-        <h2>Reporting & metrics</h2>
-        <p>Renewal requests impact circulation metrics. All agents should:</p>
-        <ul>
-            <li>Maintain accurate case logging for renewal requests</li>
-            <li>Document reasons when renewals are denied</li>
-            <li>Track patron confusion about auto-renewal features</li>
-            <li>Report system issues preventing renewals by filing a JIRA ticket</li>
-        </ul>
-
-        <div class="tip">
-            <strong>Tip</strong>:</strong> If you notice multiple patrons confused about why auto-renewal failed, document the pattern by filing a JIRA ticket so we can improve patron communication.
-        </div>
 
         <h2>Related resources</h2>
         <ul>
