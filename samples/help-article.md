@@ -29,7 +29,7 @@ layout: default
 <li>Write at about a 7th grade reading level so the language is accessible to a broad range of users.</li>
 <li>Front-load sentences to begin with location ("In the toolbar on the left") for readability.</li>
 <li>Use sentence case for titles, but title case for product names and user interface names</li>
-<li>Breadcrumb navigation, using the "and then" or < icon</li>
+<li>Breadcrumb navigation, using the "and then" or < icon</li> 
 </ul>
 
 <h3>Design decisions:</h3>
