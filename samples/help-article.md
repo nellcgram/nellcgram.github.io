@@ -24,14 +24,9 @@ layout: default
 <h3>Key elements included</h3>
 <p>I used a rough approximation of Google's style guide:</p>
 <ul>
- <li>Address the user directly, in a friendly tone that expresses empathy for the user experience.</li>
- <li>Be informal; contraction use is OK.</li>
- <li>Write at about a 7th grade reading level so the language is accessible to a broad range of users.</li>
- <li>Front-load sentences to begin with location ("In the toolbar on the left") for readability.</li>
- <li>Use sentence case for titles, but title case for product names and user interface names</li>
- <li>Breadcrumb navigation, using the "and then" or < icon</li> 
-  <li>Active voice, not passive (better grammar)</li>
-  <li>Sentences in a list use periods, while fragments do not.</li>
+<li>Tone: friendly, empathetic, conversational (contraction use is OK)</li>
+<li>Clarity: 7th grade reading level, active voice, front-loaded sentences</li>
+<li>Formatting: Sentence case for titles, title case for UI; breadcrumb navigation</li>
 </ul>
 
 <h3>Design decisions:</h3>
