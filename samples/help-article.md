@@ -30,6 +30,8 @@ layout: default
 <li>Front-load sentences to begin with location ("In the toolbar on the left") for readability.</li>
 <li>Use sentence case for titles, but title case for product names and user interface names</li>
 <li>Breadcrumb navigation, using the "and then" or < icon</li> 
+<li>Active voice, not passive (better grammar)</li>
+<li>Sentences in a list use periods, while fragments do not.</li>
 </ul>
 
 <h3>Design decisions:</h3>
