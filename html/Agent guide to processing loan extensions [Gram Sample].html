@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to process loan extension requests</title>
+    <title>Agent Guide to Processing Loan Extension Requests</title>
     <style>
+     /* Just the Docs font family */
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Segoe UI Emoji";
             line-height: 1.6;
-            max-width: 900px;
+            font-size: 1rem;
+            color: #27262b;
+            max-width: 800px;
             margin: 0 auto;
-            padding: 40px 20px;
-            color: #333;
-            background-color: #f8f9fa;
+            padding: 2rem;
+            background-color: #fff;
         }
-        .article-container {
+ .article-container {
             background: white;
             padding: 40px;
             border-radius: 8px;
@@ -88,14 +90,14 @@
         .critical strong {
             color: #d93025;
         }
-        .tip {
+        .best-practice {
             background-color: #e3f2fd;
             border-left: 4px solid #2196f3;
             padding: 16px;
             margin: 20px 0;
             border-radius: 4px;
         }
-        .tip strong {
+        .best-practice strong {
             color: #1976d2;
         }
         table {
@@ -186,101 +188,91 @@
             font-weight: 600;
             text-transform: uppercase;
         }
-
-		/* Collapsible FAQ styling */
-.faq-item {
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    margin-bottom: 12px;
-    background: white;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-
-.faq-item summary {
-    padding: 16px 20px;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 16px;
-    color: #202124;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    user-select: none;
-    transition: background-color 0.2s;
-}
-
-.faq-item summary:hover {
-    background-color: #f8f9fa;
-    border-radius: 8px;
-}
-
-.faq-item summary::-webkit-details-marker {
-    display: none;
-}
-
-.faq-item summary::before {
-    content: '▶';
-    margin-right: 12px;
-    font-size: 12px;
-    color: #667eea;
-    transition: transform 0.2s;
-    flex-shrink: 0;
-}
-
-.faq-item[open] summary::before {
-    transform: rotate(90deg);
-}
-
-.faq-item[open] summary {
-    border-bottom: 1px solid #e0e0e0;
-    border-radius: 8px 8px 0 0;
-}
-
-.faq-content {
-    padding: 16px 20px 20px 52px;
-    color: #333;
-}
-
-.faq-content strong {
-    color: #667eea;
-}
-		
-		/* Style for code tags in UI text */
-  code {
-    font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
-    background-color: #f3f4f6; /* light gray background */
-    color: #1f2937; /* dark text */
-    padding: 0.2em 0.4em;
-    border-radius: 3px;
-    font-weight: 600;
-    font-size: 0.95em;
-  }
+        
+        /* Collapsible styles */
+        details {
+            margin: 15px 0;
+        }
+        
+        details summary {
+            cursor: pointer;
+            list-style: none;
+            user-select: none;
+        }
+        
+        details summary::-webkit-details-marker {
+            display: none;
+        }
+        
+        .workflow-step details summary h4 {
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .workflow-step details summary h4::before {
+            content: "▶";
+            margin-right: 8px;
+            font-size: 12px;
+            transition: transform 0.2s;
+        }
+        
+        .workflow-step details[open] summary h4::before {
+            transform: rotate(90deg);
+        }
+        
+        details.question-item {
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 12px;
+            margin: 10px 0;
+        }
+        
+        details.question-item summary {
+            font-weight: 600;
+            color: #667eea;
+        }
+        
+        details.question-item summary::before {
+            content: "▶ ";
+            display: inline-block;
+            transition: transform 0.2s;
+        }
+        
+        details.question-item[open] summary::before {
+            transform: rotate(90deg);
+        }
+        
+        details.question-item p {
+            margin-top: 12px;
+            padding-left: 20px;
+        }
     </style>
 </head>
 <body>
-
-<div class="breadcrumb">
-    <a href="#">Knowledge Base</a> > <a href="#">Circulation </a> > How to process loan extension requests
-</div>
-	
     <div class="article-container">
         <div class="internal-header">
             <h1>📚 How to process loan extension requests</h1>
-            <div class="meta">Agent Knowledge Base | Last updated: October 21, 2025 | Owner: Circulation Services Team</div>
+
+<div class="breadcrumb">
+    <a href="#">LAPL Knowledge Base</a> > <a href="#">Circulation Services</a> > How to process loan extension requests
+</div>
         </div>
-        
+
         <div class="quick-ref">
             <h3>⚡ Quick reference</h3>
             <ul>
                 <li><strong>Standard loan period:</strong> 3 weeks for books, 1 week for media</li>
                 <li><strong>Maximum renewals:</strong> 3 times per item</li>
                 <li><strong>Auto-renewal:</strong> Happens automatically on due date if eligible</li>
-                <li><strong>Tools needed:</strong> Integrated Library System, Phone (888-577-5275), Patron account portal</li>
+                <li><strong>Tools needed:</strong> ILS System, Phone Line (888-577-5275), Patron Account Portal</li>
             </ul>
         </div>
 
-        <h2>Overview</h2>
-        <p>This guide covers how agents can renew library materials. Patrons can renew most items up to 3 times by web, phone, or in-person. Before you process renewals and escalate issues to a supervisor, verify renewal eligibility with the patron.</p>
+        <h2>Overview</h2> This guide covers how agents can process renewal of library materials and how to escalate exceptions. Patrons can renew most items up to 3 times by web, phone, or in-person. 
+
+<p><strong>Target audience:</strong> All agents who support the Los Angeles Public Library.</p>
+
+<p><strong>Last updated:</strong> November 1, 2025 - Added metrics reporting section.</p>
 
         <h2>Eligibility criteria</h2>
         
@@ -294,7 +286,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Standard circulating items (books, audiobooks, magazines)</td>
+                    <td>Standard circulating items (books, ebooks, audiobooks, magazines)</td>
                     <td>✅ Yes</td>
                     <td>Process renewal (max 3 times)</td>
                 </tr>
@@ -304,149 +296,247 @@
                     <td>Process renewal (max 3 times)</td>
                 </tr>
                 <tr>
-                    <td>Items with pending holds</td>
+                    <td>Items with pending holds or reserves</td>
                     <td>❌ No</td>
-                    <td>Explain that you can’t renew because of a hold and offer them an alternative option</td>
+                    <td>Explain that a hold prevents renewal; offer alternatives</td>
                 </tr>
                 <tr>
                     <td>Reference materials</td>
                     <td>❌ No</td>
-                    <td>Explain the reference policy, then suggest in-library use</td>
+                    <td>Explain reference policy; suggest in-library use</td>
                 </tr>
                 <tr>
-                    <td>Items that have been renewed 3 times</td>
+                    <td>Items already renewed 3 times</td>
                     <td>❌ No</td>
-                    <td>Patron must return item and check it out again</td>
+                    <td>Item must be returned and checked out again</td>
                 </tr>
                 <tr>
                     <td>Overdue items with unpaid fines</td>
                     <td>⚠️ Maybe</td>
-                    <td>Check patron's account status; you may need supervisor override</td>
+                    <td>Check account status; this may need supervisor override</td>
                 </tr>
                 <tr>
                     <td>Teacher card items (50-item limit)</td>
                     <td>✅ Yes</td>
-                    <td>Get librarian approval, then follow standard renewal process</td>
+                    <td>Follow standard renewal process with librarian approval</td>
                 </tr>
             </tbody>
         </table>
 
         <div class="policy-box">
-            <strong>Policy Note:</strong> For eligible items, auto-renewals occur automatically on the due date, and the system will send patrons a confirmation email. If auto-renewal fails (due to holds, max renewals reached, etc.), patrons receive a notification requesting that they return the item.
+            <strong>Tip:</strong> For eligible items, auto-renewals occur automatically on the due date, and patrons will receive email confirmation. If auto-renewal fails (due to holds, max renewals reached, etc.), patrons receive a notification requesting that they return the item.
         </div>
 
-        <h2>Renewal process</h2>
+        <h2>Step-by-step renewal process</h2>
 
         <div class="workflow-step">
-            <h4><span class="step-number">1</span> Verify patron identity</h4>
-            <p>Before you process a renewal, confirm you're speaking with the account holder:</p>
-            <ul>
-                <li>Ask for the 14-digit library card number or 12-digit e-card number.</li>
-                <li>Verify the patron's last name and their Personal Identification Number (PIN) if they know it.</li>
-                <li>Confirm the due date or title of the item they want to renew.</li>
-            </ul>
-            <div class="tip">
-                <strong>Tip:</strong> For family accounts, verify the patron is authorized to manage items checked out on the shared card. Parents/guardians can renew items for their children.
+            <details>
+                <summary>
+                    <h4><span class="step-number">1</span> Verify patron identity</h4>
+                </summary>
+                <p>Before you process a renewal, confirm you're speaking with the account holder or authorized user:</p>
+                <ul>
+                    <li>Ask for their 14-digit library card number or 12-digit e-card number</li>
+                    <li>Verify their last name and Personal Identification Number (PIN) if they know it</li>
+                    <li>Confirm the due date or title of the item they want to renew</li>
+                </ul>
+                <div class="best-practice">
+                    <strong>Best practice:</strong> For family accounts, verify the patron is authorized to manage items checked out on the shared card. Parents or guardians can renew items for their children.
+                </div>
+            </details>
+        </div>
+
+        <div class="workflow-step">
+            <details>
+                <summary>
+                    <h4><span class="step-number">2</span> Access patron record</h4>
+                </summary>
+                <p>In the Integrated Library System:</p>
+                <ol>
+                    <li>Navigate to <code>Patron Services</code> > <code>Search</code></li>
+                    <li>Type the patron's library card number</li>
+                    <li>Click on their account profile</li>
+                    <li>Select the <code>Account Activity</code> tab</li>
+                    <li>Review their current loans and their due dates</li>
+                </ol>
+                <div class="critical">
+                    <strong>Important:</strong> Check for account blocks or restrictions before you proceed. Accounts with outstanding fines over $10.00 or lost materials may be blocked from renewals.
+                </div>
+            </details>
+        </div>
+
+        <div class="workflow-step">
+            <details>
+                <summary>
+                    <h4><span class="step-number">3</span> Verify item eligibility</h4>
+                </summary>
+                <p>Check the following before proceeding:</p>
+                <ul>
+                    <li>✅ Item has been renewed fewer than 3 times (check renewal count in system)</li>
+                    <li>✅ There are no pending holds for this title</li>
+                    <li>✅ Item is not reference material</li>
+                    <li>✅ Account is in good standing (no blocks or fines over $10.00)</li>
+                </ul>
+                <div class="critical">
+                    <strong>Important:</strong> If an item shows "Hold Queue: 1 or more," it cannot be renewed, and the account holder must return the item so the next patron can borrow it.
+                </div>
+            </details>
+        </div>
+
+        <div class="workflow-step">
+            <details>
+                <summary>
+                    <h4><span class="step-number">4</span> Process the renewal</h4>
+                </summary>
+                <p>You can renew items through two methods:</p>
+                
+                <h3>Method 1: Web renewal (patron self-service)</h3>
+                <p>Guide patrons to renew online:</p>
+                <ol>
+                    <li>Visit www.lapl.org</li>
+                    <li>At top of page in the toolbar, click <code>Books & Media</code></li>
+                    <li>In the options listed on the next page, click <code>Catalog</code></li>
+                    <li>Click <code>My Account</code> and sign in with library card number and PIN (default is last 4 digits of your phone number, but that can be manually changed).</li>
+                    <li>Go to <code>Account Activity</code></li>
+                    <li>On the left in the <code>Renew</code> column, click the box next to the item. To renew all items, click the box next to the word <code>Renew All</code>.</li>
+                    <li>Confirm the new due date (the original loan period from the renewal date). If the item cannot be renewed, a box will pop up saying "The following title(s) could not be renewed" followed by a list of titles.</li>
+                </ol>
+
+                <h3>Method 2: Phone renewal (Interactive Voice Response System)</h3>
+                <p>If the patron prefers phone renewal:</p>
+                <ol>
+                    <li>Direct them to call toll-free: <code>1-888-577-5275</code></li>
+                    <li>They'll need their 14-digit library card number</li>
+                    <li>The automated system will process eligible renewals 24/7</li>
+                    <li>The system will provide renewal confirmation</li>
+                </ol>
+            </details>
+        </div>
+
+        <div class="workflow-step">
+            <details>
+                <summary>
+                    <h4><span class="step-number">5</span> Update patron case log</h4>
+                </summary>
+                <p>Document the interaction in Salesforce:</p>
+                <ol>
+                    <li>Find the patron's Salesforce record using their library card number</li>
+                    <li>Update their circulation case if it exists, or create a new case</li>
+                    <li>Set Case Type to <code>Renewal - Processed</code></li>
+                    <li>Add the number of items renewed and their new due dates</li>
+                    <li>Include any special notes (e.g., patron education about auto-renewal)</li>
+                    <li>Set case status to <code>Resolved</code></li>
+                </ol>
+            </details>
+        </div>
+
+        <div class="workflow-step">
+            <details>
+                <summary>
+                    <h4><span class="step-number">6</span> Communicate with patron</h4>
+                </summary>
+                <p>Confirm the renewal using the appropriate canned response:</p>
+                
+                <div class="canned-response">
+                    <h5>📧 Canned Response: RENEWAL_CONFIRMATION</h5>
+                    <p>Hi {Patron Name},</p>
+                    <p>Thank you for contacting the library. I hope you're doing well.</p>
+                    <p>Good news! I've successfully renewed {NUMBER} item(s) on your account.</p>
+                    <p><strong>Your new due date(s):</strong><br>
+                    • {ITEM TITLE} - Due {NEW DUE DATE}<br>
+                    • {ITEM TITLE} - Due {NEW DUE DATE}</p>
+                    <p><strong>Helpful tip:</strong> Most items auto-renew automatically on the due date if no one else has placed a hold. You'll receive an email confirmation when this happens.</p>
+                    <p>You can check your account any time at lapl.org or call our automated line at 1-888-577-5275.</p>
+                    <p>Thank you for your patience! Please let me know if I can help you with anything else.</p>
+                    <p>Best regards,<br>
+                    {Your Name}<br>
+                    Circulation Services Team</p>
+                </div>
+            </details>
+        </div>
+
+        <h2>Special scenarios</h2>
+
+        <details class="question-item">
+            <summary>Items with holds cannot be renewed</summary>
+            <div>
+                <p>When an item has pending holds:</p>
+                <ol>
+                    <li>Explain that another patron is waiting for the item</li>
+                    <li>Inform them that they must return the item by the due date or they will get a late fee</li>
+                    <li>Suggest that they place a hold to borrow it again after the current hold queue is filled</li>
+                    <li>Offer to help place the hold if they would like</li>
+                </ol>
+
+                <div class="canned-response">
+                    <h5>📧 Canned Response: RENEWAL_DENIED_HOLD</h5>
+                    <p>Hi {Patron Name},</p>
+                    <p>Thank you for contacting the library. I hope you're doing well.</p>
+                    <p>I understand you reached out about renewing {ITEM TITLE}. Unfortunately, I'm unable to process this renewal because another patron has placed a hold on this item. To ensure fair access to popular materials, we can't renew items when someone else is waiting.</p>
+                    <p><strong>Your current due date:</strong> {DUE DATE}</p>
+                    <p><strong>What you can do:</strong><br>
+                    • Return the item by the due date to avoid a late fee<br>
+                    • Place a hold on the item to borrow it again after the current waitlist is filled<br></p>
+
+                    <p>Would you like me to place that hold for you now?</p>
+                    <p>Thank you for understanding!</p>
+                    <p>Best regards,<br>
+                    {Your Name}<br>
+                    Circulation Services Team</p>
+                </div>
             </div>
-        </div>
+        </details>
 
-        <div class="workflow-step">
-            <h4><span class="step-number">2</span> Access patron record</h4>
-            <p>In the Integrated Library System:</p>
-            <ol>
-                <li>Select <code>Patron Services</code> > <code>Search</code>.</li>
-                <li>Type the patron's library card number.</li>
-                <li>Click on their account profile.</li>
-                <li>Select the <code>Account Activity</code> tab.</li>
-                <li>Review their current loans and due dates.</li>
-            </ol>
- <div class="critical">
-                <strong>Important:</strong> Check for account blocks or restrictions before you renew the item. If accounts have outstanding fines over $10.00 or lost materials listed, they may be unable to renew.
-        </div>
-        </div>
-
-        <div class="workflow-step">
-            <h4><span class="step-number">3</span>Verify item eligibility</h4>
-            <p>Check the following before proceeding:</p>
-            <ul>
-                <li>✅ Item has been renewed fewer than 3 times (check renewal count in system)</li>
-                <li>✅ There are no pending holds for this title</li>
-                <li>✅ Item is not reference material</li>
-                <li>✅ Account is in good standing (no blocks or fines over $10.00)</li>
-            </ul>
-            <div class="critical">
-                <strong>Important:</strong> If an item shows "Hold Queue: 1 or more," it cannot be renewed. The account holder must return the item so the next patron can borrow it.
+        <details class="question-item">
+            <summary>Maximum renewals reached (3 times)</summary>
+            <div>
+                <p>When a patron has already renewed an item 3 times:</p>
+                <ol>
+                    <li>Explain the 3-renewal maximum policy</li>
+                    <li>Item must be returned and can be checked out again (if available)</li>
+                    <li>Suggest they return the item and immediately check it out again if no holds exist</li>
+                    <li>If holds exist, offer to place a hold for them</li>
+                </ol>
             </div>
-        </div>
+        </details>
 
-        <div class="workflow-step">
-            <h4><span class="step-number">4</span>Process the renewal</h4>
-            <p>You can renew items through two methods:</p>
-            
-            <h3>Method 1: Web renewal (patron self-service)</h3>
-            <p>Guide patrons to renew online:</p>
-            <ol>
-                <li>Visit <code>www.lapl.org</code></li>
-   	<li>In the toolbar at the left, click <code>Books & Media</code></li>
-	<li>Midway down the next page, click <code>Catalog</code></li>
-                <li>Click <code>My Account</code> and sign in with library card number and PIN (the default is last 4 digits of patron's phone number, but that can be manually changed)</li>
-                <li>Go to <code>Account Activity</code>.</li>
-                <li>On the left, check the box next to the item, below the word <code>Renew</code>. To renew all items, click the box at the top of the list next to the word <code>Renew All</code>.</li>
-                <li>Confirm the new due date (from the renewal date). If an item cannot be renewed, a box will pop up saying “The following title(s) could not be renewed” followed by a list of titles.</li>
-            </ol>
-
-            <h3>Method 2: Phone renewal (Interactive Voice Response System)</h3>
-            <p>If the patron prefers phone renewal:</p>
-            <ol>
-                <li>Direct them to call toll-free: <code>1-888-577-5275.</code></li>
-                <li>They'll need their 14-digit library card number.</li>
-                <li>The automated system will process eligible renewals 24/7.</li>
-                <li>The system will provide renewal confirmation.</li>
-            </ol>
-	</div>
-
-        <div class="workflow-step">
-            <h4><span class="step-number">5</span> Update patron case log</h4>
-            <p>Document the interaction in Salesforce:</p>
-            <ol>
-                <li>Find the patron's Salesforce record using their library card number.</li>
-                <li>Update their circulation case if it exists, or create a new case.</li>
-                <li>Set <strong>Case Type</strong> to <code>Renewal - Processed</code>.</li>
-                <li>Add the number of items renewed and their new due dates.</li>
-                <li>Include any special notes (for example, patron education about auto-renewal).</li>
-                <li>Set case status to <code>Resolved</code>.</li>
-            </ol>
-        </div>
-
-        <div class="workflow-step">
-            <h4><span class="step-number">6</span> Communicate with the patron</h4>
-            <p>Confirm the renewal using the appropriate canned response:</p>
-            
-            <div class="canned-response">
-                <h5>📧 Canned Response: RENEWAL_CONFIRMATION</h5>
-                <p>Hi {Patron Name},</p>
-                <p>Thank you for contacting the library. I hope you're doing well.</p>
-                <p>Good news! I've successfully renewed {NUMBER} item(s) on your account.</p>
-                <p><strong>Your new due date(s):</strong><br>
-                • {ITEM TITLE] - Due {NEW DUE DATE}<br>
-                • {ITEM TITLE] - Due {NEW DUE DATE}</p>
-                <p><strong>Helpful tip:</strong> Most items auto-renew automatically on the due date if no one else has placed a hold. You'll receive an email confirmation when this happens.</p>
-                <p>You can check your account any time at lapl.org or call our automated line at <code>1-888-577-5275</code>.</p>
-                <p>Thank you for your patience! Please let me know if I can help you with anything else.</p>
-                <p>Best regards,<br>
-                {Your Name}<br>
-                Circulation Services Team</p>
+        <details class="question-item">
+            <summary>Overdue items with fines</summary>
+            <div>
+                <p>For overdue materials:</p>
+                <div class="best-practice">
+                    <strong>Best practice: </strong>You can still renew overdue items if they're eligible. The renewal extends the due date from the renewal date (not the original due date), which <strong>will increase the fine.</strong> Make sure patrons understand this before processing.
+                </div>
+                <ol>
+                    <li>Check if the item is eligible for renewal (no holds, under 3 renewals)</li>
+                    <li>Explain that renewing will extend the due date but fines continue to accrue from the original due date</li>
+                    <li>Process renewal if patron confirms they want to proceed</li>
+                    <li>Remind them to return items promptly to avoid additional fines</li>
+                </ol>
             </div>
-        </div>
-		
-        <h2>Escalations</h2>
+        </details>
+
+        <details class="question-item">
+            <summary>Teacher cards (50-item limit)</summary>
+            <div>
+                <p>For teacher card renewals:</p>
+                <ol>
+                    <li>Verify the patron is using a valid teacher card</li>
+                    <li>Follow the standard renewal process</li>
+                    <li>Some teacher materials may require librarian approval for renewal</li>
+                    <li>If approval is needed, tag your supervisor in a JIRA ticket</li>
+                </ol>
+            </div>
+        </details>
+
+        <h2>When to escalate</h2>
 
         <div class="escalation">
-            <h4>⚠️ Escalate to a supervisor when:</h4>
+            <h4>⚠️ Escalate to supervisor when:</h4>
             <ul>
                 <li>Patron requests renewal beyond 3-renewal maximum</li>
                 <li>Account has blocks or restrictions preventing renewal</li>
-                <li>Patron disputes that item has a hold (verify in the system first)</li>
+                <li>Patron disputes that item has a hold (verify in system first)</li>
                 <li>Patron requests waiver of late fees to process renewal</li>
                 <li>System shows error message you can't resolve</li>
                 <li>Patron claims auto-renewal didn't work as expected</li>
@@ -454,121 +544,57 @@
             </ul>
         </div>
 
-        <h3>How to escalate:</h3>
+        <p><strong>How to escalate:</strong></p>
         <ol>
-            <li>Open a JIRA ticket with the patron's library card number and issue details.</li>
-            <li>Tag a supervisor in the ticket.</li>
-            <li>Tell the patron, "I need to review this with my supervisor to ensure I'm giving you the right information. May I follow up with you within 2 hours?"</li>
-        </ol>
-		
-        <h2>Special scenarios</h2>
-
-		<h3>Items with holds can't be renewed</h3>
-        <p>When there's a pending hold on an item:</p>
-        <ol>
-            <li>Explain that another patron is waiting for the item.</li>
-            <li>Tell them they need to return the item by the due date or they'll get a late fee.</li>
-            <li>Suggest they place a hold to borrow it again after the current hold queue fills up</li>
-            <li>Offer to help them place the hold.</li>
+            <li>Open a JIRA ticket with patron's library card number and issue details</li>
+            <li>Tag supervisor in the ticket</li>
+            <li>Tell the patron, "I need to review this with my supervisor to ensure I'm giving you the right information. Can I follow up with you within 2 hours?"</li>
         </ol>
 
-        <div class="canned-response">
-            <h5>📧 Canned Response: RENEWAL_DENIED_HOLD</h5>
-            <p>Hi {Patron Name},</p>
-            <p>Thank you for contacting the library. I hope you're doing well.</p>
-            <p>I understand you reached out about renewing {ITEM TITLE}. Unfortunately, I'm unable to process this renewal because another patron has placed a hold on this item. To ensure fair access to popular materials, we can't renew items when someone else is waiting.</p>
-            <p><strong>Your current due date:</strong> {DUE DATE}</p>
-            <p><strong>What you can do:</strong><br>
-            • Return the item by the due date to avoid a late fee<br>
-            • Place a hold on the item to borrow it again after the current waitlist is filled<br></p>
+        <h2>Common patron questions</h2>
 
-            <p>Would you like me to place that hold for you now?</p>
-            <p>Thank you for understanding!</p>
-            <p>Best regards,<br>
-            {Your Name}<br>
-            Circulation Services Team</p>
-        </div>
+        <details class="question-item">
+            <summary>"Why didn't my item auto-renew?"</summary>
+            <p><strong>Response:</strong> "Auto-renewal happens automatically on the due date, but it can fail for a few reasons: someone placed a hold on the item, you've already renewed it 3 times, or your account has a block due to outstanding fines. Let me check your account to find out what's going on."</p>
+        </details>
 
-        <h3>Maximum renewals reached</h3>
-        <p>When a patron has already renewed an item 3 times:</p>
-        <ol>
-            <li>Explain there's a 3-renewal maximum policy.</li>
-            <li>The  patron must return the item and check it out again if there are no holds on it.</li>
-            <li>If holds exist, offer to place a hold for them.</li>
-        </ol>
+        <details class="question-item">
+            <summary>"Can you renew this even though someone has a hold?"</summary>
+            <p><strong>Response:</strong> "Unfortunately, no. When another patron places a hold, the item needs to be returned so they can borrow it next. To ensure fair access to popular materials, we can't extend loans when someone is waiting. I'd be happy to place a hold for you so you can borrow it again after the current waitlist."</p>
+        </details>
 
-        <h3>Overdue items with fines</h3>
-         <div class="tip">
-            <strong>Tip:</strong> You can still renew overdue items if they're eligible. The renewal extends the due date from the renewal date (not the original due date), which <strong>will increase the fine.</strong> Make sure patrons understand this before processing.
-        </div>
-           <p>For overdue materials:</p>
-   		<ol>
-            <li>Check if the item is eligible for renewal (no holds, under 3 renewals).</li>
-            <li>Explain to the patron that renewing will extend the due date but fines continue to accrue from the original due date.</li>
-            <li>If the patron confirms they want to proceed, process the renewal.</li>
-            <li>Remind them to return items on time to avoid more fines.</li>
-        </ol>
+        <details class="question-item">
+            <summary>"I need to keep this book longer than the 3 renewals allowed."</summary>
+            <p><strong>Response:</strong> "I understand you need more time with this material, but the 3-renewal maximum ensures materials circulate fairly to all patrons. Your best option is to return the item and check it out again immediately if it's available. If someone has placed a hold, you can add yourself to the waitlist. For extended research needs, I can also help you explore our reference collection or Interlibrary Loan options."</p>
+        </details>
 
-        <h3>Teacher cards (50-item limit)</h3>
-        <p>To process renewals using a teacher card:</p>
-        <ol>
-            <li>Verify the patron is using a valid teacher card.</li>
-            <li>Follow the standard renewal process.</li>
-            <li>Some teacher materials may require librarian approval for renewal.</li>
-            <li>If you need approval, tag your supervisor in a JIRA ticket.</li>
-        </ol>
+        <details class="question-item">
+            <summary>"Can I renew items in person at any branch?"</summary>
+            <p><strong>Response:</strong> "Yes! You can renew items in person at any of our 72 library branches or at Central Library. Just bring your library card, and circulation staff can help you at the desk. You can also renew 24/7 online at lapl.org or by calling our automated line at 1-888-577-5275."</p>
+        </details>
 
-	<h2>Reporting & metrics</h2>
+        <h2>Reporting & metrics</h2>
         <p>Renewal requests impact circulation metrics. All agents should:</p>
         <ul>
             <li>Maintain accurate case logging for renewal requests</li>
-            <li>When renewals are denied, document the reasons</li>
-            <li>File a JIRA ticket to report system issues preventing renewals</li>
+            <li>Document reasons when renewals are denied</li>
+            <li>Track patron confusion about auto-renewal features</li>
+            <li>Report system issues preventing renewals by filing a JIRA ticket</li>
         </ul>
 
-        <div class="tip">
-            <strong>Tip:</strong> If you notice multiple patrons confused about why auto-renewal failed, document the pattern by filing a JIRA ticket so we can improve patron communication.
+        <div class="best-practice">
+            <strong>Best practice:</strong> If you notice multiple patrons confused about why auto-renewal failed, document the pattern by filing a JIRA ticket so we can improve patron communication.
         </div>
-	
-		<h2>Common patron questions</h2>
 
-<details class="faq-item">
-    <summary>"Why didn't my item auto-renew?"</summary>
-    <div class="faq-content">
-        <p><strong>Response:</strong> "Auto-renewal happens automatically on the due date, but it can fail for a few reasons: someone placed a hold on the item, you've already renewed it 3 times, or your account has a block due to outstanding fines. Let me check your account to find out what's going on."</p>
-    </div>
-</details>
-
-<details class="faq-item">
-    <summary>"Can you renew this even though someone has a hold?"</summary>
-    <div class="faq-content">
-        <p><strong>Response:</strong> "Unfortunately, no. When another patron places a hold, the current patron nees to return the item so the next person can borrow it next. To ensure fair access to popular materials, we can't extend loans when someone is waiting. I'd be happy to place a hold for you so you can borrow it again after the current waitlist."</p>
-    </div>
-</details>
-
-<details class="faq-item">
-    <summary>"I need to keep this book longer than the 3 renewals allowed."</summary>
-    <div class="faq-content">
-        <p><strong>Response:</strong> "I understand you need more time with this material, but the 3-renewal maximum ensures materials circulate fairly to all patrons. Your best option is to return the item and check it out again immediately if it's available. If someone has placed a hold, you can add yourself to the waitlist. For extended research needs, I can also help you explore our reference collection or Interlibrary Loan options."</p>
-    </div>
-</details>
-
-<details class="faq-item">
-    <summary>"Can I renew items in person at any branch?"</summary>
-    <div class="faq-content">
-        <p><strong>Response:</strong> "Yes! You can renew items in person at any of our 72 library branches or at Central Library. Just bring your library card, and circulation staff can help you at the desk. You can also renew 24/7 online at lapl.org or by calling our automated line at 1-888-577-5275."</p>
-    </div>
-</details>
-		
-		<h2>Related resources</h2>
+        <h2>Quick links</h2>
         <ul>
-            <li><a href="#" style="color: #667eea;">Integrated Library System</a></li>
+            <li><a href="#" style="color: #667eea;">ILS patron management system</a></li>
             <li><a href="#" style="color: #667eea;">Salesforce case logging</a></li>
-            <li><a href="#" style="color: #667eea;">LAPL borrower services policy</a></li>
-            <li><a href="#" style="color: #667eea;">Auto-Renewal FAQ (internal)</a></li>
             <li><a href="#" style="color: #667eea;">JIRA ticketing system</a></li>
-            <li><a href="#" style="color: #667eea;">How to process hold requests</a></li>
-            <li><a href="#" style="color: #667eea;">How to manage overdue accounts</a></li>
+            <li><a href="#" style="color: #667eea;">LAPL borrower services policy</a></li>
+            <li><a href="#" style="color: #667eea;">Auto-renewal FAQ (internal)</a></li>
+            <li><a href="#" style="color: #667eea;">Processing hold requests</a></li>
+            <li><a href="#" style="color: #667eea;">Managing overdue accounts</a></li>
             <li><a href="#" style="color: #667eea;">Teacher card procedures</a></li>
         </ul>
 
