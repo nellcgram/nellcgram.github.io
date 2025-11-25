@@ -21,14 +21,14 @@ layout: default
 <p>I chose a Help Center "How to / About" content model, a common model I would use when drafting for Google. Specifically, this starts with a "Benefits" block (how Story Board benefits the user), moves to task, tip, and important blocks, then ends with related resources so users can learn more about how to use Scribbler.</p>
 <p>I organized the article structure from beginning to advanced customization for users who might want different things; for example, a card's color label is simple, custom metadata less so.</p>
 
-<h2>Style standards (based on Google’s style guide)</h2>
+<h2>Writing and design approach</h2>
+<p><strong>Style standards (based on Google’s style guide):</strong></p>
  <ul>
 <li>Tone: friendly, empathetic, conversational (contraction use is OK)</li>
 <li>Clarity: 7th grade reading level, active voice, front-loaded sentences</li>
 <li>Formatting: Sentence case for titles, title case for UI, breadcrumb navigation</li>
 </ul>
-
-<h2>Design decisions</h2>
+<p><strong>Design decisions:</strong></p>
 <p>I changed from title to sentence case for UI elements (First Draft, Revised Draft) since this is not a Google app. I designed  two distinct callout boxes for scannability and to emphasize information:
   <ul>
 <li>Tip (blue for information adding context)</li>
