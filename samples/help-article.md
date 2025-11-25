@@ -13,7 +13,7 @@ layout: default
 </p>
 
 <h2>Why I chose this project</h2>
-<p>I initially explored writing about Scrivener, but decided to fictionalize the steps since Scrivener is so complex. I describe a similar user interface to Scrivener with some of the same names.</p>
+<p>I initially explored writing about the real app Scrivener, but decided to fictionalize the steps since Scrivener is so complex. I describe a similar user interface to Scrivener with some of the same names.</p>
 <p>I focused tightly on the Story Board view used to outline projects rather than writing about the entire Scribbler application. As a person who's enthusiastic about information organization and discoverability in my own projects, I wanted to demonstrate the ability to customize the app for a user who cares about those things (like how to set colors for different content types to make cards, or what types of custom metadata the user can create).</p>
 
 <h2>Content strategy</h2>
@@ -26,7 +26,7 @@ layout: default
 <ul>
 <li>Tone: friendly, empathetic, conversational (contraction use is OK)</li>
 <li>Clarity: 7th grade reading level, active voice, front-loaded sentences</li>
-<li>Formatting: Sentence case for titles, title case for UI; breadcrumb navigation</li>
+<li>Formatting: Sentence case for titles, title case for UI, breadcrumb navigation</li>
 </ul>
 
 <h2>Design decisions</h2>
