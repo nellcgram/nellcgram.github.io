@@ -39,5 +39,6 @@ layout: default
 <li>Includes a metrics reporting section so agents understand when to escalate system issues</li>
 </ul>
 
+---
 
 <a href="https://nellcgram.github.io" target="_blank" rel="noopener noreferrer">Homepage</a>
