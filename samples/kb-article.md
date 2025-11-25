@@ -27,7 +27,7 @@ layout: default
  <ul>
 <li>Tone: friendly, empathetic, conversational (contraction use is OK)</li>
 <li>Clarity: 7th grade reading level, active voice, front-loaded sentences</li>
-<li>Formatting: Sentence case for titles, title case for UI; breadcrumb navigation</li>
+<li>Formatting: Sentence case for titles, title case for UI, breadcrumb navigation</li>
 <li>Canned responses emphasize empathy for the user. For example: “I hope you’re doing well,” and “Thank you for your patience.”</li>
 </ul>
 
@@ -38,6 +38,6 @@ layout: default
 <li>Canned email and chat responses with bracketed placeholders for personalization</li>
 <li>Includes a metrics reporting section so agents understand when to escalate system issues</li>
 </ul>
----
+
 
 <a href="https://nellcgram.github.io" target="_blank" rel="noopener noreferrer">Homepage</a>
