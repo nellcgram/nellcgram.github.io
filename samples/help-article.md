@@ -22,6 +22,7 @@ layout: default
 <p>I organized the article structure from beginning to advanced customization for users who might want different things; for example, a card's color label is simple, custom metadata less so.</p>
 
 <h2>Writing and design approach</h2>
+    
 <p><strong>Style standards (based on Google’s style guide):</strong></p>
  <ul>
 <li>Tone: friendly, empathetic, conversational (contraction use is OK)</li>
@@ -29,13 +30,16 @@ layout: default
 <li>Formatting: Sentence case for titles, title case for UI, breadcrumb navigation</li>
 </ul>
 <p><strong>Design decisions:</strong></p>
+<p>Google uses bold (the "strong" HTML tag) text for UI and limits use of "code" font for public-facing, less technical documentation. But I differentiated between the three types of tags I used to create visual hierarchy and improve accessibility: I used "kbd" tags for keyboard shortcuts, "code" for UI elements, and "strong" for conceptual emphasis.</p>
+
 <p>I changed from title to sentence case for UI elements (First Draft, Revised Draft) since this is not a Google app. I designed  two distinct callout boxes for scannability and to emphasize information:
   <ul>
 <li>Tip (blue for information adding context)</li>
 <li>Important (yellow for warning)</li>
   </ul>
-</p>
-<p>Google uses bold (the "strong" HTML tag) text for UI and limits use of "code" font for public-facing, less technical documentation. But I differentiated between the three types of tags I used to create visual hierarchy and improve accessibility: I used "kbd" tags for keyboard shortcuts, "code" for UI elements, and "strong" for conceptual emphasis.</p>
+
 <p>I created the article with HTML and added CSS over time, purposefully echoing my GitHub website "Just the Docs" theme because of its readability.</p>
+
+</p>
 
 <a href="https://nellcgram.github.io" target="_blank" rel="noopener noreferrer">Homepage</a>
