@@ -40,6 +40,6 @@ layout: default
 
 <p>I created the article with HTML and added CSS over time, purposefully echoing my GitHub website "Just the Docs" theme because of its readability.</p>
 
-</p>
+---
 
 <a href="https://nellcgram.github.io" target="_blank" rel="noopener noreferrer">Homepage</a>
