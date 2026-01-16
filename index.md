@@ -6,12 +6,12 @@ layout: default
 
 # About me
 
-<p>Hi, I'm Nell. I'm a Senior Technical Writer at Accenture supporting Google, where I create documentation for consumer products and supervise a global team of 5 writers. I support Google Play, which serves over 2 billion users.</p>
+<p>Hi, I'm Nell. I'm a Senior Technical Writer for Accenture on contract with Google. I write documentation for Google Play's 2+ billion users and manage a team of 5 writers globally.</p>
 
-<p>Specifically, I <strong>write and edit</strong> public-facing help documentation, internal knowledge base guides, and agent-facing content like announcements and canned responses.</p>
+<p>Specifically, I write and edit public-facing help documentation, internal knowledge base guides, and agent-facing content like announcements and canned responses. This site includes sample documentation I've written.</p>
 
 <H3>The details</H3>
-<p>This site includes sample documentation I've written, but it feels incomplete without explaining that my job has several aspects beyond writing.</p>
+<p>My job also has several aspects beyond writing:</p>
 
 <p><strong>I manage projects and people.</strong> As a writer, I manage projects from initial documentation design design through post-publish Quality Assurance. I meet with stakeholders as needed through the process to clarify project requirements and address issues. As a manager, I assign projects to my team of writers and guide them through their project life cycles.</p>
 
@@ -28,11 +28,11 @@ layout: default
 ---
 
 <H2><strong>Professional history</strong></H2>
-<p>I majored in English in college, as one does when obsessed with language. After a brief stint as a researcher at the LA Times (sadly, a temporary contract) and several years working in libraries, I decided to become a corporate researcher/librarian.</p>
+<p>I grew up in Los Angeles, went to college in Ohio, and majored in English, as one does when interested only in words. After a brief stint as a researcher at the LA Times (sadly, a temporary contract) and several years working in libraries, I went to graduate school to become a corporate researcher/librarian.</p>
  
-<p>However. In every job I've ever had, the part I loved most was writing. Either I wrote reports based on my research, or I wrote training documentation... for jobs that weren't supposed to involve writing at all! (Each professed to be happy to have documentation.)</p>
+<p>However, in every job I've ever had, the part I loved most was writing. Either I wrote reports based on my research, or I wrote training documentation... for jobs that weren't supposed to involve writing at all! (Each professed to be happy to have documentation.)</p>
  
-<p>After enough years of that I became, surprise, a professional writer. As my father would say, "no knowledge is wasted"; I still organize information as part of my job.</p>
+<p>Eventually I became, surprise, a professional writer. As my father would say, "no knowledge is wasted"; I still organize information as part of my job.</p>
  
 <p><a href="https://nellcgram.github.io/pdf/Nell_Gram_Resume.pdf" target="_blank" rel="noopener noreferrer">Gram Resume</a></p>
 
