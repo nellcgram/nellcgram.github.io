@@ -6,15 +6,17 @@ layout: default
 
 # Nell C. Gram
 
-<p>Hi, I'm Nell. I'm a Senior Technical Writer who creates documentation for consumer products at Google, contracted through Accenture. Currently I supervise a global team of 5 writers and create documentation for Google Play (2+ billion users).</p>
+<p>Hi, I'm Nell. I'm a Senior Technical Writer at Accenture supporting Google, where I create documentation for consumer products and supervise a global team of 5 writers. I support Google Play, which serves over 2 billion users.</p>
 
-<p>My work includes public-facing help documentation, internal knowledge base guides, and agent-facing content (announcements and canned responses). Most recently I have been training AI systems to generate documentation that aligns with Google's style guide.</p>
+<p>That's the short version. My job has several aspects that the title doesn't explain. Yes, I write and edit public-facing help documentation, internal knowledge base guides, and agent-facing content like announcements and canned responses. But I'm also a project and people manager. As a writer, I guide projects from initial documentation design design through post-publish Quality Assurance. I meet with stakeholders as needed through the process to clarify what each project needs. As a manager, I assign projects to my team of writers and guide them through their project life cycles.</p>
 
-<p>I’m a content designer as well as a writer. I enjoy building the systems that make content possible, like creating a style guide for the team, or writing a template for project requirements.</p>
+<p>Collaboration is central to my work. As well as managing projects, I edit alongside content strategists, product managers, legal teams, and usability experts. I love balancing each team's needs while still finding the right language to describe what an application actually does.</p>
 
-<p>My Information Science degree reflects my love of making information scannable and searchable. As a technical writer I am your go-to person to fix an article’s structure with the right information architecture, or add the right metadata before publication. I consider how content will hold up over time and how we can better design it to stay useful.</p>
+<p>As a content designer, I build the systems that make content possible, which might mean creating a style guide for the team, or writing a template for project requirements. My Information Science degree reflects my love of making information scannable and searchable; I am your go-to person to fix an article’s structure with the right information architecture or add metadata before publication. I consider how content will hold up over time and how to design it to stay useful.
 
-<p>I’m also passionate about usability. I test documentation by actually using it, which includes walking through SOPs to find what's confusing, or collaborating with engineers to improve our new project management software before rollout.</p>
+<p>Beyond designing content systems, I’m  also passionate about usability. I test documentation by actually using it, which includes walking through SOPs to find what's confusing, or collaborating with engineers to improve our new project management software before rollout.</p>
+
+<p>As AI becomes a bigger part of Google's work, it also became part of mine. I train AI systems to generate documentation on specific topics through prompt engineering, then edit the output to align with our style guide and standards.</p>
 
 <p><a href="https://nellcgram.github.io/pdf/Nell_Gram_Resume.pdf" target="_blank" rel="noopener noreferrer">Gram Resume</a></p>
 
