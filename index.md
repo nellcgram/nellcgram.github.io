@@ -20,7 +20,7 @@ layout: default
 
 <p><strong>I design content.</strong> I build the systems that make content possible. This might mean creating a style guide for the team, or writing a template for project requirements. My Information Science degree reflects my love of making information scannable and searchable; I am your go-to person to fix an article’s structure with the right information architecture or add metadata before publication. I consider how content will hold up over time and how to design it to stay useful.
 
-<p><strong>I'm passionate about usability and accessibility.</strong> I test documentation and procedures by actually using them. This includes walking through SOPs to find what's confusing, and collaborating with engineers to improve our new project management software before rollout. I have professional experience in making content accessible to users with disabilities, which is often useful in my current work.</p>
+<p><strong>I'm passionate about usability and accessibility.</strong> I test documentation and procedures by actually using them. Some days I walk through SOPs to find what's confusing. Others, I collaborate with engineers to improve a new project management software before rollout. I have professional experience in making content accessible to users with disabilities, which is often useful in my current work.</p>
 
 <p><strong>I'm an AI trainer and editor.</strong> I train AI systems to generate documentation on specific topics through prompt engineering, then edit the output to align with our style guide and standards. In time, I can see that my work will focus more on editing and content strategy as generative AI will write all content first drafts, but we're not quite there yet in my role.</p>
 
