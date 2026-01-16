@@ -27,7 +27,7 @@ layout: default
 <p><strong>A brief professional history for the curious:</strong></p>
 <p>I majored in English, as one does when obsessed with language. After a brief stint as a researcher at the LA Times right out of college (sadly, a temporary contract) and several years working in libraries, I decided to become a corporate researcher/librarian.</p>
  
-<p>However. In every job I've ever had, the part I loved most was writing. Either I wrote reports based on that research, or I wrote training documentation... for a job that wasn't supposed to involve writing at all! (Each one professed to be happy to have documentation.)</p>
+<p>However. In every job I've ever had, the part I loved most was writing. Either I wrote reports based on my research, or I wrote training documentation... for a job that wasn't supposed to involve writing at all! (Each one professed to be happy to have documentation.)</p>
  
 <p>After enough years of that, I became, surprise, a professional writer. As my father would say, "no knowledge is wasted"; I still organize information as part of my job.</p>
  
