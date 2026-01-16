@@ -4,14 +4,16 @@ nav_order: 1
 layout: default
 ---
 
-# Nell C. Gram
+# About Nell
 
 <p>Hi, I'm Nell. I'm a Senior Technical Writer at Accenture supporting Google, where I create documentation for consumer products and supervise a global team of 5 writers. I support Google Play, which serves over 2 billion users.</p>
 
 <p>Specifically, I <strong>write and edit</strong> public-facing help documentation, internal knowledge base guides, and agent-facing content like announcements and canned responses.</p>
 
-<p>That's the short version. This site includes sample documentation I've written, but it feels incomplete without explaining that my job has several aspects beyond writing:</p>
- 
+<H2>What I do: The long version</H2>
+
+<p>This site includes sample documentation I've written, but it feels incomplete without explaining that my job has several aspects beyond writing:</p>
+
 <p><strong>I manage projects and people.</strong> As a writer, I manage projects from initial documentation design design through post-publish Quality Assurance. I meet with stakeholders as needed through the process to clarify project requirements and address issues. As a manager, I assign projects to my team of writers and guide them through their project life cycles.</p>
 
 <p><strong>I edit in collaboration with cross-functional teams.</strong> I work with content strategists, product managers, legal teams, and usability experts to edit both public-facing and agent-facing documentation. I love balancing each team's needs while still finding the right language to describe what an application actually does.</p>
@@ -24,12 +26,14 @@ layout: default
 
 <p>I hope this description gives you a fuller picture of my work than a resume can capture, though you can find the obligatory resume below.</p>
 
-<p><strong>A brief professional history for the curious:</strong></p>
+---
+
+<H2><strong>A brief professional history for the curious:</strong></H2>
 <p>I majored in English, as one does when obsessed with language. After a brief stint as a researcher at the LA Times right out of college (sadly, a temporary contract) and several years working in libraries, I decided to become a corporate researcher/librarian.</p>
  
 <p>However. In every job I've ever had, the part I loved most was writing. Either I wrote reports based on my research, or I wrote training documentation... for a job that wasn't supposed to involve writing at all! (Each one professed to be happy to have documentation.)</p>
  
-<p>After enough years of that, I became, surprise, a professional writer. As my father would say, "no knowledge is wasted"; I still organize information as part of my job.</p>
+<p>After enough years of that I became, surprise, a professional writer. As my father would say, "no knowledge is wasted"; I still organize information as part of my job.</p>
  
 <p><a href="https://nellcgram.github.io/pdf/Nell_Gram_Resume.pdf" target="_blank" rel="noopener noreferrer">Gram Resume</a></p>
 
