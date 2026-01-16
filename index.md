@@ -18,18 +18,18 @@ layout: default
 
 <p><strong>I design content.</strong> I build the systems that make content possible. This might mean creating a style guide for the team, or writing a template for project requirements. My Information Science degree reflects my love of making information scannable and searchable; I am your go-to person to fix an article’s structure with the right information architecture or add metadata before publication. I consider how content will hold up over time and how to design it to stay useful.
 
-<p><strong>I'm passionate about usability.</strong> I test documentation by actually using it, which includes walking through SOPs to find what's confusing, or collaborating with engineers to improve our new project management software before rollout.</p>
+<p><strong>I'm passionate about usability and accessibility.</strong> I test documentation and procedures by actually using them. This includes walking through SOPs to find what's confusing, and collaborating with engineers to improve our new project management software before rollout. I have professional experience in user experience design and content accessibility, both of which are useful in my current work.</p>
 
 <p><strong>I'm an AI trainer and editor.</strong> I train AI systems to generate documentation on specific topics through prompt engineering, then edit the output to align with our style guide and standards. In time, I can see that my work will focus more on editing and content strategy as generative AI will write all content first drafts, but we're not quite there yet in my role.</p>
 
-<p>I hope this description gives you a fuller picture of my work than a resume can capture (though you can find the obligatory resume below).</p>
+<p>I hope this description gives you a fuller picture of my work than a resume can capture, though you can find the obligatory resume below.</p>
 
-<p>Brief professional backstory for the curious:</p>
+<p><strong>A brief professional history for the curious:</strong></p>
 <p>I majored in English, as a girl does when she's obsessed with language. After a brief stint as a researcher at the LA Times right out of college (sadly, a temporary contract), and several years working in libraries, I decided to become a corporate researcher/librarian.</p>
  
 <p>However. In every job I've ever had, the part I loved most was writing. Either I wrote reports based on that research, or I wrote training documentation... for a job that wasn't supposed to involve writing at all! (Each one professed to be happy to have documentation.)</p>
  
-<p>After enough years of that I became, surprise, a professional writer. As my father would say, "no knowledge is wasted"; I still organize information as part of my job.</p>
+<p>After enough years of that, I became, surprise, a professional writer. As my father would say, "no knowledge is wasted"; I still organize information as part of my job.</p>
  
 <p><a href="https://nellcgram.github.io/pdf/Nell_Gram_Resume.pdf" target="_blank" rel="noopener noreferrer">Gram Resume</a></p>
 
