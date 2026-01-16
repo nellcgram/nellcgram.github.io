@@ -16,7 +16,7 @@ layout: default
 
 <p>Beyond designing content systems, I’m  also passionate about usability. I test documentation by actually using it, which includes walking through SOPs to find what's confusing, or collaborating with engineers to improve our new project management software before rollout.</p>
 
-<p>As AI becomes a bigger part of Google's work, it also became part of mine. I train AI systems to generate documentation on specific topics through prompt engineering, then edit the output to align with our style guide and standards.</p>
+<p>As AI becomes a bigger part of Google's work, it has also become part of mine. I train AI systems to generate documentation on specific topics through prompt engineering, then edit the output to align with our style guide and standards.</p>
 
 <p><a href="https://nellcgram.github.io/pdf/Nell_Gram_Resume.pdf" target="_blank" rel="noopener noreferrer">Gram Resume</a></p>
 
