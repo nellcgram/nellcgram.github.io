@@ -4,13 +4,11 @@ nav_order: 1
 layout: default
 ---
 
-# About Nell
+# About me
 
 <p>Hi, I'm Nell. I'm a Senior Technical Writer at Accenture supporting Google, where I create documentation for consumer products and supervise a global team of 5 writers. I support Google Play, which serves over 2 billion users.</p>
 
 <p>Specifically, I <strong>write and edit</strong> public-facing help documentation, internal knowledge base guides, and agent-facing content like announcements and canned responses.</p>
-
-<H2>What I do: The long version</H2>
 
 <p>This site includes sample documentation I've written, but it feels incomplete without explaining that my job has several aspects beyond writing:</p>
 
