@@ -8,7 +8,9 @@ layout: default
 
 <p>Hi, I'm Nell. I'm a Senior Technical Writer at Accenture supporting Google, where I create documentation for consumer products and supervise a global team of 5 writers. I support Google Play, which serves over 2 billion users.</p>
 
-<p>That's the short version. My job has several aspects that the title doesn't explain. Yes, I write and edit public-facing help documentation, internal knowledge base guides, and agent-facing content like announcements and canned responses. But I'm also a project and people manager. As a writer, I guide projects from initial documentation design design through post-publish Quality Assurance. I meet with stakeholders as needed through the process to clarify what each project needs. As a manager, I assign projects to my team of writers and guide them through their project life cycles.</p>
+<p>That's the short version. My job has several aspects that the title doesn't explain. Yes, I write and edit public-facing help documentation, internal knowledge base guides, and agent-facing content like announcements and canned responses. But I'm also a project and people manager.</p>
+ 
+<p>As a writer, I guide projects from initial documentation design design through post-publish Quality Assurance. I meet with stakeholders as needed through the process to clarify project requirements and address issues. As a manager, I assign projects to my team of writers and guide them through their project life cycles.</p>
 
 <p>Collaboration is central to my work. As well as managing projects, I edit alongside content strategists, product managers, legal teams, and usability experts. I love balancing each team's needs while still finding the right language to describe what an application actually does.</p>
 
@@ -16,7 +18,7 @@ layout: default
 
 <p>Beyond designing content systems, I’m  also passionate about usability. I test documentation by actually using it, which includes walking through SOPs to find what's confusing, or collaborating with engineers to improve our new project management software before rollout.</p>
 
-<p>As AI becomes a bigger part of Google's work, it has also become part of mine. I train AI systems to generate documentation on specific topics through prompt engineering, then edit the output to align with our style guide and standards.</p>
+<p>AI is also quickly becoming an important part of my daily work. I train AI systems to generate documentation on specific topics through prompt engineering, then edit the output to align with our style guide and standards. In time, I can see that my work will become more about editing and content strategy than writing as first drafts will be written by generative AI.</p>
 
 <p><a href="https://nellcgram.github.io/pdf/Nell_Gram_Resume.pdf" target="_blank" rel="noopener noreferrer">Gram Resume</a></p>
 
