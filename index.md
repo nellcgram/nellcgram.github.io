@@ -10,7 +10,7 @@ layout: default
 
 <p>Specifically, I write and edit public-facing help documentation, internal knowledge base guides, and agent-facing content like announcements and canned responses. This site includes sample documentation I've written.</p>
 
-<H3>The details</H3>
+<H2>The details</H2>
 <p>My job also has several aspects beyond writing:</p>
 
 <p><strong>I manage projects and people.</strong> As a writer, I manage projects from initial documentation design design through post-publish Quality Assurance. I meet with stakeholders as needed through the process to clarify project requirements and address issues. As a manager, I assign projects to my team of writers and guide them through their project life cycles.</p>
@@ -40,7 +40,7 @@ layout: default
 
 ---
 
-## 🧾 Portfolio Sample Pages
+## 🧾 Portfolio
 
 <p>
  <ul>
