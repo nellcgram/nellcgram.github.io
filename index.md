@@ -10,7 +10,8 @@ layout: default
 
 <p>Specifically, I <strong>write and edit</strong> public-facing help documentation, internal knowledge base guides, and agent-facing content like announcements and canned responses.</p>
 
-<p>This site includes sample documentation I've written, but it feels incomplete without explaining that my job has several aspects beyond writing:</p>
+<H3>The details</H3>
+<p>This site includes sample documentation I've written, but it feels incomplete without explaining that my job has several aspects beyond writing.</p>
 
 <p><strong>I manage projects and people.</strong> As a writer, I manage projects from initial documentation design design through post-publish Quality Assurance. I meet with stakeholders as needed through the process to clarify project requirements and address issues. As a manager, I assign projects to my team of writers and guide them through their project life cycles.</p>
 
@@ -26,7 +27,7 @@ layout: default
 
 ---
 
-<H2><strong>A brief professional history for the curious:</strong></H2>
+<H2><strong>Professional history</strong></H2>
 <p>I majored in English, as one does when obsessed with language. After a brief stint as a researcher at the LA Times right out of college (sadly, a temporary contract) and several years working in libraries, I decided to become a corporate researcher/librarian.</p>
  
 <p>However. In every job I've ever had, the part I loved most was writing. Either I wrote reports based on my research, or I wrote training documentation... for a job that wasn't supposed to involve writing at all! (Each one professed to be happy to have documentation.)</p>
