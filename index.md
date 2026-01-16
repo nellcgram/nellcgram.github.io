@@ -25,7 +25,7 @@ layout: default
 <p>I hope this description gives you a fuller picture of my work than a resume can capture, though you can find the obligatory resume below.</p>
 
 <p><strong>A brief professional history for the curious:</strong></p>
-<p>I majored in English, as a girl does when she's obsessed with language. After a brief stint as a researcher at the LA Times right out of college (sadly, a temporary contract), and several years working in libraries, I decided to become a corporate researcher/librarian.</p>
+<p>I majored in English, as one does when obsessed with language. After a brief stint as a researcher at the LA Times right out of college (sadly, a temporary contract) and several years working in libraries, I decided to become a corporate researcher/librarian.</p>
  
 <p>However. In every job I've ever had, the part I loved most was writing. Either I wrote reports based on that research, or I wrote training documentation... for a job that wasn't supposed to involve writing at all! (Each one professed to be happy to have documentation.)</p>
  
