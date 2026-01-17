@@ -28,11 +28,9 @@ layout: default
 ---
 
 <H2><strong>Professional history</strong></H2>
-<p>I grew up in Los Angeles, went to college in Ohio, and majored in English, as one does when interested only in words. After a brief stint as a researcher at the LA Times (sadly, a temporary contract) and several years working in libraries, I went to graduate school to become a corporate researcher/librarian.</p>
- 
-<p>However, in every job I've ever had, the part I loved most was writing. Either I wrote reports based on my research, or I wrote training manuals for jobs that weren't supposed to involve writing at all! (Each professed to be happy to have documentation.)</p>
- 
-<p>Eventually I became, surprise, a professional writer. As my father would say, "no knowledge is wasted"; I still organize information as part of my job.</p>
+<p>I grew up in Los Angeles, went to college in Ohio, and majored in English. After a brief stint as a researcher at the LA Times (sadly, a temporary contract) and several years working in libraries, I went to graduate school to become a corporate researcher/librarian.</p>
+
+<p>However, writing has always been my favorite part of every job I've had. Eventually I became, surprise, a professional writer. As my father would say, "no knowledge is wasted"; I still organize information as part of my work.</p>
  
 <p><a href="https://nellcgram.github.io/pdf/Nell_Gram_Resume.pdf" target="_blank" rel="noopener noreferrer">Gram Resume</a></p>
 
@@ -40,7 +38,7 @@ layout: default
 
 ---
 
-## 🧾 Portfolio
+# 🧾 Portfolio
 
 <p>
  <ul>
@@ -52,7 +50,7 @@ layout: default
 
 ---
 
-## 📬 Contact
+# 📬 Contact
 
 <p>Email: <a href="mailto:nellcgram@gmail.com">nellcgram@gmail.com</a><br>
 LinkedIn: <a href="https://www.linkedin.com/in/nellgram" target="_blank" rel="noopener noreferrer">linkedin.com/in/nellgram</a><br>
