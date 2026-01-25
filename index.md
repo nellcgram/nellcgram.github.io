@@ -25,9 +25,7 @@ layout: default
 
 <p>I hope this description gives you a fuller picture of my work than a resume can capture, though you can find the obligatory resume below.</p>
 
----
-
-<H2><strong>Professional history</strong></H2>
+<H2>Professional history</H2>
 <p>I grew up in Los Angeles, went to college in Ohio, and majored in English. After a brief stint as a researcher at the LA Times (sadly, a temporary contract) and several years working in libraries, I went to graduate school to become a corporate researcher/librarian.</p>
 
 <p>However, writing has always been my favorite part of every job I've had. Eventually I became, surprise, a professional writer. As my father would say, "no knowledge is wasted"; I still organize information as part of my work.</p>
@@ -36,9 +34,7 @@ layout: default
 
 <p><b>Location:</b> Remote (currently in Los Angeles, relocating to the East Coast)</p>
 
----
-
-# 🧾 Portfolio
+<H2>Portfolio</H2>
 
 <p>
  <ul>
@@ -48,13 +44,15 @@ layout: default
  </ul>
 </p>
 
----
+<H2>Contact</H2>
 
-# 📬 Contact
-
-<p>Email: <a href="mailto:nellcgram@gmail.com">nellcgram@gmail.com</a></p>
-<p>LinkedIn: <a href="https://www.linkedin.com/in/nellgram" target="_blank" rel="noopener noreferrer">linkedin.com/in/nellgram</a></p>
-<p>GitHub: <a href="https://github.com/nellcgram" target="_blank" rel="noopener noreferrer">Nell C Gram</a></p>
+<p>
+ <ul>
+  <li>Email: <a href="mailto:nellcgram@gmail.com">nellcgram@gmail.com</a></li>
+<li>LinkedIn: <a href="https://www.linkedin.com/in/nellgram" target="_blank" rel="noopener noreferrer">linkedin.com/in/nellgram</a></li>
+<li>GitHub: <a href="https://github.com/nellcgram" target="_blank" rel="noopener noreferrer">Nell C Gram</a></li>
+ </ul>
+ </p>
 
 ---
 
