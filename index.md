@@ -30,7 +30,7 @@ layout: default
 
 <p>However, writing has always been my favorite part of every job I've had. Eventually I became, surprise, a professional writer. As my father would say, "no knowledge is wasted"; I still organize information as part of my work.</p>
  
-<p><a href="https://nellcgram.github.io/pdf/Nell_Gram_Resume.pdf" target="_blank" rel="noopener noreferrer">Gram Resume</a></p>
+<p><a href="https://nellcgram.github.io/pdf/Nell_Gram_Resume_2026.pdf" target="_blank" rel="noopener noreferrer">Gram Resume</a></p>
 
 <p><b>Location:</b> Remote (currently in Los Angeles, relocating to the East Coast)</p>
 
