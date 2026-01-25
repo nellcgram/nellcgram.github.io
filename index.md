@@ -42,8 +42,8 @@ layout: default
 
 <p>
  <ul>
-  <li><a href="https://nellcgram.github.io/samples/help-article" target="_blank" rel="noopener noreferrer">Help Center article</a><br></li>
-  <li><a href="https://nellcgram.github.io/samples/kb-article" target="_blank" rel="noopener noreferrer">Knowledge Base article</a><br></li>
+  <li><a href="https://nellcgram.github.io/samples/help-article" target="_blank" rel="noopener noreferrer">Help Center article</a></li>
+  <li><a href="https://nellcgram.github.io/samples/kb-article" target="_blank" rel="noopener noreferrer">Knowledge Base article</a></li>
   <li><a href="https://nellcgram.github.io/samples/release-notes" target="_blank" rel="noopener noreferrer">Release notes</a></li>
  </ul>
 </p>
@@ -52,9 +52,9 @@ layout: default
 
 # 📬 Contact
 
-<p>Email: <a href="mailto:nellcgram@gmail.com">nellcgram@gmail.com</a><br>
-LinkedIn: <a href="https://www.linkedin.com/in/nellgram" target="_blank" rel="noopener noreferrer">linkedin.com/in/nellgram</a><br>
-GitHub: <a href="https://github.com/nellcgram" target="_blank" rel="noopener noreferrer">Nell C Gram</a></p>
+<p>Email: <a href="mailto:nellcgram@gmail.com">nellcgram@gmail.com</a></p>
+<p>LinkedIn: <a href="https://www.linkedin.com/in/nellgram" target="_blank" rel="noopener noreferrer">linkedin.com/in/nellgram</a></p>
+<p>GitHub: <a href="https://github.com/nellcgram" target="_blank" rel="noopener noreferrer">Nell C Gram</a></p>
 
 ---
 
