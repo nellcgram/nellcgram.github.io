@@ -28,7 +28,7 @@ layout: default
 <H2>Professional history</H2>
 <p>I grew up in Los Angeles, went to college in Ohio, and majored in English. Though I went to grad school to become a corporate researcher, writing has always been my favorite part of work; eventually I became (surprise) a professional writer. But "no knowledge is wasted," and I still organize information as a technical writer.</p>
  
-<p><a href="https://nellcgram.github.io/pdf/Gram_Resume_2026_TW.pdf" target="_blank" rel="noopener noreferrer">Nell Gram Resume</a></p>
+<p><a href="https://nellcgram.github.io/pdf/Gram%20Resume%202026%20TW.pdf" target="_blank" rel="noopener noreferrer">Nell Gram Resume</a></p>
 
 <p><b>Location:</b> Remote (currently in Los Angeles, relocating to the East Coast)</p>
 
