@@ -26,7 +26,7 @@ layout: default
 <p>I hope this description gives you a fuller picture of my work than a resume can capture, though you can find the obligatory resume below.</p>
 
 <H2>Professional history</H2>
-<p>I grew up in Los Angeles, went to college in Ohio, and majored in English. Though I went to graduate school to become a corporate researcher, writing has always been my favorite part of everything I've done, and eventually I became (surprise) a professional writer. As my father would say, "no knowledge is wasted"; I still organize information as part of my work.</p>
+<p>I grew up in Los Angeles, went to college in Ohio, and majored in English. Though I went to graduate school to become a corporate researcher, writing has always been my favorite part of everything I've done; eventually I became (surprise) a professional writer. As my father would say, "no knowledge is wasted." I still organize information as part of my work.</p>
  
 <p><a href="https://nellcgram.github.io/pdf/Gram_Resume_2026_TW.pdf" target="_blank" rel="noopener noreferrer">Nell Gram Resume</a></p>
 
