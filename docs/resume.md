@@ -2,7 +2,7 @@
 
 **Senior Technical Writer**
 
-(818) 373-9097 · [nellcgram@gmail.com](mailto:nellcgram@gmail.com) · [linkedin.com/in/nellgram](https://www.linkedin.com/in/nellgram) · [nellcgram.github.io](https://nellcgram.github.io)
+(818) 373-9097 · [nellcgram@gmail.com](mailto:nellcgram@gmail.com) · [LinkedIn](https://www.linkedin.com/in/nellgram) · [Portfolio](https://nellcgram.github.io/portfolio-docs/)
 
 ---
 
