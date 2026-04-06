@@ -19,7 +19,7 @@ The original total charged for the medical service.
 ### Allowed Amount  
 The amount your insurance agrees to pay based on your plan's coverage
 
-### Insurance Payment
+### Insurance Payment 
 The portion of the allowed amount that your insurance covered
 
 ### Amount Owed
