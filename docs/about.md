@@ -27,12 +27,9 @@ I train AI systems to generate documentation on a topic through prompt engineeri
 
 I grew up in Los Angeles, went to college in Ohio, and majored in English. Though I went to graduate school to become a corporate researcher, writing has always been my favorite part of work; eventually I became a professional writer. But "no knowledge is wasted," and I still organize information as a technical writer.
 
-[Nell Gram Resume](https://nellcgram.github.io/pdf/Gram%20Resume%202026%20TW.pdf)
-
 **Location:** Remote (currently in Los Angeles, relocating to the East Coast.
 
 ## Contact
 
 - Email: [nellcgram@gmail.com](mailto:nellcgram@gmail.com)
 - LinkedIn: [linkedin.com/in/nellgram](https://www.linkedin.com/in/nellgram)
-- GitHub: [Nell C Gram](https://github.com/nellcgram)
