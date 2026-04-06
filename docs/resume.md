@@ -8,7 +8,7 @@
 
 ## Summary
 
-Experienced technical writer specializing in accessible documentation for enterprise products, with expertise in information architecture, localization, and compliance at scale.
+Senior Technical Writer specializing in in accessible documentation, AI content evaluation, and information architecture.
 
 ---
 
@@ -31,32 +31,27 @@ Experienced technical writer specializing in accessible documentation for enterp
 **Accenture (Contracted with Google) | Remote**
 
 - Managed end-to-end content production for 10–12 concurrent documentation projects from assignment through post-publish QA
-- Staged content in single-source publishing CMS using snippets, metadata tags, and classification attributes to ensure structural consistency and discoverability
-- Coordinated localization handoffs across 80+ languages, resolving issues in partnership with localization teams
+- Staged content in single-source publishing CMS using snippets, metadata tags, and classification attributes to ensure discoverability
+- Coordinated localization handoffs across 80+ languages; resolved issues in partnership with localization teams
 - Refined drafts through multiple review cycles (peer review, pre-publish QA, and stakeholder approval) to meet publication standards
 - Published finalized content including confidential and legally sensitive documentation
 - Conducted post-publish QA and implemented corrections to English source content
 
-### Content Editor & E-Learning Support Specialist — Aug 2019 – Jan 2022
+### Content Editor — Apr 2020 – Jan 2022
+### E-Learning Support Specialist — Aug 2019 – Apr 2020
 **University of Illinois, College of Business, Accessibility Team | Champaign, IL**
 
-- Provided editorial guidance for five editors
-- Designed accessibility documentation and training for 75+ staff
-- Authored four user guides (30+ pages each) for CMS platforms
-- Edited course content for 35 classes and 8,750+ students
-- Ensured Section 508 and WCAG 2.1 compliance
+- Edited multimedia content (HTML, captions, transcripts) and wrote visual descriptions to meet Section 508 and WCAG accessibility standards for 8,750+ students
+- Designed and delivered accessibility documentation and training for 75+ staff
+- Wrote 4 user guides (30+ pages each) for CMS platforms to enable staff self-service
+- Edited course content for 35 classes, maintaining Section 508 compliance
+- Provided editorial guidance for 5 editors
 
 ---
 
-## Core Skills
+## Tools
 
-Plain Language Writing & Health Literacy · Content Strategy & Information Architecture · Docs-as-Code & Structured Authoring · Content Governance · Accessibility Standards · Localization & Global Content Delivery · Project Leadership · Quality Assurance · AI-Assisted Content Evaluation
-
----
-
-## Tools & Technologies
-
-Git, GitHub, Markdown, HTML, MkDocs, Oxygen XML Editor, Figma, Acrolinx, Jira, Asana, Google Workspace, Microsoft Office, Google Gemini, Claude Code
+Git, GitHub, Markdown, HTML, MkDocs, Oxygen XML Editor, Figma, Acrolinx, Buganizer/JIRA, Asana, Google Workspace, Microsoft Office, Google Gemini, Claude Code, Visual Studio Code
 
 ---
 
