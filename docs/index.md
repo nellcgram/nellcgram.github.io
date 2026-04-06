@@ -1,55 +1,35 @@
-# How to Read Your Explanation of Benefits
+# About me
 
-## What Is an EOB?
-An Explanation of Benefits (EOB) is a document your health insurance company 
-sends after you receive medical care. It is not a bill. It shows what your 
-doctor charged, what your insurance paid, and what you may owe.
+Hi, I'm Nell. I'm a Senior Technical Writer for Accenture on contract with Google. I write documentation for Google Play's 2+ billion users and manage a team of 5 globally distributed writers.
 
-## What This Guide Covers
-This guide explains each section of your EOB in plain language so you know 
-exactly what you're looking at.
+I write and edit public-facing help documentation, internal knowledge base guides, and agent-facing content like announcements and canned responses.
 
-## Your Personal Information
-At the top of an EOB you will find your name, address, member ID, and insurance group number. Check that this information is correct.
+## The details
 
-## The Four Key Numbers
-Every EOB shows four numbers that explain how your medical costs are shared between you and your insurance company.
+My job also has several aspects beyond writing:
 
-### Billed Amount
-The total your doctor or provider charged for the service.
+**I manage projects and people.**  
+I manage projects from initial documentation design through post-publish Quality Assurance. I meet with stakeholders to clarify project requirements and address issues. I assign projects to my team and guide them through project life cycles.
 
-### Allowed Amount  
-The amount your insurance company agrees to pay for the service based on your plan. This is usually less than the billed amount.
+**I edit in collaboration with cross-functional teams.**  
+I work with content strategists, product managers, legal teams, and usability experts to edit both public-facing and agent-facing documentation. I love balancing each team's needs with finding the right language to describe what an application actually does.
 
-### Insurance Payment
-The portion of the allowed amount that your insurance paid directly to your provider.
+**I design content.**  
+I build the systems that make content possible, including creating a style guide for the team or writing a template for project requirements. My Information Science degree reflects my love of making information searchable; I fix an article’s structure with the right information architecture or add metadata before publication. I consider how content will hold up over time and how to design it so it stays useful.
 
-### Amount Owed
-What you must pay after your insurance pays its share. This may include your deductible, copay, or coinsurance.
+**I'm passionate about usability and accessibility.**  
+I test documentation and procedures by actually using them. Some days I review SOPs to find what's confusing; others, I collaborate with engineers to improve a new project management software before rollout. I have previous professional experience in making content accessible for users with disabilities.
 
-## In-Network and Out-of-Network Costs
-Your costs depend on whether your provider is in your insurance network.
+**I'm an AI trainer and editor.**  
+I train AI systems to generate documentation on a topic through prompt engineering, then edit the output to align with the team's style guide and standards.
 
-**In-network providers** have agreements with your insurance company. 
-Find the "network savings" box on your EOB to see how much you saved by 
-using an in-network provider.
+## History
 
-**Out-of-network providers** do not have agreements with your insurance 
-company. You may owe more than expected. Check the network savings line. 
-If it shows $0, you used an out-of-network provider.
+I grew up in Los Angeles, went to college in Ohio, and majored in English. Though I went to graduate school to become a corporate researcher, writing has always been my favorite part of work; eventually I became a professional writer. But "no knowledge is wasted," and I still organize information as a technical writer.
 
-## Remark Codes
-Remark codes are short notes from your insurance company. They appear as 2 or 3 letters or numbers and explain details about your costs, such as why a service was partially paid or denied. Find the description of each code at the bottom of your EOB.
+**Location:** Remote (currently in Los Angeles, relocating to the East Coast.
 
-## How to Check for Errors
+## Contact
 
-Errors on EOBs are common. Checking yours can save you money.
-
-1. Check the date and service. Did you receive this care on this date?
-2. Compare your EOB to your doctor's bill. The amount you owe should match.
-3. Check the network status. Did you see an in-network doctor? 
-   Your network savings should not show $0.
-4. Look up any remark codes. The descriptions are at the bottom of your EOB.
-
-If something looks wrong, call your doctor's billing office first. 
-Then call your insurance company if needed.
+- Email: [nellcgram@gmail.com](mailto:nellcgram@gmail.com)
+- LinkedIn: [linkedin.com/in/nellgram](https://www.linkedin.com/in/nellgram)
