@@ -8,7 +8,7 @@
 
 ## Summary
 
-Senior Technical Writer specializing in in accessible documentation, AI content evaluation, and information architecture.
+Senior Technical Writer specializing in accessible documentation, AI content evaluation, and information architecture.
 
 ---
 
