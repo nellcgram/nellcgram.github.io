@@ -1,9 +1,0 @@
-site_name: Nell Gram | Documentation Portfolio
-nav:
-  - Home: index.md
-  - Writing Samples:
-    - Help Center Article: help-article.md
-    - KB Article: kb-article.md
-    - Release Notes: release-notes.md
-    - EOB Guide: eob-guide.md
-  - Resume: resume.md
