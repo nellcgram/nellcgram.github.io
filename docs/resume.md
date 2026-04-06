@@ -33,54 +33,15 @@ Senior Technical Writer with experience delivering accessible documentation for 
 - Conducted post-publish QA and implemented corrections for English source content  
 
 ### Content Editor — Apr 2020 – Jan 2022
-**University of Illinois, College of Business, Accessibility Team | Champaign, IL**
-- Edited course content (scripts, e-books, slide decks) for 35 classes and 8,750+ students, ensuring Section 508 and institutional style compliance using APA Style  
-- Edited multimedia content (HTML, captions, transcripts) and wrote visual descriptions to improve accessibility for students with disabilities  
-- Designed and delivered accessibility documentation and training for 75+ staff  
-- Served as editorial resource for 5 editors, providing guidance and feedback  
-- Authored 3 user guides (30+ pages each) covering CMS platforms, enabling staff self-service  
-- Conducted QA reviews to ensure content accuracy and accessibility compliance  
-
 ### E-Learning Support Specialist — Aug 2019 – Apr 2020
 **University of Illinois, College of Business, Accessibility Team | Champaign, IL**
-
-- Applied descriptive metadata tags to video assets in Zoom and MediaSpace to improve discoverability
-- Wrote user guide for recording studio scheduling to reduce support requests
-- Designed and implemented live session scheduling workflow across Asana, MediaSpace, and Zoom
-
-## Additional Experience (2012–2019)
-
-### Digital Services Specialist (Graduate Assistant) — Aug 2018 – May 2019
-**University of Illinois, University Library | Champaign, IL**
-
-- Updated web content using HTML, ensuring compliance with accessibility standards (ADA/WCAG)
-- Conducted stakeholder interviews to gather content requirements and structured information for target audiences
-- Developed user-facing guides and reference materials to improve content discoverability and usability
-
-### Buesiness Information Analyst — Jun – Aug 2018
-**John Deere Technology Innovation Center | Champaign, IL**
-- Wrote 30+ company profiles in 3 months to support vendor selection decisions for 2,000+ internal stakeholders
-- Applied data visualization techniques to present research findings clearly
-
-### Library Assistant — Jul 2016 – Dec 2017
-**New York Film Academy Library | Burbank, CA**
-- Authored 20-page process guide to standardize workflows and documentation
-- Applied metadata standards to improve content discoverability and management
-- Conducted stakeholder interviews to assess content and user needs
-
-### Freelance Editor & Writing Consultant - Jun 2014 – Jun 2016
-**Self-Employed | Los Angeles, CA**
-- Copy edited articles adhering to brand style guide and AP Style  
-- Coordinated content review workflows to ensure quality and consistency  
-
-### Writing Consultant - Jul 2013 – Jun 2014
-**Los Angeles Valley College Writing Center | Los Angeles, CA**
-- Organized research notes and structured content for full-length manuscripts
-
-### Communications & Research Specialist - Nov 2012 - Nov 2013
-**Los Angeles Times (Contract) | Los Angeles, CA**
-- Performed editorial review and line editing to enhance content clarity and readability
-- To anonymize survivors of sexual abuse, redacted confidential information in case files for The Boy Scouts of America article series; co-wrote and published an article as part of the series
+- Served as editorial resource for 5 editors, providing guidance and feedback
+- Designed and delivered accessibility documentation and training for 75+ staff
+- Authored 4 user guides (30+ pages each) covering CMS platforms, enabling staff self-service
+- Implemented live session scheduling workflow and metadata tagging systems for video assets
+- Edited course content (scripts, e-books, slide decks) for 35 classes and 8,750+ students, ensuring Section 508 and institutional style compliance using APA Style
+- Edited multimedia content (HTML, captions, transcripts) and wrote visual descriptions to improve accessibility for students with disabilities
+- Conducted QA reviews to ensure content accuracy and accessibility compliance
 
 ---
 
