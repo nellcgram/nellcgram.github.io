@@ -1,0 +1,4 @@
+site_name: Nell Gram | Documentation Portfolio
+nav:
+  - Home: index.md
+  - About: about.md
