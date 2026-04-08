@@ -1,0 +1,7 @@
+# My Git Workflow
+
+After editing files:
+git status          # see what changed
+git add .           # stage all changes
+git commit -m "description of what I did"
+git push            # send to GitHub (triggers deployment)
