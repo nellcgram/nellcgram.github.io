@@ -10,3 +10,4 @@ I'm a senior technical writer based in Los Angeles, currently relocating to the 
 
 - Email: nellcgram@gmail.com
 - LinkedIn: [linkedin.com/in/nellgram](https://www.linkedin.com/in/nellgram)
+- Resume: [Download PDF](https://raw.githubusercontent.com/nellcgram/nellcgram.github.io/main/docs/pdfs/Nell%20Gram%20Resume.pdf)
