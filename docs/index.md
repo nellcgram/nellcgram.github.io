@@ -2,7 +2,7 @@
 
 ## About me
 
-I'm a senior technical writer based in Los Angeles, currently relocating to the East Coast. I write documentation that explains complex concepts in user-friendly ways. This page is a work in progress.
+Hi, I'm Nell, a senior technical writer based in Los Angeles, relocating to the East Coast. Currently I write and edit documentation for Google Play through a contract with Accenture.
 
 ### Contact Information
 
