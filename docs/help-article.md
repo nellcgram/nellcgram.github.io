@@ -2,7 +2,7 @@
 
 ## How to use Story Board view in Scribbler
 
-[View sample](https://nellcgram.github.io/help-article)
+[View sample](https://nellcgram.github.io/help-article.html)
 
 ## About
 
