@@ -2,7 +2,7 @@
 
 ## eReader App Monthly Updates
 
-[View sample](https://nellcgram.github.io/release-notes.html)
+[View sample](https://nellcgram.github.io/html/release_notes_gram_sample.html)
 
 ## About
 
