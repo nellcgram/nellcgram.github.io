@@ -2,7 +2,7 @@
 
 ## Agent guide to processing loan extensions
 
-[View sample](https://nellcgram.github.io/html/Agent%20guide%20to%20processing%20loan%20extensions%20%5BGram%20Sample%5D.html)
+[View sample](https://nellcgram.github.io/kb_gram_sample.html)
 
 ## Project overview
 
