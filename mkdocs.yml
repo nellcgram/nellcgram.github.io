@@ -1,5 +1,6 @@
 site_name: Nell Gram | Documentation Portfolio
 site_url: https://nellcgram.github.io/
+use_directory_urls: false
 nav:
   - Home: index.md
   - Writing Samples:
