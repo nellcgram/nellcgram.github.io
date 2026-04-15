@@ -2,7 +2,7 @@
 
 ## How to use Story Board view in Scribbler
 
-[View sample](/html/hc_scribbler_gram_sample.html)
+[View sample](html/hc_scribbler_gram_sample.html)
 
 ## About
 
