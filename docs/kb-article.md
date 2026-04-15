@@ -2,7 +2,7 @@
 
 ## Agent guide to processing loan extensions
 
-[View sample](../html/kb_gram_sample.html)
+[View sample](/html/kb_gram_sample.html)
 
 ## Project overview
 
