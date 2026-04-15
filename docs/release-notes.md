@@ -2,7 +2,7 @@
 
 ## eReader App Monthly Updates
 
-[View sample](../html/release_notes_gram_sample.html)
+[View sample](/html/release_notes_gram_sample.html)
 
 ## About
 
