@@ -8,7 +8,7 @@ This is a skill that recommends romance novels. It filters out particular catego
 
 Before I built the skill, Claude was giving me recommendations of authors I disliked, repeating authors in the list, and including books I had read already. Often there were not enough recommendations so I had to keep editing my prompt to Claude.
 
-<details>
+<details markdown="1">
 <summary>Screenshots</summary>
 
 Here is my first prompt.
@@ -28,12 +28,23 @@ Here is my first attempt to change project settings to get a more specific resul
 ## What I Built
 It only gives me recommendations I have not read, in my preferred format, in groups of 10 at a time.
 
+<details markdown="1">
+<summary>Screenshots</summary>
+
+![Book Recommendations Skill 1](../images/1.png)
+
+![Book Recommendations Skill 2](../images/2.png)
+
+![Book Recommendations Skill 3](../images/3.png)
+
+</details>
+
 ## How I Built It
 I created the written skill in VS Code and tested it with Claude Code.
 
 ## Challenges
 
-<details>
+<details markdown="1">
 <summary>Read the three rounds of debugging</summary>
 
 In the first round of testing, I had a missing closing "---" that would have broken the file. I also had a sentence that contradicted itself (it said no children but also allowed for children in the epilogue).
