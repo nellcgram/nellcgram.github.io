@@ -2,7 +2,7 @@
 
 ## How to use Story Board view in Scribbler
 
-[View sample](html/hc_scribbler_gram_sample.html)
+[View sample](../html/hc_scribbler_gram_sample.html)
 
 ## About
 
@@ -14,7 +14,7 @@ Rather than document an existing application like Scrivener, the author created 
 
 ## Content strategy
 
-The article includes [information architecture annotations](pdfs/hc_scribbler.pdf) demonstrating a content model designed for single-source publishing within a Content Management System.
+The article includes [information architecture annotations](../pdfs/hc_scribbler.pdf) demonstrating a content model designed for single-source publishing within a Content Management System.
 
 The organizational structure follows a Help Center "How to / About" framework that begins with benefits, progresses through tasks and tips, and ends with related resources. Content moves from fundamental to advanced customization options.
 
