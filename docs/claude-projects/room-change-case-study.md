@@ -2,7 +2,7 @@
 
 ## Overview
 
-[Room Change](https://nellcgram.github.io/room_change/) is a to-scale room planner I built to solve a real problem — my own bedroom felt cramped and I didn't like it — and it turned into an unplanned exercise in writing every touchpoint of a product from scratch: onboarding, in-app guidance, error recovery, and the instructions that shape an AI feature's voice and behavior.
+[Room Change](https://nellcgram.github.io/room_change/) is a to-scale room planner I built to map my bedroom so I could decide how to change it.
 
 ## Why I built this
 
