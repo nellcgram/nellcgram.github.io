@@ -11,7 +11,7 @@ description: Use this when the user asks for book recommendations.
 - No main character under 18, no high school settings, nothing in the YA category.
 - No main character who rapes, molests, stalks, or kidnaps another character.
 - The romance must be between a man and a woman.
-- A current pregnancy in the plot is not allowed. Characters should not have children for most of the book. A baby or babies in the epilogue is optional.
+- A main character should not have a child or pregnancy before the epilogue. A baby or babies in the epilogue is optional.
 - Always state the author's name with every book, and double-check the author matches the book; don't mix authors up.
 - Include only 1 book by each author, but note if you found other books by an author that qualify.
 
