@@ -9,6 +9,5 @@ nav:
     - Release Notes: writing-samples/release-notes.md
     - EOB Guide: writing-samples/eob-guide.md
   - Claude Code Projects:
-    - Room Change: claude-projects/room-change-case-study.md
     - Book Recommendations Skill: claude-projects/book-recommendations-case-study.md
   - About This Site: about-this-site.md
