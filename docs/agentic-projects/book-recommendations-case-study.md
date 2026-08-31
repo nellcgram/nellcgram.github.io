@@ -11,6 +11,7 @@ Before I built the skill, Claude was giving me recommendations of authors I disl
 <details markdown="1">
 <summary>Screenshots</summary>
 
+
 Here is my first prompt:
 
 ![Initial prompt](../images/initial%20prompt.png)
@@ -29,7 +30,10 @@ Here is my first attempt to change project settings to get a more specific resul
 It only gives me recommendations I have not read, in my preferred format, in groups of 10 at a time.
 
 <details markdown="1">
+
 <summary>Screenshots</summary>
+
+Here is what that looks like:
 
 ![Book Recommendations Skill 1](../images/1.png)
 
