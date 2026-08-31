@@ -11,7 +11,7 @@ Before I built the skill, Claude was giving me recommendations of authors I disl
 <details markdown="1">
 <summary>Screenshots</summary>
 
-Here is my first prompt.
+Here is my first prompt:
 
 ![Initial prompt](../images/initial%20prompt.png)
 
@@ -19,7 +19,7 @@ Here is an example of the AI's visible searching:
 
 ![AI's visible searching](../images/searching%20visible.png)
 
-Here is my first attempt to change project settings to get a more specific result.
+Here is my first attempt to change project settings to get a more specific result:
 
 ![Trying to change project settings](../images/trying%20to%20change%20settings.png)
 
@@ -44,16 +44,11 @@ I created the written skill in VS Code and tested it with Claude Code.
 
 ## Challenges
 
-<details markdown="1">
-<summary>Read the three rounds of debugging</summary>
-
 In the first round of testing, I had a missing closing "---" that would have broken the file. I also had a sentence that contradicted itself (it said no children but also allowed for children in the epilogue).
 
 In the second round, I realized the list of books I did not want recommended was huge and would make the skill too long to read easily, so I created the already-read.md file so I had a separate place to store past titles.
 
 In the third round, results still included books I had read that I had not added to already-read.md initially. I edited the skill to add all recommendations to the "do not recommend" list after recommending them.
-
-</details>
 
 ## Future Improvements
 
