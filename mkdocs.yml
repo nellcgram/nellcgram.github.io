@@ -4,10 +4,11 @@ use_directory_urls: false
 nav:
   - Home: index.md
   - Writing Samples:
-    - Help Center Article: help-article.md
-    - KB Article: kb-article.md
-    - Release Notes: release-notes.md
-    - EOB Guide: eob-guide.md
-  - Case Studies:
-    - Room Change: room-change-case-study.md
+    - Help Center Article: writing-samples/help-article.md
+    - KB Article: writing-samples/kb-article.md
+    - Release Notes: writing-samples/release-notes.md
+    - EOB Guide: writing-samples/eob-guide.md
+  - Claude Code Projects:
+    - Room Change: claude-projects/room-change-case-study.md
+    - Book Recommendations Skill: claude-projects/book-recommendations-case-study.md
   - About This Site: about-this-site.md
