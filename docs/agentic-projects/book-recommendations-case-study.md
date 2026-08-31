@@ -2,7 +2,7 @@
 
 [The skill](https://github.com/nellcgram/nellcgram.github.io/blob/main/.claude/skills/book-recommendations/SKILL.md)
 
-This is skill recommends romance novels. It filters out particular categories (novellas, mafia/vampire/demon/alien characters, anyone under 18, YA, small-town settings), excludes a list of specific authors I dislike, enforces a strict output format with content warnings, and does not announce what it filtered out.
+This skill recommends romance novels. It filters out particular categories (novellas, mafia/vampire/demon/alien characters, anyone under 18, YA, small-town settings), excludes a list of specific authors I dislike, enforces a strict output format with content warnings, and does not announce what it filtered out.
 
 ## The Problem
 
