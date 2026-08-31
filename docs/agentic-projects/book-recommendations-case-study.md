@@ -10,7 +10,7 @@ Before I built the skill, Claude was giving me recommendations of authors I disl
 
 <details markdown="1">
 <summary>Screenshots</summary>
-
+ 
 
 Here is my first prompt:
 
