@@ -1,6 +1,8 @@
 site_name: Nell Gram
 site_url: https://nellcgram.github.io/
 use_directory_urls: false
+markdown_extensions:
+  - md_in_html
 nav:
   - Home: index.md
   - Writing Samples:
