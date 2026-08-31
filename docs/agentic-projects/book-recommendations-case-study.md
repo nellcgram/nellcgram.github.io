@@ -8,24 +8,6 @@ This is a skill that recommends romance novels. It filters out particular catego
 
 Before I built the skill, Claude was giving me recommendations of authors I disliked, repeating authors in the list, and including books I had read already. Often there were not enough recommendations so I had to keep editing my prompt to Claude.
 
-<details markdown="1">
-<summary>Screenshots</summary>
- 
-
-Here is my first prompt:
-
-![Initial prompt](../images/initial%20prompt.png)
-
-Here is an example of the AI's visible searching:
-
-![AI's visible searching](../images/searching%20visible.png)
-
-Here is my first attempt to change project settings to get a more specific result:
-
-![Trying to change project settings](../images/trying%20to%20change%20settings.png)
-
-</details>
-
 ## What I Built
 It only gives me recommendations I have not read, in my preferred format, in groups of 10 at a time.
 
