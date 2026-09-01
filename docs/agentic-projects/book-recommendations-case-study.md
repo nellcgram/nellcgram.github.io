@@ -34,11 +34,11 @@ I created the written skill in VS Code and tested it with Claude Code.
 
 ## Challenges
 
-In the first round of testing, I had a missing closing "---" that would have broken the file. I also had a sentence that contradicted itself (it said no children but also allowed for children in the epilogue).
+In the first round of testing, I had two instruction defects. First, a missing closing "---" that would have broken the file. Second, a sentence that contradicted itself (it said no children but also allowed for children in the epilogue).
 
-In the second round, I realized the list of books I did not want recommended was huge and would make the skill too long to read easily, so I created the already-read.md file so I had a separate place to store past titles.
+In the second round, I had a progressive disclosure issue. The list of books I did not want recommended was huge and would make the skill too long to read easily. I created the already-read.md file so I had a separate place to store past titles.
 
-In the third round, results still included books I had read that I had not added to already-read.md initially. I edited the skill to add all recommendations to the "do not recommend" list after recommending them.
+In the third round,  I found a state-persistence limitation in the model. Results still included books I had read that I had not added to already-read.md initially. I edited the skill to add all recommendations to the "do not recommend" list after recommending them.
 
 ## Future Improvements
 
