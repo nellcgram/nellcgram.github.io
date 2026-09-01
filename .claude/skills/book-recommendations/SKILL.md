@@ -25,7 +25,7 @@ Recommend only real, published romance novels. Verify each title and author exis
 
 Every recommendation should include a link to the title.
 
-If the user mentions a new author or book they've read or want avoided, add it to the matching list above so it's remembered next time.
+If the user mentions a new author or book they've read or want avoided, add it to already-read.md so it's remembered next time.
 
 The recommendation should include no value judgments on Claude's part about the content.
 
