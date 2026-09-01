@@ -36,7 +36,7 @@ Books can include rape, torture, or murder IF not committed by a main character.
 
 If a book is closed door, note that. If it's open door, do not note it.
 
-Each entry must include content warnings for these topics: rape, torture, murder, cheating, BDSM, cancer, main character's dog dies, main character with PTSD or other mental illness, rape/sexual assault
+Each entry must include content warnings for these topics: rape, torture, murder, cheating, BDSM, cancer, main character's dog dies, main character with PTSD or other mental illness
 
 If there are no content warnings, do not include that line.
 
