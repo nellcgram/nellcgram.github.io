@@ -6,14 +6,14 @@
 
 [The changelog](https://github.com/nellcgram/nellcgram.github.io/blob/main/.claude/skills/book-recommendations/CHANGELOG.md)
 
-This skill recommends romance novels. It filters out particular categories (novellas, mafia/vampire/demon/alien characters, anyone under 18, YA, small-town settings), excludes a list of specific authors I dislike, enforces a strict output format with content warnings, and does not announce what it filtered out.
+This skill recommends romance novels. It filters out particular categories (novellas, mafia/vampire/demon/alien characters, anyone under 18, YA), excludes a list of specific authors I dislike, enforces a strict output format with content warnings, and does not announce what it filtered out.
 
 ## The Problem
 
 Before I built the skill, Claude was giving me recommendations of authors I disliked, repeating authors in the list, and including books I had read already. Often there were not enough recommendations so I had to keep editing my prompt to Claude.
 
 ## What I Built
-It only gives me recommendations I have not read, in my preferred format, in groups of 10 at a time.
+It only gives me recommendations I have not read, in my preferred format, in groups of 15 at a time.
 
 <details markdown="1">
 
