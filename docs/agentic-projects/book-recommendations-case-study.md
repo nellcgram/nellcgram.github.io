@@ -4,6 +4,8 @@
 
 [The rubric](https://github.com/nellcgram/nellcgram.github.io/blob/main/.claude/skills/book-recommendations/rubric.md)
 
+[The changelog](https://github.com/nellcgram/nellcgram.github.io/blob/main/.claude/skills/book-recommendations/CHANGELOG.md)
+
 This skill recommends romance novels. It filters out particular categories (novellas, mafia/vampire/demon/alien characters, anyone under 18, YA, small-town settings), excludes a list of specific authors I dislike, enforces a strict output format with content warnings, and does not announce what it filtered out.
 
 ## The Problem
