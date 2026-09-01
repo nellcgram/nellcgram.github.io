@@ -12,4 +12,5 @@ nav:
     - EOB Guide: writing-samples/eob-guide.md
   - Agentic AI Projects:
     - Book Recommendations Skill: agentic-projects/book-recommendations-case-study.md
+    - Character Occupation Agent:
   - About This Site: about-this-site.md
