@@ -1,8 +1,5 @@
----
-name: rubric
-description: Rubric that tells the skill the criterion for working, and what pass and fail look like.
+### Rubric
 
----
 ### Minimum 15 books returned
 - **Pass:** 15+ books, or explanation why fewer
 - **Fail:** Fewer than 15 with no explanation
