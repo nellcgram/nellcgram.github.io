@@ -1,4 +1,4 @@
-# Nell Gram | Documentation Portfolio
+# Nell Gram
 
 ## About me
 
