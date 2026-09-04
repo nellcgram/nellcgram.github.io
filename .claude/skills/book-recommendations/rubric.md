@@ -1,4 +1,16 @@
 ### Rubric
+## Grading outcomes
+
+Each criterion is graded **pass**, **fail**, or **unverifiable**.
+
+- **Pass** — positive evidence the criterion is met.
+- **Fail** — positive evidence the criterion is violated.
+- **Unverifiable** — the evidence needed to decide is not available 
+  from the sources used. Not a pass. Every unverifiable grade must 
+  name the entry, the missing evidence, and what would settle it.
+
+Unverifiable is counted separately in results and never folded into 
+the pass count.
 
 ### Minimum 15 books returned
 - **Pass:** 15+ books, or explanation why fewer
