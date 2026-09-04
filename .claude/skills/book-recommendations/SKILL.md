@@ -32,7 +32,6 @@ The recommendation should include no value judgments on Claude's part about the 
 After giving the final list of recommendations, add each one to already-read.md in the same format as the rest before you end your reply.
 
 ## Content warnings
-Books can include rape, torture, or murder IF not committed by a main character.
 
 If a book is closed door, note that. If it's open door, do not note it.
 
