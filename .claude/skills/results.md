@@ -2,6 +2,14 @@
 
 - Criterion 1 (15 books): pass — 15 entries returned.
 - Criterion 2 (real/attributed): pass — verified all 15 titles/authors (not just the 3-sample minimum) against publisher pages, Goodreads, and reviews; all real and correctly attributed. One near-miss caught and corrected before the run was finalized: a first draft misattributed "The Suite Spot" to Mia Sosa (it's actually by Trish Doller) and was swapped out.
+
+  - FAILURE FOUND AND FIXED PRE-RUN: the draft attributed "The Suite 
+    Spot" to Mia Sosa. It is by Trish Doller. Hallucinated attribution 
+    — the defect criterion 2 exists to catch. Caught during 
+    verification, before the run was finalized, and the entry was 
+    swapped. Recording it here because a fix that isn't logged looks 
+    like a clean run.
+
 - Criterion 3 (no pregnancy/child): pass — no main character is a parent/guardian or pregnant before the epilogue in any of the 15.
 - Criterion 4 (not in already-read.md): pass — none of the 15 titles or authors appear in the specific-books or skip-all-authors sections of already-read.md as it stood before this run.
 - Criterion 5 (not on skip-all-authors list): pass — cross-checked all 15 authors against the skip-all-authors section; no matches.
