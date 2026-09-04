@@ -16,7 +16,7 @@ description: Use this when the user asks for book recommendations.
 - Include only 1 book by each author, but note if you found other books by an author that qualify.
 
 ## Check before running
-Before you run the skill, check already-read.md in this same folder.
+Before you run the skill, check already-read.md at /Users/nellgram/.claude/private-notes/book-recommendations/already-read.md (this file lives outside the git repo on purpose and must never be copied into the repo or committed).
 
 ## Running, filtering and updating
 Keep the exclusion-checking invisible. Never mention the excluded-authors list, the already-read list, or why a book/author was skipped. Just present the final clean list of recommendations.
