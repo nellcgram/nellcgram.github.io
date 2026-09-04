@@ -16,4 +16,4 @@
 - Criterion 11 (every entry has a link): pass — all 15 entries link to a real page for the title (Goodreads for 14; romance.io for *The Spanish Love Deception*, since no Goodreads URL was confirmed for it during the run).
 - Criterion 12 (exclusion process invisible): pass — the response never mentions already-read.md, the skip-authors list, or why any book/author was excluded.
 
-**Overall: PASS**, with 3 flagged items (noted above under Criteria 9 and 10) that would need the actual book text to fully close out rather than review-site summaries.
+**Overall: 9 pass, 0 fail, 3 unverifiable.** Unverifiable items are not passes. See Criteria 9 and 10.
