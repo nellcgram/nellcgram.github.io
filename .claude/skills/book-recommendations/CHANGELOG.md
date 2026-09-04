@@ -1,5 +1,15 @@
 ## Changelog
 
+### Commit: [f36d2d7], [2026-09-04]
+- Fixed: Two sections defined main-character eligibility differently, 
+  giving the model conflicting authority on what a main character may 
+  be. Old: "Rules that always apply" barred criminal main characters, 
+  while "Content warnings" stated books may include rape, torture, or 
+  murder if not committed by a main character — implying those three 
+  acts were the boundary. New: Character eligibility is defined only 
+  under "Rules that always apply." The content-warnings section governs 
+  warning format and coverage only.
+
 ### Commit: 467c3b1, [2026-08-31]
 - Fixed: Duplicate entries give conflicting instruction for the model which confuses results. Old: Duplicate "rape/sexual assault" entry in the content-warning topics list in SKILL.md. New: Removed duplicate entry.
 
