@@ -1,5 +1,10 @@
 ## Run 1 — [2026-09-04] (graded against docs/agentic-projects/evals/run-02.md)
 
+Grading limitation: this run was graded in the same session that 
+produced the output, so the grader had the skill loaded. A grader with 
+only the rubric and the raw output would be more reliable. Noted as a 
+harness limitation, not a result.
+
 - Criterion 1 (15 books): pass — 15 entries returned.
 - Criterion 2 (real/attributed): pass — verified all 15 titles/authors (not just the 3-sample minimum) against publisher pages, Goodreads, and reviews; all real and correctly attributed. One near-miss caught and corrected before the run was finalized: a first draft misattributed "The Suite Spot" to Mia Sosa (it's actually by Trish Doller) and was swapped out.
 
