@@ -2,7 +2,7 @@
 
 ## Rubric defect: unverifiable is not pass
 
-Found during Run 2.
+Found during Run 1.
 
 **The problem:** The rubric only has pass and fail, so a criterion nobody can check resolves to pass by default. That means it reports "verified compliant" when the truth is "no contradicting evidence found.
 
