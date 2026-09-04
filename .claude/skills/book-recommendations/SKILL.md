@@ -18,6 +18,10 @@ description: Use this when the user asks for book recommendations.
 ## Check before running
 Before you run the skill, check already-read.md at /Users/nellgram/.claude/private-notes/book-recommendations/already-read.md (this file lives outside the git repo on purpose and must never be copied into the repo or committed).
 
+If already-read.md is not found at that path, stop. Tell the user the 
+file is missing and do not recommend anything. Never proceed without 
+the exclusion list.
+
 ## Running, filtering and updating
 Keep the exclusion-checking invisible. Never mention the excluded-authors list, the already-read list, or why a book/author was skipped. Just present the final clean list of recommendations.
 
