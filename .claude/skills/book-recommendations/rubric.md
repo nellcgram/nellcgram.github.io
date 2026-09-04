@@ -12,6 +12,9 @@ Each criterion is graded **pass**, **fail**, or **unverifiable**.
 Unverifiable is counted separately in results and never folded into 
 the pass count.
 
+If any entry in a criterion is unverifiable, the whole criterion is 
+graded unverifiable.
+
 ### Minimum 15 books returned
 - **Pass:** 15+ books, or explanation why fewer
 - **Fail:** Fewer than 15 with no explanation
