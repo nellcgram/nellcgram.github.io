@@ -1,5 +1,8 @@
 ## Changelog
 
+### Commit: [ef68341], [2026-09-04]
+- Fixed: "Rules that alwways apply" needed an action added to rule that governs main character. Old: Main character could not rape or murder. New: Added main character cannot torture.
+
 ### Commit: [f36d2d7], [2026-09-04]
 - Fixed: Two sections defined main-character eligibility differently, 
   giving the model conflicting authority on what a main character may 
