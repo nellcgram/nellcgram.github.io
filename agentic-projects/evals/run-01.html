@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://nellcgram.github.io/agentic-projects/evals/run-01.html">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Run 01 - Nell Gram</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../index.html">Nell Gram</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../../index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Writing Samples</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../writing-samples/help-article.html" class="dropdown-item">Help Center Article</a>
+</li>
+                                    
+<li>
+    <a href="../../writing-samples/kb-article.html" class="dropdown-item">KB Article</a>
+</li>
+                                    
+<li>
+    <a href="../../writing-samples/release-notes.html" class="dropdown-item">Release Notes</a>
+</li>
+                                    
+<li>
+    <a href="../../writing-samples/eob-guide.html" class="dropdown-item">EOB Guide</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../about-this-site.html" class="nav-link">About This Site</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="2"><a href="#run-1-2026-09-04-graded-against-run-01-outputmd" class="nav-link">Run 1 — [2026-09-04] (graded against run-01-output.md)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="run-1-2026-09-04-graded-against-run-01-outputmd">Run 1 — [2026-09-04] (graded against run-01-output.md)</h2>
+<p>Grading limitation: this run was graded in the same session that 
+produced the output, so the grader had the skill loaded. A grader with 
+only the rubric and the raw output would be more reliable. Noted as a 
+harness limitation, not a result.</p>
+<ul>
+<li>Criterion 1 (15 books): pass — 15 entries returned.</li>
+<li>
+<p>Criterion 2 (real/attributed): pass — verified all 15 titles/authors (not just the 3-sample minimum) against publisher pages, Goodreads, and reviews; all real and correctly attributed. One near-miss caught and corrected before the run was finalized: a first draft misattributed "The Suite Spot" to Mia Sosa (it's actually by Trish Doller) and was swapped out.</p>
+</li>
+<li>
+<p>FAILURE FOUND AND FIXED PRE-RUN: the draft attributed "The Suite 
+    Spot" to Mia Sosa. It is by Trish Doller. Hallucinated attribution 
+    — the defect criterion 2 exists to catch. Caught during 
+    verification, before the run was finalized, and the entry was 
+    swapped. Recording it here because a fix that isn't logged looks 
+    like a clean run.</p>
+</li>
+<li>
+<p>Criterion 3 (no pregnancy/child): pass — no main character is a parent/guardian or pregnant before the epilogue in any of the 15.</p>
+</li>
+<li>Criterion 4 (not in already-read.md): pass — none of the 15 titles or authors appear in the specific-books or skip-all-authors sections of already-read.md as it stood before this run.</li>
+<li>Criterion 5 (not on skip-all-authors list): pass — cross-checked all 15 authors against the skip-all-authors section; no matches.</li>
+<li>Criterion 6 (no duplicate author): pass — 15 distinct authors.</li>
+<li>Criterion 7 (no novellas): pass — all 15 are full-length novels.</li>
+<li>Criterion 8 (no prohibited main-character types): pass — no criminal/mafia/vampire/demon/alien/serial-killer main characters; all contemporary-set.</li>
+<li>Criterion 9 (content-warning format/coverage): pass, with 2 unresolved low-confidence items with unverifiable (2 of 15 entries)</li>
+<li><em>Take the Lead</em> (Alexis Daria): outside sources describe the hero as "sexually harassed," but available reviews don't specify whether this rises to on-page sexual assault or stays verbal/non-physical harassment. The run included no content-warning line for this. If the scene involves physical contact, the entry is missing a <code>sexual assault (not rape) (main character, on page/past)</code> line and this criterion would fail for that entry.</li>
+<li><em>The Bodyguard</em> (Katherine Center): one source flagged "suicidal ideation" among the book's content but didn't identify which character it belongs to (Hannah's mother's backstory is the likelier candidate, per other sources' framing of that same backstory). The run omitted a mental-illness warning on the assumption it isn't the main character's. Unconfirmed from primary text.</li>
+<li>No other entry showed evidence of an uncovered required topic (rape, torture, murder, cheating, BDSM, cancer, MC's dog dying) or a misformatted warning.</li>
+<li>Criterion 10 (heat level correctness): unverifiable (1 of 15 entries) — <em>The Matchmaker's List</em> (Sonya Lalli): no source found confirmed this as open- or closed-door; the run left off a heat-level line (defaulting to open-door), which is unverified either way.</li>
+<li>Criterion 11 (every entry has a link): pass — all 15 entries link to a real page for the title (Goodreads for 14; romance.io for <em>The Spanish Love Deception</em>, since no Goodreads URL was confirmed for it during the run).</li>
+<li>Criterion 12 (exclusion process invisible): pass — the response never mentions already-read.md, the skip-authors list, or why any book/author was excluded.</li>
+</ul>
+<p><strong>Overall: 10 pass, 0 fail, 2 unverifiable (of 12 criteria).</strong>
+Unverifiable = criteria 9 and 10. Both need the book text; review-site 
+summaries can't settle them.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
