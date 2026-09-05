@@ -1,3 +1,9 @@
+---
+name: already-read
+description: Don't recommend these books or authors.
+
+---
+
 ## skip these specific books, but other titles by the same author are still allowed
 - 99 Percent Mine — Sally Thorne
 - A Company of Swans — Eva Ibbotson
