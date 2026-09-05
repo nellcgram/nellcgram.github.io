@@ -1,5 +1,13 @@
 ## Changelog
 
+### Commit: 3857bb6, [2026-09-04]
+- Fixed: The skill checked for already-read.md but had no instruction 
+  for a missing file, so it would recommend without the exclusion list 
+  and nothing would signal the failure. Old: "Before you run the skill, 
+  check already-read.md at [path]." New: Added, "If already-read.md is 
+  not found at that path, stop. Tell the user the file is missing and 
+  do not recommend anything. Never proceed without the exclusion list."
+  
 ### Commit: [ef68341], [2026-09-04]
 - Fixed: "Rules that alwways apply" needed an action added to rule that governs main character. Old: Main character could not rape or murder. New: Added main character cannot torture.
 
