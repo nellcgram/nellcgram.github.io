@@ -16,3 +16,10 @@ that path to use the skill.
 ## How to add an exclusion
 
 ## What breaks it
+
+## Note on repo history
+
+Commit 4a449f80 ("Delete already-read.md from github history") did 
+not remove anything from history — a normal commit can't. The file 
+was actually removed from history later via git filter-repo. Noting 
+this so the commit log stays honest.
