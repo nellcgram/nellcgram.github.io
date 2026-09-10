@@ -6,14 +6,17 @@ only the rubric and the raw output would be more reliable. Noted as a
 harness limitation, not a result.
 
 - Criterion 1 (15 books): pass — 15 entries returned.
-- Criterion 2 (real/attributed): pass — verified all 15 titles/authors (not just the 3-sample minimum) against publisher pages, Goodreads, and reviews; all real and correctly attributed. One near-miss caught and corrected before the run was finalized: a first draft misattributed "The Suite Spot" to Mia Sosa (it's actually by Trish Doller) and was swapped out.
+- Criterion 2 (real/attributed): fail — the model's output misattributed "The Suite Spot" to Mia Sosa; it's actually by Trish Doller. Verification (checking all 15 titles/authors, not just the 3-sample minimum, against publisher pages, Goodreads, and reviews) was done by Claude in-session; a manual spot-check of a subset by the grader is what actually caught this one.
 
-  - FAILURE FOUND AND FIXED PRE-RUN: the draft attributed "The Suite 
-    Spot" to Mia Sosa. It is by Trish Doller. Hallucinated attribution 
-    — the defect criterion 2 exists to catch. Caught during 
-    verification, before the run was finalized, and the entry was 
-    swapped. Recording it here because a fix that isn't logged looks 
-    like a clean run.
+  - FAILURE FOUND AND FIXED PRE-DELIVERY, GRADED AS A FAILURE ANYWAY: 
+    the draft attributed "The Suite Spot" to Mia Sosa. It is by Trish 
+    Doller. Hallucinated attribution — the defect criterion 2 exists 
+    to catch. Caught during verification and swapped before the list 
+    was delivered, but per the rubric's grade-what-was-produced rule 
+    (see rubric.md), this run is still graded on the model's original, 
+    uncorrected output. A caught-and-fixed error is not the same as a 
+    run that never had the error, and grading the corrected version 
+    would have hidden that.
 
 - Criterion 3 (no pregnancy/child): pass — no main character is a parent/guardian or pregnant before the epilogue in any of the 15.
 - Criterion 4 (not in already-read.md): pass — none of the 15 titles or authors appear in the specific-books or skip-all-authors sections of already-read.md as it stood before this run.
@@ -29,6 +32,6 @@ harness limitation, not a result.
 - Criterion 11 (every entry has a link): pass — all 15 entries link to a real page for the title (Goodreads for 14; romance.io for *The Spanish Love Deception*, since no Goodreads URL was confirmed for it during the run).
 - Criterion 12 (exclusion process invisible): pass — the response never mentions already-read.md, the skip-authors list, or why any book/author was excluded.
 
-**Overall: 10 pass, 0 fail, 2 unverifiable (of 12 criteria).**
+**Overall: 9 pass, 1 fail, 2 unverifiable (of 12 criteria).**
 Unverifiable = criteria 9 and 10. Both need the book text; review-site 
 summaries can't settle them.

@@ -15,6 +15,11 @@ the pass count.
 If any entry in a criterion is unverifiable, the whole criterion is 
 graded unverifiable.
 
+Grade the output the model actually produced, not a version corrected 
+after the fact. If an error is caught and fixed before the run is 
+delivered, the run is still graded on the error — log the fix 
+separately; it does not raise the grade.
+
 ### Minimum 15 books returned
 - **Pass:** 15+ books, or explanation why fewer
 - **Fail:** Fewer than 15 with no explanation
