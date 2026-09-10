@@ -33,8 +33,15 @@ separately; it does not raise the grade.
 - **Fail:** A main character has a child, is a guardian of a child, or is pregnant at any point before the epilogue
 
 ### No books or authors from already-read.md
-- **Pass:** None of the books or authors from already-read.md appear in the results
-- **Fail:** Any book or author from already-read.md appears in the results
+- **Grade against:** already-read.md as it stood immediately before 
+  this run started, not the current file. The skill appends every 
+  recommendation to already-read.md after delivering it, so the 
+  current file will always contain this run's own titles — that is 
+  expected behavior, not a violation. A grader without a saved 
+  pre-run snapshot cannot tell the difference and will misgrade this 
+  criterion as a fail.
+- **Pass:** None of the books or authors from already-read.md (as it stood before the run) appear in the results
+- **Fail:** Any book or author from already-read.md (as it stood before the run) appears in the results
 
 ### No books or authors from the "skip all books by these authors" list
 - **Source of truth:** this list is not defined in SKILL.md — it's the "## skip all books by these authors" section of already-read.md (currently `/Users/nellgram/.claude/private-notes/book-recommendations/already-read.md`). Grade against that section, not against SKILL.md.

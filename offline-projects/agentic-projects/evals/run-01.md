@@ -5,6 +5,15 @@ produced the output, so the grader had the skill loaded. A grader with
 only the rubric and the raw output would be more reliable. Noted as a 
 harness limitation, not a result.
 
+Update, [2026-09-10]: this run was regraded by an independent agent 
+given only the rubric, the exclusion file, and run-01-ouput.md — no 
+SKILL.md, no prior grading, no case study. That pass caught a real 
+defect this same-session grading missed twice (criterion 3, below) 
+and exposed a wording gap in the rubric's criterion 4 (since fixed in 
+rubric.md) that would otherwise misgrade every future run. Criterion 
+12 is unchanged but now carries a flagged open question from that 
+pass — see below.
+
 - Criterion 1 (15 books): pass — 15 entries returned.
 - Criterion 2 (real/attributed): fail — the model's output misattributed "The Suite Spot" to Mia Sosa; it's actually by Trish Doller. Verification (checking all 15 titles/authors, not just the 3-sample minimum, against publisher pages, Goodreads, and reviews) was done by Claude in-session; a manual spot-check of a subset by the grader is what actually caught this one.
 
@@ -18,7 +27,7 @@ harness limitation, not a result.
     run that never had the error, and grading the corrected version 
     would have hidden that.
 
-- Criterion 3 (no pregnancy/child): pass — no main character is a parent/guardian or pregnant before the epilogue in any of the 15.
+- Criterion 3 (no pregnancy/child): fail — in *Life's Too Short* (Abby Jimenez), Vanessa Price, the main character, becomes her infant niece's sole guardian mid-book (her half-sister leaves the baby with her while dealing with addiction), not in an epilogue. Missed in the original grading; caught by an independent regrade and confirmed separately against plot summaries.
 - Criterion 4 (not in already-read.md): pass — none of the 15 titles or authors appear in the specific-books or skip-all-authors sections of already-read.md as it stood before this run.
 - Criterion 5 (not on skip-all-authors list): pass — cross-checked all 15 authors against the skip-all-authors section; no matches.
 - Criterion 6 (no duplicate author): pass — 15 distinct authors.
@@ -30,8 +39,8 @@ harness limitation, not a result.
   - No other entry showed evidence of an uncovered required topic (rape, torture, murder, cheating, BDSM, cancer, MC's dog dying) or a misformatted warning.
 - Criterion 10 (heat level correctness): unverifiable (1 of 15 entries) — *The Matchmaker's List* (Sonya Lalli): no source found confirmed this as open- or closed-door; the run left off a heat-level line (defaulting to open-door), which is unverified either way.
 - Criterion 11 (every entry has a link): pass — all 15 entries link to a real page for the title (Goodreads for 14; romance.io for *The Spanish Love Deception*, since no Goodreads URL was confirmed for it during the run).
-- Criterion 12 (exclusion process invisible): pass — the response never mentions already-read.md, the skip-authors list, or why any book/author was excluded.
+- Criterion 12 (exclusion process invisible): pass — the response never mentions already-read.md, the skip-authors list, or why any book/author was excluded. Open question raised by an independent regrade, not yet resolved either way: six entries carry "Note: this author has other books that qualify," and "qualify" implies a pass/fail filter exists, which arguably reveals more than SKILL.md's own format example ("Note: This author has other books on this topic") does. Left as pass pending a decision on whether that wording crosses the line.
 
-**Overall: 9 pass, 1 fail, 2 unverifiable (of 12 criteria).**
+**Overall: 8 pass, 2 fail, 2 unverifiable (of 12 criteria).**
 Unverifiable = criteria 9 and 10. Both need the book text; review-site 
 summaries can't settle them.

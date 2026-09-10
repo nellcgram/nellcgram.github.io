@@ -23,3 +23,27 @@ Found during Run 1.
 **Why it matters:** If catching and quietly fixing an error resolves to the same grade as never having had the error, the score stops measuring the model's actual output — the same silent-clean-result problem the unverifiable outcome was meant to prevent.
 
 **How I'd close it:** Added a rule to the rubric: grade what the model produced, not a corrected version. A caught-and-fixed error is logged separately but still fails that criterion for the run.
+
+## Grading defect: same-session grading missed a real failure twice
+
+Found when Run 1 was regraded by an independent agent given only the rubric, the exclusion file, and the raw output — no SKILL.md, no prior grading, no case study.
+
+**The problem:** In *Life's Too Short*, the main character becomes her niece's guardian mid-book. Criterion 3 exists specifically to catch this, and it was graded pass — twice, across two separate same-session gradings — before an independently-run pass caught it. Same-session grading isn't just less reliable in theory; here it produced the same wrong answer on repeat.
+
+**Which criteria are affected:** Any criterion requiring a careful read of the output against the rules, not just a records check. Criterion 3 is the confirmed case; there's no reason to assume it's the only one a same-session grader is prone to waving through.
+
+**Why it matters:** A grading process that repeats its own mistake isn't self-correcting just because someone runs it again — it takes a genuinely separate check to surface what it's blind to.
+
+**How I'd close it:** Regrade with an independent session or agent that never sees SKILL.md, the prior grading, or the case study — not as a one-time fix, but as a standing step for every run. The same pass also surfaced a second, distinct defect (below) that's worth its own entry.
+
+## Rubric defect: already-read.md criterion didn't specify a pre-run snapshot
+
+Found by the same independent regrade above.
+
+**The problem:** The skill appends every recommendation to already-read.md right after delivering it, so the file's current state always contains the just-recommended titles. The rubric's wording for "no books or authors from already-read.md" didn't say to grade against the file as it stood *before* the run — so a grader working from the live file will always see this run's own titles sitting in it and misgrade a passing run as a fail.
+
+**Which criteria are affected:** 4. Criterion 5 (skip-all-authors) is unaffected — that section isn't auto-appended to.
+
+**Why it matters:** This isn't a rare edge case; it will misfire on every single future run until it's fixed, because the auto-append behavior it's tripping over is the skill's normal, intended behavior.
+
+**How I'd close it:** Added wording to rubric.md specifying that criterion 4 grades against already-read.md as it stood before the run started, and explaining why, so a future grader isn't left to guess.
