@@ -39,6 +39,24 @@ rewrite do not resolve.
   under "Rules that always apply." The content-warnings section governs 
   warning format and coverage only.
 
+### Commit: 4a449f8, [2026-09-04]
+- Fixed: already-read.md's path pointed inside the repo, risking the 
+  private exclusion file being committed alongside the skill. Old: 
+  "Before you run the skill, check already-read.md in this same 
+  folder." New: "Before you run the skill, check already-read.md at 
+  /Users/nellgram/.claude/private-notes/book-recommendations/already-read.md 
+  (this file lives outside the git repo on purpose and must never be 
+  copied into the repo or committed)."
+
+### Commit: 7bd4a1a, [2026-09-01]
+- Fixed: The exclusion instruction pointed to "the matching list 
+  above," but no such list exists in this file — already-read.md is 
+  external. Old: "If the user mentions a new author or book they've 
+  read or want avoided, add it to the matching list above so it's 
+  remembered next time." New: "If the user mentions a new author or 
+  book they've read or want avoided, add it to already-read.md so 
+  it's remembered next time."
+
 ### Commit: 467c3b1, [2026-08-31]
 - Fixed: Duplicate entries give conflicting instruction for the model which confuses results. Old: Duplicate "rape/sexual assault" entry in the content-warning topics list in SKILL.md. New: Removed duplicate entry.
 
