@@ -1,5 +1,18 @@
 ## Changelog
 
+### Doc fix — broken rubric link and missing eval links, [2026-09-10]
+- Fixed: The case study's "The rubric" link pointed to 
+  .claude/skills/book-recommendations/rubric.md, which doesn't exist — 
+  the rubric lives under docs/agentic-projects/evals/. Old: Link 
+  targeted a nonexistent path. New: Link retargeted to 
+  docs/agentic-projects/evals/rubric.md, and links to the eval run 
+  (run-01.md) and eval notes (eval-notes.md) were added alongside it, 
+  since the case study didn't reference the eval work at all.
+
+### Doc fix — typo in this changelog, [2026-09-10]
+- Fixed: "Rules that alwways apply" typo in the [ef68341] entry above. 
+  Old: "alwways". New: "always".
+
 Note: commit hashes dated before 2026-09-04 are stale. History was 
 rewritten on that date with git filter-repo to remove a privately 
 committed file. Dates in this log remain accurate; hashes before the 
@@ -14,7 +27,7 @@ rewrite do not resolve.
   do not recommend anything. Never proceed without the exclusion list."
 
 ### Commit: [ef68341], [2026-09-04]
-- Fixed: "Rules that alwways apply" needed an action added to rule that governs main character. Old: Main character could not rape or murder. New: Added main character cannot torture.
+- Fixed: "Rules that always apply" needed an action added to rule that governs main character. Old: Main character could not rape or murder. New: Added main character cannot torture.
 
 ### Commit: [f36d2d7], [2026-09-04]
 - Fixed: Two sections defined main-character eligibility differently, 
