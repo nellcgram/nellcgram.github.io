@@ -47,3 +47,30 @@ Found by the same independent regrade above.
 **Why it matters:** This isn't a rare edge case; it will misfire on every single future run until it's fixed, because the auto-append behavior it's tripping over is the skill's normal, intended behavior.
 
 **How I'd close it:** Added wording to rubric.md specifying that criterion 4 grades against already-read.md as it stood before the run started, and explaining why, so a future grader isn't left to guess.
+
+## Skill defect: instruction and rubric disagreed on what the rule was
+
+Found by the same independent regrade that caught the guardianship 
+failure in Run 1.
+
+**The problem:** The rubric's criterion 3 already failed a run for a 
+main character becoming a child's guardian mid-book. SKILL.md's own 
+rule never mentioned guardianship — it only said "a child or 
+pregnancy." The regrade worked because the rubric happened to be 
+stricter than the instruction it was supposed to check; nothing 
+forced the two to agree.
+
+**Which criteria are affected:** 3. No other criterion is currently 
+known to have language SKILL.md doesn't also state, but that hasn't 
+been checked systematically — this one was found by coincidence, not 
+by an audit.
+
+**Why it matters:** A rubric can only check what an instruction 
+actually says. Here it happened to check for more than the 
+instruction covered, which looks like a rubric strength but is really 
+two documents stating different rules under the same name.
+
+**How I'd close it:** Added guardianship to SKILL.md's rule directly, 
+so the instruction and the rubric state the same thing. Worth a pass 
+checking whether any other rubric criterion is similarly ahead of, or 
+behind, what SKILL.md actually instructs.
