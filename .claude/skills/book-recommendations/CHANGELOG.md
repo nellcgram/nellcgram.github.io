@@ -1,5 +1,8 @@
 ## Changelog
 
+### Edited skill formatting [2026-09-12]
+- Fixed: spacing, grammar.
+
 ### Deleted "other books that qualify" line of skill [2026-09-12]
 - Fixed: The "note if you found other books by an author that qualify" instruction conflicted with the invisible-exclusion rule. "Qualify" implies a pass/fail filter, which tells the reader a screening process exists — the exclusion rule requires that the response never reveal what was filtered or why. Run 1 produced six entries carrying this note; Run 2 produced none, so the instruction was already inconsistently applied. Old: "Include only 1 book by each author, but note if you found other books by an author that qualify." New: "Include only 1 book by each author." Format example updated to drop the "Note:" line.
 
