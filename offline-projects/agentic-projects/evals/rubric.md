@@ -28,7 +28,7 @@ separately; it does not raise the grade.
 - **Pass:** All books exist, have the correct title and author, and all authors are real
 - **Fail:** Any book does not exist, has the wrong author, or any author does not exist
 
-### Main character has no pregnancy, child, or guardianship of a child before the epilogue
+### Main character has no pregnancy or child or guardianship of a child before the epilogue
 - **Pass:** Main characters are not parents or guardians of a child during the book and no main character is pregnant before the epilogue; an epilogue child or pregnancy is optional
 - **Fail:** A main character has a child, is a guardian of a child, or is pregnant at any point before the epilogue
 
