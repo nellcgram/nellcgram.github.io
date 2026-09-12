@@ -1,5 +1,12 @@
 ## Changelog
 
+### Fixed rubric guardianship language to match skill [2026-09-12]
+- Fixed: A main character should not have a child or pregnancy before the epilogue." New: "Pass: Main characters are not parents or guardians of a child during the book and no main character is pregnant before the epilogue; an epilogue child or pregnancy is optional. Fail: A main character has a child, is a guardian of a child, or is pregnant at any point before the epilogue."
+
+### Main character has no pregnancy or child or guardianship of a child before the epilogue
+- **Pass:** Main characters are not parents or guardians of a child during the book and no main character is pregnant before the epilogue; an epilogue child or pregnancy is optional
+- **Fail:** A main character has a child, is a guardian of a child, or is pregnant at any point before the epilogue
+
 ### Fixed skill language [2026-09-12]
 - Fixed: A main character should not have a child or pregnancy before the epilogue." New: "A main character should not have, be pregnant with, or be the guardian of a child before the epilogue."
 
