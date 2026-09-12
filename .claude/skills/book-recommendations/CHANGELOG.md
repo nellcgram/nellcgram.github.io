@@ -1,5 +1,8 @@
 ## Changelog
 
+### Edited SKILL to differentiate between live user and tool [2026-09-12]
+- Fixed: Added wording for situation if there is no live user. Old: "If the user does not mention it, Claude should ask for each request: What genre?" New: "If the user does not mention it, ask which genre. If there is no live user turn to ask (e.g. an automated or eval run), default to contemporary and state that the default was applied."
+
 ### Edited README "what it does" section [2026-09-12]
 - Fixed: README "what it does." Old: Contemporary and fantasy genres. New: "giving options of genre (contemporary, fantasy, historical, regency, romantic suspense, something else)" and added "no guardanship" to child requirements.
 
