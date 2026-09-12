@@ -59,7 +59,7 @@ Examples:
 
 Format of the response should be: 15 books minimum, or a reason why 15 is not possible
 
-If the user does not mention it, Claude should ask for each request: What genre (contemporary, fantasy, historical, regency, romantic suspense, etc)?
+If the user does not mention it, Claude should ask for each request: What genre (contemporary, fantasy, historical, regency, romantic suspense, something else)?
 
 ## Format example
 **Not the Girl You Marry** [Link], Andie J. Christopher.
