@@ -1,14 +1,8 @@
 # Book recommendations skill
 
 ## What it does
-Recommends full-length contemporary and fantasy romance novels 
-against a fixed set of rules: no novellas, no prohibited main-character 
-types (criminal, mafia, vampire, demon, alien, serial killer), no 
-pregnancy or child for a main character before the epilogue, and no 
-repeated or already-read authors. Every entry includes a link, a 
-content-warning line where required, and a heat-level note for 
-closed-door books. The exclusion process runs invisibly — the 
-response never explains what was filtered out or why.
+Recommends full-length romance novels, giving options of genre (contemporary, fantasy, historical, regency, romantic suspense, something else) against a fixed set of rules: no novellas, no prohibited main-character 
+types (criminal, mafia, vampire, demon, alien, serial killer), no pregnancy, guardianship, or child for a main character before the epilogue, and no repeated or already-read authors. Every entry includes a link, a content-warning line where required, and a heat-level note for closed-door books. The exclusion processruns invisibly; the response never explains what was filtered out or why.
 
 ## Files
 - SKILL.md — the instruction file
