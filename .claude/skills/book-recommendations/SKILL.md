@@ -20,6 +20,8 @@ Before you run the skill, check already-read.md at /Users/nellgram/.claude/priva
 
 If already-read.md is not found at that path, stop. Tell the user the file is missing and do not recommend anything. Never proceed without the exclusion list.
 
+already-read.md's author skip-list must stay under the heading exactly named ## skip all books by these authors:, since both this skill and the grading rubric locate it by that heading text.
+
 ## Running, filtering and updating
 Keep the exclusion-checking invisible. Never mention the excluded-authors list, the already-read list, or why a book/author was skipped. Just present the final clean list of recommendations.
 
