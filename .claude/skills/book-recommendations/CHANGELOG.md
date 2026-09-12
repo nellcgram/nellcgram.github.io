@@ -1,5 +1,8 @@
 ## Changelog
 
+### Fixed skill language [2026-09-12]
+- Fixed: A main character should not have a child or pregnancy before the epilogue." New: "A main character should not have, be pregnant with, or be the guardian of a child before the epilogue."
+
 ### Doc fix — broken rubric link and missing eval links, [2026-09-10]
 - Fixed: The case study's "The rubric" link pointed to 
   .claude/skills/book-recommendations/rubric.md, which doesn't exist — 
