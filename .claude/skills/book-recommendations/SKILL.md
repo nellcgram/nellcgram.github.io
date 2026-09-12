@@ -13,7 +13,7 @@ description: Use this when the user asks for book recommendations.
 - The romance must be between a man and a woman.
 - A main character should not have, be pregnant with, or be the guardian of a child before the epilogue. A child or children in the epilogue is optional.
 - Always state the author's name with every book, and double-check the author matches the book; don't mix authors up.
-- Include only 1 book by each author, but note if you found other books by an author that qualify.
+- Include only 1 book by each author.
 
 ## Check before running
 Before you run the skill, check already-read.md at /Users/nellgram/.claude/private-notes/book-recommendations/already-read.md (this file lives outside the git repo on purpose and must never be copied into the repo or committed).
