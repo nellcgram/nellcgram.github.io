@@ -4,13 +4,13 @@ This project is about writing an unambiguous spec for an LLM, debugging it the w
 
 [The skill](https://github.com/nellcgram/nellcgram.github.io/blob/main/.claude/skills/book-recommendations/SKILL.md)
 
-[The rubric](https://github.com/nellcgram/nellcgram.github.io/blob/main/docs/agentic-projects/evals/rubric.md)
+[The rubric](https://github.com/nellcgram/nellcgram.github.io/blob/main/offline-projects/agentic-projects/evals/rubric.md)
 
 [The changelog](https://github.com/nellcgram/nellcgram.github.io/blob/main/.claude/skills/book-recommendations/CHANGELOG.md)
 
-[The eval run](https://github.com/nellcgram/nellcgram.github.io/blob/main/docs/agentic-projects/evals/run-01.md)
+[The eval run](https://github.com/nellcgram/nellcgram.github.io/blob/main/offline-projects/agentic-projects/evals/run-01.md)
 
-[The eval notes](https://github.com/nellcgram/nellcgram.github.io/blob/main/docs/agentic-projects/evals/eval-notes.md)
+[The eval notes](https://github.com/nellcgram/nellcgram.github.io/blob/main/offline-projects/agentic-projects/evals/eval-notes.md)
 
 ## The Problem
 
