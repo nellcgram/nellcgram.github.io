@@ -6,7 +6,7 @@ description: Use this when the user asks for book recommendations.
 
 ## Rules that always apply
 
-- Only recommend full-length novels — no novellas.
+- Only recommend full-length novels. No novellas.
 - No criminal or mafia main characters, no vampires, no demons, no aliens, no serial killers.
 - No main character under 18, no high school settings, nothing in the YA category.
 - No main character who rapes, molests, stalks, tortures, or kidnaps another character.
@@ -18,9 +18,7 @@ description: Use this when the user asks for book recommendations.
 ## Check before running
 Before you run the skill, check already-read.md at /Users/nellgram/.claude/private-notes/book-recommendations/already-read.md (this file lives outside the git repo on purpose and must never be copied into the repo or committed).
 
-If already-read.md is not found at that path, stop. Tell the user the 
-file is missing and do not recommend anything. Never proceed without 
-the exclusion list.
+If already-read.md is not found at that path, stop. Tell the user the file is missing and do not recommend anything. Never proceed without the exclusion list.
 
 ## Running, filtering and updating
 Keep the exclusion-checking invisible. Never mention the excluded-authors list, the already-read list, or why a book/author was skipped. Just present the final clean list of recommendations.
