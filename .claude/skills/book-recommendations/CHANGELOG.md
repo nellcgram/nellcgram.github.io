@@ -1,5 +1,8 @@
 ## Changelog
 
+### Edited README "what it does" section [2026-09-12]
+- Fixed: README "what it does." Old: Contemporary and fantasy genres. New: "giving options of genre (contemporary, fantasy, historical, regency, romantic suspense, something else)" and added "no guardanship" to child requirements.
+
 ### Edited skill formatting [2026-09-12]
 - Fixed: spacing, grammar.
 
