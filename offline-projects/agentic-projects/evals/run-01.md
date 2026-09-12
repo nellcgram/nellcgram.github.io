@@ -5,6 +5,8 @@ produced the output, so the grader had the skill loaded. A grader with
 only the rubric and the raw output would be more reliable. Noted as a 
 harness limitation, not a result.
 
+Update, [2026-09-10]: Scored against SKILL.md and rubric.md as they stood before the 2026-09-12 edits (guardianship added, the "other books that qualify" note removed, the no-live-user genre fallback added). Differences from the current files are expected, not new defects.
+
 Update, [2026-09-10]: this run was regraded by an independent agent 
 given only the rubric, the exclusion file, and run-01-ouput.md — no 
 SKILL.md, no prior grading, no case study. That pass caught a real 
