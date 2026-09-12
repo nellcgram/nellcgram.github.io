@@ -1,5 +1,8 @@
 ## Run 2 — [2026-09-10] (graded against run-02-output.md)
 
+## Update - [2026-09-12]
+- Scored against SKILL.md as it stood before the 2026-09-12 edits — including before the no-live-user genre fallback was added, which is exactly the gap this run's own genre note describes. Differences from the current SKILL.md are expected, not new defects.
+
 Grading limitations, both carried over from Run 1 and unresolved
 here: this run was graded in the same session that produced the
 output, so the grader had the skill loaded (see Future Improvements
