@@ -67,4 +67,3 @@ Genre: Contemporary
 A PR executive who ghostwrites a men's dating column ropes a charming photographer into "research" for her articles.
 Content warnings: Rape (main character, past), cancer
 Heat level: Closed door.
-Note: This author has other books on this topic.
