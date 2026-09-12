@@ -4,7 +4,7 @@
 - Fixed: Added wording for situation if there is no live user. Old: "If the user does not mention it, Claude should ask for each request: What genre?" New: "If the user does not mention it, ask which genre. If there is no live user turn to ask (e.g. an automated or eval run), default to contemporary and state that the default was applied."
 
 ### Edited README "what it does" section [2026-09-12]
-- Fixed: README "what it does." Old: Contemporary and fantasy genres. New: "giving options of genre (contemporary, fantasy, historical, regency, romantic suspense, something else)" and added "no guardanship" to child requirements.
+- Fixed: README "what it does." Old: Contemporary and fantasy genres. New: "giving options of genre (contemporary, fantasy, historical, regency, romantic suspense, something else)" and added "no guardianship" to child requirements.
 
 ### Edited skill formatting [2026-09-12]
 - Fixed: spacing, grammar.
@@ -12,15 +12,8 @@
 ### Deleted "other books that qualify" line of skill [2026-09-12]
 - Fixed: The "note if you found other books by an author that qualify" instruction conflicted with the invisible-exclusion rule. "Qualify" implies a pass/fail filter, which tells the reader a screening process exists — the exclusion rule requires that the response never reveal what was filtered or why. Run 1 produced six entries carrying this note; Run 2 produced none, so the instruction was already inconsistently applied. Old: "Include only 1 book by each author, but note if you found other books by an author that qualify." New: "Include only 1 book by each author." Format example updated to drop the "Note:" line.
 
-### Fixed rubric guardianship language to match skill [2026-09-12]
-- Fixed: A main character should not have a child or pregnancy before the epilogue." New: "Pass: Main characters are not parents or guardians of a child during the book and no main character is pregnant before the epilogue; an epilogue child or pregnancy is optional. Fail: A main character has a child, is a guardian of a child, or is pregnant at any point before the epilogue."
-
-### Main character has no pregnancy or child or guardianship of a child before the epilogue
-- **Pass:** Main characters are not parents or guardians of a child during the book and no main character is pregnant before the epilogue; an epilogue child or pregnancy is optional
-- **Fail:** A main character has a child, is a guardian of a child, or is pregnant at any point before the epilogue
-
-### Fixed skill language [2026-09-12]
-- Fixed: A main character should not have a child or pregnancy before the epilogue." New: "A main character should not have, be pregnant with, or be the guardian of a child before the epilogue."
+### Added guardianship to skill's pregnancy/child rule [2026-09-12]
+- Fixed: The rubric already failed a run for a main character becoming a child's guardian mid-book, but SKILL.md's rule only covered pregnancy and having a child — the two documents disagreed about what the rule was. Old: "A main character should not have a child or pregnancy before the epilogue." New: "A main character should not have, be pregnant with, or be the guardian of a child before the epilogue." The rubric's wording didn't need to change; it already stated this.
 
 ### Doc fix — broken rubric link and missing eval links, [2026-09-10]
 - Fixed: The case study's "The rubric" link pointed to 
