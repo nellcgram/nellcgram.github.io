@@ -4,7 +4,7 @@ Hi, I'm Nell. I care about how information gets organized, why it gets lost, and
 
 I have a Master's in Library and Information Science and 8+ years of experience in technical and digital content.
 
-This site will be updated with agentic AI projects as I complete them.
+This site includes writing samples and agentic AI projects, such as a pair of Claude Code skills with a full evaluation.
 
 ## Contact Information
 
