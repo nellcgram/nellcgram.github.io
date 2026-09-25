@@ -2,7 +2,7 @@
 
 Hi, I'm Nell. I care about how information gets organized and how to make it easier for people and AI systems to find and use it.
 
-A love of words is also a cornerstone of my life. These combined interests led to 8+ years of work in technical and digital content (most recently), a BA in English, and an MS in Library and Information Science. Between the BA and the MS I spent several years working in libraries.
+Words are also a cornerstone of my life. These combined interests led to 8+ years of work in technical and digital content, a BA in English, and an MS in Library and Information Science (not in that order). Between the BA and the MS I spent several years working in libraries.
 
 This site began as a portfolio of writing samples and I'm expanding it to include in-progress agentic AI projects. I'm also practicing using a docs-as-code workflow.
 
