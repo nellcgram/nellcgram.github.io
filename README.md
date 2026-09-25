@@ -14,3 +14,7 @@ mkdocs serve
 
 ## Deployment
 Push to `main` - GitHub Actions automatically builds and deploys.
+
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the PR workflow, CI checks, and local
+validation commands.

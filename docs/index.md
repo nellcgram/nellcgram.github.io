@@ -8,6 +8,6 @@ This site will be updated with agentic AI projects as I complete them.
 
 ## Contact Information
 
-- Email: nellcgram@gmail.com
+- Email: [nellcgram@gmail.com](mailto:nellcgram@gmail.com)
 - LinkedIn: [linkedin.com/in/nellgram](https://www.linkedin.com/in/nellgram)
 - GitHub: [github.com/nellcgram](https://github.com/nellcgram)

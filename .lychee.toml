@@ -1,0 +1,4 @@
+exclude_all_private = true
+accept = [200, 429]
+timeout = 20
+max_retries = 2
