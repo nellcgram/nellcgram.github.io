@@ -1,4 +1,6 @@
-# Docs Assistant: Two Claude Code Skills and How I Tested Them
+# Case Study: Building and Evaluating Two Claude Code Skills
+
+This was my first completed project to teach myself how to build an agentic AI skill, rubric, and eval harness.
 
 Source and full write-up: [github.com/nellcgram/docs-assistant](https://github.com/nellcgram/docs-assistant)
 
