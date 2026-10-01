@@ -11,7 +11,7 @@ Two Claude Code skills for documentation work:
 - **release-notes** turns git commit messages into user-facing release notes.
 - **doc-review** reviews a document against a checklist.
 
-I built a full evaluation around `release-notes`: 20 commits, a hand-written answer key, a graded rubric, scripted runs, and a GitHub Action that fails a push when quality drops. `doc-review` was checked by eye, and is less well-developed because it was used as proof that the concept can be repeated.
+I built a full evaluation around `release-notes`: 20 commits, a hand-written answer key, a graded rubric, scripted runs, and a GitHub Action that fails a push when quality drops. The doc-review skill was checked by eye, and is less well-developed because it was used as proof of concept.
 
 ## Results
 
@@ -43,7 +43,7 @@ After I reverted my deliberate break, the next run passed.
 
 ![GitHub Actions run list: a passing run directly above the failed run](../images/docs-assistant-ci-pass-runs.png)
 
-I have since retired the workflow because it made API calls on every push. The screenshots are the record, and the workflow file is in the repository history.
+I have since retired the workflow because it made API calls on every push. The screenshots are the record, and the workflow file is in the repository history. If I expanded this project, it would include bringing this back and refining it.
 
 ## Known limits
 
