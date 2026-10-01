@@ -1,4 +1,4 @@
-# About
+# About me
 
 Hi, I'm Nell. I care about how information gets organized and how to make it easier for people and AI systems to find and use it.
 
