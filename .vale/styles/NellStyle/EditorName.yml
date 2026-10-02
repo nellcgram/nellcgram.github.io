@@ -1,5 +1,5 @@
 extends: consistency
-message: "Use one name for the editor: '%s' or '%s', not both."
+message: "Pick one name for the editor and use it throughout: 'VS Code' or 'Visual Studio Code'."
 level: warning
 ignorecase: false
 nonword: false

@@ -8,7 +8,7 @@ Severity decides what blocks a pull request. Only `error` rules fail CI. `warnin
 
 | Rule | File | Severity | What it flags |
 | --- | --- | --- | --- |
-| Heading case | `HeadingCase.yml` | warning | Headings that are not sentence case |
+| Heading case | `HeadingCase.yml` | warning | Headings that are not sentence case (the pronoun "I" and listed proper nouns are allowed) |
 | Product names | `ProductNames.yml` | error | Wrong capitalization of GitHub, MkDocs, Markdown, Claude Code, Visual Studio Code |
 | Editor name | `EditorName.yml` | warning | A page that uses both "VS Code" and "Visual Studio Code" |
 | Filler words | `FillerWords.yml` | warning | simply, just, easy, easily, basically, obviously, actually, clearly |
@@ -42,3 +42,7 @@ Severity decides what blocks a pull request. Only `error` rules fail CI. `warnin
 vale sync
 vale docs
 ```
+
+## What can block a pull request
+
+The Vale CI job fails only when an `error`-level alert lands on a line the pull request changes. NellStyle has two error rules: product names and placeholders. `.vale.ini` lowers `Google.EmDash` and `Google.Ordinal` from error to warning so they cannot block either.
