@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://nellcgram.github.io/room-change-case-study.html">
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Room Change - Nell Gram</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Nell Gram</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Writing Samples</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="writing-samples/help-article.html" class="dropdown-item">Help Center Article</a>
+</li>
+                                    
+<li>
+    <a href="writing-samples/kb-article.html" class="dropdown-item">KB Article</a>
+</li>
+                                    
+<li>
+    <a href="writing-samples/release-notes.html" class="dropdown-item">Release Notes</a>
+</li>
+                                    
+<li>
+    <a href="writing-samples/eob-guide.html" class="dropdown-item">EOB Guide</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Agentic Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="agentic-projects/docs-assistant.html" class="dropdown-item">Docs Assistant Skills</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Case Studies</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="room-change-case-study.html" class="dropdown-item active" aria-current="page">Room Change</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="how-this-site-is-built.html" class="nav-link">How This Site is Built</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="agentic-projects/docs-assistant.html" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="how-this-site-is-built.html" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#room-change" class="nav-link">Room Change</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#overview" class="nav-link">Overview</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#why-i-built-this" class="nav-link">Why I built this</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#my-role" class="nav-link">My role</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#content-decisions" class="nav-link">Content decisions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#outcome" class="nav-link">Outcome</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="room-change">Room Change</h1>
+<h2 id="overview">Overview</h2>
+<p><a href="https://nellcgram.github.io/room_change/">Room Change</a> is a to-scale room planner I built to solve a real problem — my own bedroom felt cramped and I didn't like it — and it turned into an unplanned exercise in writing every touchpoint of a product from scratch: onboarding, in-app guidance, error recovery, and the instructions that shape an AI feature's voice and behavior.</p>
+<h2 id="why-i-built-this">Why I built this</h2>
+<p>I didn't set out to build software. I wanted my room to feel less cluttered and stop being dominated by furniture I didn't like. That problem became the spec: a tool that lets someone drag furniture around a to-scale floor plan, flags real problems (blocked paths, storage with no purpose), and — eventually — lets an AI both critique the layout and make changes to it directly, in plain English.</p>
+<h2 id="my-role">My role</h2>
+<p>I built this end-to-end working with Claude Code, an AI pair-programmer, over one long session. My role was every product and content decision: what the tool should do, how every visible string should read, what the app says when something goes wrong, and — since the tool eventually called an AI model itself — how to instruct that AI's tone, scope, and output format. The code implementation was AI-assisted; the judgment about what to say and how wasn't.</p>
+<h2 id="content-decisions">Content decisions</h2>
+<h3 id="1-turning-mechanical-state-into-human-meaning">1. Turning mechanical state into human meaning</h3>
+<p>Internally, the app just tracks a flag: a furniture item's <code>jobTag</code> is either something useful (<code>seating</code>, <code>storage</code>, <code>surface</code>...) or <code>"unassigned"</code>. The lazy version of that is a label like <code>unassigned_item_warning</code> — technically accurate, meaningless to a person deciding what to do about it.</p>
+<p>Instead, that state gets translated into what it actually <em>means</em> for someone using the tool:</p>
+<blockquote>
+<p><em>"Cedar Chest" has no job assigned — that's usually how a piece turns into a place to pile things.</em></p>
+</blockquote>
+<p>Same underlying fact. The difference is explaining <em>why it matters</em>, in a sentence a person would actually say.</p>
+<h3 id="2-task-first-labels-not-developer-language">2. Task-first labels, not developer language</h3>
+<p>Button copy can describe what the <em>system</em> does internally, or what the <em>person</em> is trying to do. Those aren't the same sentence. A button that creates a geometric no-furniture zone in the code could be labeled "Create Constraint" — accurate to the implementation, meaningless to the person using it. Instead:</p>
+<table>
+<thead>
+<tr>
+<th>Says what the system does</th>
+<th>Says what the person is doing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Create Constraint</td>
+<td><strong>Mark a Clear Path</strong></td>
+</tr>
+<tr>
+<td>Submit Prompt</td>
+<td><strong>Tell AI What to Change</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-recovery-copy-for-failure-states">3. Recovery copy for failure states</h3>
+<p><strong>Before:</strong> early on, a single missing element on the page could throw an error that silently stopped the app's startup code partway through. The room's data was completely safe in the browser's local storage the whole time — but the <em>screen</em> would just show an empty room, with nothing telling the person their real layout was fine and just wasn't displaying. That silence is exactly how a working save gets mistaken for lost data.</p>
+<p><strong>After:</strong> every part of the startup sequence runs independently now, and if any single piece fails, a banner appears instead of a blank screen:</p>
+<blockquote>
+<p><em>Something didn't load right. Your saved room is almost certainly fine — try a hard refresh (Ctrl+Shift+R on Windows/Linux, Cmd+Shift+R on Mac) to fix it.</em></p>
+</blockquote>
+<p>It answers the only two questions a person in that moment actually has: <em>am I okay</em>, and <em>what do I click</em>.</p>
+<h3 id="4-specific-over-vague-in-error-messages">4. Specific over vague in error messages</h3>
+<p><strong>Before:</strong></p>
+<blockquote>
+<p><em>The AI service had a problem. Try again in a bit.</em></p>
+</blockquote>
+<p>Technically true, completely unhelpful — it gives no way to tell "your API key is wrong" from "you're out of credits" from "the model name is misspelled." <strong>After:</strong></p>
+<blockquote>
+<p><em>The AI service returned an error (status 400): "Your credit balance is too low to access the Anthropic API. Please go to Plans &amp; Billing to upgrade or purchase credits."</em></p>
+</blockquote>
+<p>The specific version turned a dead end into a one-step fix — and it's the message that actually diagnosed the real issue during development, which the vague version had been hiding for several rounds of guessing.</p>
+<h3 id="5-prompt-writing-as-content-design">5. Prompt writing as content design</h3>
+<p>Once the tool called an AI model to critique the room, the instructions telling that model <em>how to sound and what to prioritize</em> became a content artifact in their own right — no different in kind from writing a style guide, just for an AI audience instead of a human one.</p>
+<p><strong>First version</strong> — direct and grounded, for a practical critique:</p>
+<blockquote>
+<p><em>You are a blunt, practical interior space-planning consultant... Be direct and specific, not diplomatic filler. No more than about 350 words. Write short plain paragraphs or a short bullet list.</em></p>
+</blockquote>
+<p><strong>Rewritten version</strong> — after deciding the tool should brainstorm rather than just critique:</p>
+<blockquote>
+<p><em>You are an imaginative interior designer... Give wildly creative, unconventional ideas... Output ONLY a bullet list. Extremely concise — fragments, not full sentences, as few words as possible per bullet.</em></p>
+</blockquote>
+<p>Same underlying task (respond to a room layout), completely different voice and output shape — controlled entirely through the written instruction, the same way a style guide controls a human writer's output.</p>
+<h2 id="outcome">Outcome</h2>
+<p>The tool is live at <a href="https://nellcgram.github.io/room_change/">nellcgram.github.io/room_change</a>. It's a working example of content design applied past the usual surface — not just UI copy, but the error-recovery logic and the instructions steering an AI feature, treated as the same discipline.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
