@@ -4,10 +4,12 @@ use_directory_urls: false
 markdown_extensions:
   - md_in_html
 nav:
-  - Home: index.md
+  - About: index.md
   - Writing Samples:
     - Help Center Article: writing-samples/help-article.md
     - KB Article: writing-samples/kb-article.md
     - Release Notes: writing-samples/release-notes.md
     - EOB Guide: writing-samples/eob-guide.md
-  - About This Site: about-this-site.md
+  - Agentic Projects:
+    - Docs Assistant Skills: agentic-projects/docs-assistant.md
+  - How This Site is Built: how-this-site-is-built.md

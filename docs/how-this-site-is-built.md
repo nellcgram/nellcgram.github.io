@@ -1,6 +1,6 @@
-# About This Site
+# How This Site is Built
 
-This portfolio is built with [MkDocs](https://www.mkdocs.org/) and hosted on
+This site is built with [MkDocs](https://www.mkdocs.org/) and hosted on
 [GitHub Pages](https://pages.github.com/). The source files are version-controlled
 in a public GitHub repository.
 
