@@ -1,4 +1,4 @@
-# How This Site is Buit
+# How This Site is Built
 
 This site is built with [MkDocs](https://www.mkdocs.org/) and hosted on 
 [GitHub Pages](https://pages.github.com/). The source files are version-controlled 
