@@ -1,0 +1,14 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: warning
+ignorecase: true
+swap:
+  leverage: use
+  leverages: uses
+  leveraged: used
+  leveraging: using
+  utilize: use
+  utilizes: uses
+  utilized: used
+  utilizing: using
+  in order to: to

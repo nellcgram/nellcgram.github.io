@@ -1,0 +1,30 @@
+extends: conditional
+message: "Spell out '%s' on first use, then give the acronym in parentheses."
+link: https://developers.google.com/style/abbreviations
+level: suggestion
+ignorecase: false
+first: '\b([A-Z]{3,5})\b'
+second: '(?:\b[A-Z][a-z]+ )+\(([A-Z]{3,5})\)'
+exceptions:
+  - API
+  - CSS
+  - CLI
+  - CSV
+  - GUI
+  - HTML
+  - HTTP
+  - HTTPS
+  - IDE
+  - JSON
+  - PDF
+  - REST
+  - SDK
+  - SQL
+  - URL
+  - XML
+  - YAML
+  - LLM
+  - UI
+  - TODO
+  - TBD
+  - FIXME

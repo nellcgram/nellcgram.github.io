@@ -1,0 +1,7 @@
+extends: consistency
+message: "Use one name for the editor: '%s' or '%s', not both."
+level: warning
+ignorecase: false
+nonword: false
+either:
+  'VS Code': 'Visual Studio Code'

@@ -2,3 +2,7 @@ site/
 .claude/skills/book-recommendations/already-read.md
 postman/
 .postman/
+
+# Vale: synced packages are downloaded by `vale sync`
+.vale/styles/*
+!.vale/styles/NellStyle/

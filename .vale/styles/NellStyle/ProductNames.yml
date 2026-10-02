@@ -1,0 +1,14 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: error
+ignorecase: false
+swap:
+  '\bGithub\b': GitHub
+  '\bGITHUB\b': GitHub
+  '\bGit Hub\b': GitHub
+  '\bMkdocs\b': MkDocs
+  '\bMKDocs\b': MkDocs
+  '\bMKDOCS\b': MkDocs
+  '\bMarkDown\b': Markdown
+  '\bClaude code\b': Claude Code
+  '\bVisual studio code\b': Visual Studio Code

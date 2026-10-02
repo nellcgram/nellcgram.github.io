@@ -1,0 +1,12 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: https://developers.google.com/style/word-list
+level: warning
+ignorecase: true
+swap:
+  click on: click
+  log in to: sign in to
+  log into: sign in to
+  logged in: signed in
+  log in: sign in
+  login: sign-in

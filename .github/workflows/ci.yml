@@ -11,6 +11,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  checks: write
 
 jobs:
   build:
@@ -57,6 +58,24 @@ jobs:
             --config .lychee.toml
             docs/**/*.md
           fail: true
+
+  vale:
+    name: Vale prose lint
+    runs-on: ubuntu-latest
+    if: github.event.action != 'closed'
+    steps:
+      - uses: actions/checkout@v5
+
+      # Syncs the Google package from .vale.ini, then lints docs/.
+      # Only error-level rules fail the job; warnings and suggestions annotate.
+      - name: Run Vale
+        uses: errata-ai/vale-action@v2
+        with:
+          files: docs
+          fail_on_error: true
+          reporter: github-pr-check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   preview:
     name: Deploy PR preview
