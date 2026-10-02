@@ -7,10 +7,11 @@ Words are also a cornerstone of my life. My interests led to 8+ years of work in
 This site holds both my technical writing portfolio and in-progress agentic AI projects. I'm also practicing using a docs-as-code workflow.
 
 ## Personal
-I'm a big reader, fiction writer, and sometimes-yogi. I'm also teaching myself about API documentation for fun. 
+
+I'm a big reader, fiction writer, and sometimes-yogi. I'm also teaching myself about API documentation for fun.
 
 ## Contact Information
 
-- Email: nellcgram@gmail.com
+- Email: [nellcgram@gmail.com](mailto:nellcgram@gmail.com)
 - LinkedIn: [linkedin.com/in/nellgram](https://www.linkedin.com/in/nellgram)
 - GitHub: [github.com/nellcgram](https://github.com/nellcgram)

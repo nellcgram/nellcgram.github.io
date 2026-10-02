@@ -1,0 +1,12 @@
+{
+  // Default rule set covers heading structure (MD001, MD003, MD025) and
+  // missing image alt text (MD045) — these are the content/format checks.
+  "config": {
+    "default": true,
+    "MD013": false, // no hard line-length limit on prose
+    "MD033": false  // md_in_html extension permits inline HTML in Markdown
+  },
+  "globs": [
+    "docs/**/*.md"
+  ]
+}
