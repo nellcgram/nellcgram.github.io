@@ -1,6 +1,6 @@
-# How this site is built
+# Building this site
 
-This site is built with [MkDocs](https://www.mkdocs.org/) and hosted on
+I build this site with [MkDocs](https://www.mkdocs.org/) and hosted on
 [GitHub Pages](https://pages.github.com/). The source files are version-controlled
 in a public GitHub repository.
 
@@ -8,7 +8,7 @@ in a public GitHub repository.
 
 | Tool | Purpose |
 | --- | --- |
-| MkDocs | Static site generator; converts Markdown files to HTML |
+| MkDocs | Static site generator that converts Markdown files to HTML |
 | GitHub | Version control and remote repository hosting |
 | GitHub Pages | Free static site hosting, deployed via GitHub Actions |
 | VS Code | Local file editing |
@@ -29,7 +29,7 @@ GitHub Actions workflow to automate deployment on every push to `main`, eliminat
 the manual deploy step.
 
 The Actions workflow builds the site and publishes to GitHub Pages automatically
-whenever changes are merged.
+whenever I merge changes.
 
 Source: [.github/workflows/](https://github.com/nellcgram/nellcgram.github.io/tree/main/.github/workflows)
 
