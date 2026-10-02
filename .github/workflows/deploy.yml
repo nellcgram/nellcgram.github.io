@@ -8,6 +8,12 @@ on:
 permissions:
   contents: write
 
+# Share one queue with the PR preview job in ci.yml so the two never write to
+# gh-pages at the same time.
+concurrency:
+  group: gh-pages-deploy
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -21,5 +27,19 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Deploy
-        run: mkdocs gh-deploy --force
+      - name: Build site
+        run: mkdocs build --strict
+
+      # GitHub Pages serves gh-pages as-is; .nojekyll stops Jekyll processing.
+      - name: Add .nojekyll
+        run: touch site/.nojekyll
+
+      # Replaces `mkdocs gh-deploy --force`, which rewrote the whole branch and
+      # deleted open PR previews. clean-exclude keeps pr-preview/ in place.
+      - name: Deploy to gh-pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: site
+          branch: gh-pages
+          clean: true
+          clean-exclude: pr-preview/

@@ -4,6 +4,9 @@ on:
   pull_request:
     branches:
       - main
+    # `closed` lets pr-preview-action delete the preview when a PR is merged
+    # or closed. The default event types leave it out.
+    types: [opened, reopened, synchronize, closed]
 
 permissions:
   contents: write
@@ -11,6 +14,7 @@ permissions:
 
 jobs:
   build:
+    if: github.event.action != 'closed'
     name: Build (strict)
     runs-on: ubuntu-latest
     steps:
@@ -27,6 +31,7 @@ jobs:
         run: mkdocs build --strict
 
   lint:
+    if: github.event.action != 'closed'
     name: Lint Markdown
     runs-on: ubuntu-latest
     steps:
@@ -38,6 +43,7 @@ jobs:
           globs: 'docs/**/*.md'
 
   linkcheck:
+    if: github.event.action != 'closed'
     name: Check links
     runs-on: ubuntu-latest
     steps:
@@ -55,18 +61,23 @@ jobs:
   preview:
     name: Deploy PR preview
     runs-on: ubuntu-latest
-    needs: build
+    concurrency:
+      group: gh-pages-deploy
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v5
 
       - uses: actions/setup-python@v5
+        if: github.event.action != 'closed'
         with:
           python-version: '3.x'
 
       - name: Install dependencies
+        if: github.event.action != 'closed'
         run: pip install -r requirements.txt
 
       - name: Build site
+        if: github.event.action != 'closed'
         run: mkdocs build --strict
 
       - name: Deploy preview
