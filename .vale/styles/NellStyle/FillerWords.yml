@@ -1,0 +1,14 @@
+extends: existence
+message: "Cut the filler word '%s'."
+link: https://developers.google.com/style/tone
+level: warning
+ignorecase: true
+tokens:
+  - simply
+  - just
+  - easy
+  - easily
+  - basically
+  - obviously
+  - actually
+  - clearly

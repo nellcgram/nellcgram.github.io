@@ -1,0 +1,10 @@
+extends: existence
+message: "Remove the placeholder '%s' before publishing."
+level: error
+ignorecase: true
+tokens:
+  - TODO
+  - TBD
+  - FIXME
+  - lorem ipsum
+  - XXX

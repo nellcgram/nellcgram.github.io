@@ -1,0 +1,6 @@
+extends: occurrence
+message: "Consider shortening this sentence to 30 words or fewer."
+level: suggestion
+scope: sentence
+max: 30
+token: '\b(\w+)\b'

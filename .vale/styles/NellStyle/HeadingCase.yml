@@ -1,0 +1,24 @@
+extends: capitalization
+message: "Use sentence case for headings: '%s'."
+link: https://developers.google.com/style/capitalization#capitalization-in-titles-and-headings
+level: warning
+scope: heading
+match: $sentence
+indicators:
+  - ':'
+exceptions:
+  - AI
+  - API
+  - CI
+  - Claude
+  - Code
+  - EOB
+  - GitHub
+  - I
+  - Help Center
+  - Markdown
+  - MkDocs
+  - Scribbler
+  - Story Board
+  - Visual Studio Code
+  - VS Code
