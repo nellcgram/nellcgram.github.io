@@ -1,4 +1,4 @@
-# How This Site is Built
+# How this site is built
 
 This site is built with [MkDocs](https://www.mkdocs.org/) and hosted on
 [GitHub Pages](https://pages.github.com/). The source files are version-controlled
@@ -11,7 +11,7 @@ in a public GitHub repository.
 | MkDocs | Static site generator; converts Markdown files to HTML |
 | GitHub | Version control and remote repository hosting |
 | GitHub Pages | Free static site hosting, deployed via GitHub Actions |
-| Visual Studio Code | Local file editing |
+| VS Code | Local file editing |
 | Claude Code | AI pair-writing assistant used inside VS Code for drafting and revising content, and for building/testing the AI skills documented elsewhere on this site |
 | Terminal | Running MkDocs commands and Git operations |
 
@@ -20,7 +20,7 @@ in a public GitHub repository.
 1. Draft or revise .md files locally in VS Code, using Claude Code for editing assistance and content review
 2. Preview changes locally with `mkdocs serve`
 3. Stage and commit changes via Git
-4. Push to `main` — GitHub Actions deploys automatically
+4. Push to `main`, and GitHub Actions deploys automatically
 
 ## Deployment
 
