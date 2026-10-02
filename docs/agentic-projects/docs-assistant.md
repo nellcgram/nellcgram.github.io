@@ -16,7 +16,7 @@ I built a full evaluation around `release-notes`: 20 commits, a hand-written ans
 ## Results
 
 | What I measured | Result |
-|---|---|
+| --- | --- |
 | First version of the skill | 0 of 20 |
 | After fixing the spec | 19 of 20 |
 | First scripted run (one API call per commit) | 15 of 20 |
