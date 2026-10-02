@@ -19,6 +19,34 @@ Severity decides what blocks a pull request. Only `error` rules fail CI. `warnin
 | Placeholders | `Placeholders.yml` | error | TODO, TBD, FIXME, lorem ipsum, XXX |
 | UI terms | `UiTerms.yml` | warning | "click on", "log in", "login" |
 
+## Results on this site's pages
+
+These counts come from the Vale job on PR #13, the first real run (Vale could not run in the authoring environment, so nothing earlier was tested). Counts are for `docs/` after the fixes in the second commit.
+
+| Rule | Alerts | What they were |
+| --- | --- | --- |
+| Heading case | 7 | "How This Site is Built", "Contact Information", "Release Notes", "eReader App Monthly Updates", "Help Center Article", "Internal Knowledge Base Article", and the case study title. All are real title-case headings. |
+| Product names | 0 | |
+| Editor name | 2 | `how-this-site-is-built.md` uses "Visual Studio Code" once and "VS Code" twice. |
+| Filler words | 0 | |
+| Inflated words | 1 | "leverage" in `release-notes.md`. |
+| Passive voice (`Google.Passive`) | 11 | Includes "was checked", "were created", and the headline "is Built". |
+| Sentence length | 2 | A long bullet in `release-notes.md` and a long paragraph in `docs-assistant.md`. |
+| Acronyms | 0 | |
+| Placeholders | 0 | |
+| UI terms | 0 | |
+
+False positives found in that run and fixed:
+
+- **Heading case flagged "What I built" and "What I learned".** Vale treated the pronoun "I" as a capitalization error. "I" is now in the `exceptions` list, along with "Story Board".
+- **The editor-name message printed an empty term.** The rule used a placeholder that this rule type does not fill. The message is now plain text.
+- **Google's own `EmDash` and `Ordinal` rules are errors.** They flagged spaced em dashes and "7th", and would have failed any PR that edited those lines. `.vale.ini` now sets both to warning.
+
+False positives still present:
+
+- **"is unresolved" in `docs-assistant.md`** is flagged as passive voice, but "unresolved" is an adjective.
+- **`Google.WordListCase`, `Google.Colons`, `Google.Will` and `Google.Contractions`** produce many warnings on this site's deliberate wording. They are Google rules, not NellStyle rules, and none blocks a merge.
+
 ## Known false positives
 
 - **Heading case:** proper nouns not in the `exceptions` list are flagged. Add the name to `HeadingCase.yml`.
