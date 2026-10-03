@@ -19,7 +19,6 @@ Severity decides what blocks a pull request. Only `error` rules fail CI. `warnin
 | Placeholders | `Placeholders.yml` | error | TODO, TBD, FIXME, lorem ipsum, XXX |
 | UI terms | `UiTerms.yml` | warning | "click on", "log in", "login" |
 
-
 ## Results on this site's pages
 
 These counts come from the Vale job on PR #13, the first run. Counts are for `docs/` after the fixes in the second commit.
