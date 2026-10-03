@@ -19,10 +19,11 @@ Severity decides what blocks a pull request. Only `error` rules fail CI. `warnin
 | Placeholders | `Placeholders.yml` | error | TODO, TBD, FIXME, lorem ipsum, XXX |
 | UI terms | `UiTerms.yml` | warning | "click on", "log in", "login" |
 
-
 ## Results on this site's pages
 
-These counts come from the Vale job on PR #13, the first run. Counts are for `docs/` after the fixes in the second commit.
+### First run (PR #13)
+
+These counts come from the Vale job on PR #13, the first run, after the config fixes below and before any page was edited or exempted. Later changes to the pages and to `.vale.ini` made them out of date, so the next section shows the current state.
 
 | Rule | Alerts | What they were |
 | --- | --- | --- |
@@ -43,10 +44,21 @@ False positives found in that run and fixed:
 - **The editor-name message printed an empty term.** The rule used a placeholder that this rule type does not fill. The message is now plain text.
 - **Google's own `EmDash` and `Ordinal` rules are errors.** They flagged spaced em dashes and "7th", and would have failed any PR that edited those lines. `.vale.ini` now sets both to warning.
 
-False positives still present:
+False positives from that run that exemptions now hide:
 
-- **"is unresolved" in `docs-assistant.md`** flagged as passive voice, but "unresolved" is an adjective.
-- **`Google.WordListCase`, `Google.Colons`, `Google.Will` and `Google.Contractions`** produce many warnings on this site's deliberate wording. They're Google rules, not NellStyle rules, and none blocks a merge.
+- **"is unresolved" in `docs-assistant.md`** was flagged as passive voice, but "unresolved" is an adjective.
+- **`Google.WordListCase`, `Google.Colons`, `Google.Will` and `Google.Contractions`** produced many warnings on the portfolio pages' deliberate wording. They're Google rules, not NellStyle rules, and none blocks a merge.
+
+### Current state (PR #14)
+
+After the exemptions in `.vale.ini` and edits to `how-this-site-is-built.md`, the Vale job on PR #14 (Oct 3, 2026) reported 2 alerts across all of `docs/`. Both are in `docs/index.md` and neither blocks a merge:
+
+| Rule | Alerts | What it was |
+| --- | --- | --- |
+| `Google.Parens` | 1 | "Use parentheses judiciously" on the second paragraph (the "(most recently)" aside). |
+| `Google.WordListCase` | 1 | "Use 'email' instead of 'Email'" on the contact list label. |
+
+Every NellStyle rule reported 0 alerts. The exempt pages also report 0 Google alerts. That confirms a section-level `BasedOnStyles` in `.vale.ini` replaces the top-level list for those files, not adds to it.
 
 ## Known false positives
 
@@ -62,8 +74,15 @@ False positives still present:
 
 ## Exceptions
 
-- `docs/writing-samples/eob-guide.md` is exempt from the heading-case rule. It keeps title-case headings. The exception is a section in `.vale.ini`.
-- `Google.Headings`, `Google.Acronyms` and `Google.FirstPerson` are off everywhere. The first two duplicate NellStyle rules. The third would flag every "I" on this first-person site.
+`.vale.ini` has three per-file sections. A section can switch rules off for matching files, and its `BasedOnStyles` replaces the top-level list for those files.
+
+- **`docs/writing-samples/*.md`:** only NellStyle runs, so Google's rules are off. The heading-case, sentence-length and inflated-words rules are also off. These pages keep their published wording.
+- **`docs/agentic-projects/docs-assistant.md`:** only NellStyle runs, with heading case and sentence length off.
+- **`docs/writing-samples/eob-guide.md`:** heading case is off. The writing-samples section above already covers this file, so this section is redundant. It is kept because it records the original exception for the EOB guide's title-case headings.
+
+Product-name and placeholder errors still run on every page, including the exempt ones.
+
+Three Google rules are off everywhere: `Google.Headings`, `Google.Acronyms` and `Google.FirstPerson`. The first two duplicate NellStyle rules. The third would flag every "I" on this first-person site.
 
 ## Run it locally
 
@@ -71,6 +90,8 @@ False positives still present:
 vale sync
 vale docs
 ```
+
+CI installs the latest Vale (3.24.0 in the Oct 3 run) and syncs the current Google package on every run. Neither is pinned, so results can change without a commit.
 
 ## What can block a pull request
 

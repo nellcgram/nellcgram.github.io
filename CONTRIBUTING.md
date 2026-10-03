@@ -29,7 +29,7 @@ mkdocs serve
 | Style/format | [markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2) | Heading structure, missing image alt text, formatting issues (`.markdownlint-cli2.jsonc`) |
 | Links | [lychee](https://github.com/lycheeverse/lychee) | Dead internal or external links (`.lychee.toml`) |
 | Preview | [pr-preview-action](https://github.com/rossjrw/pr-preview-action) | N/A — deploys a rendered preview of the PR to `gh-pages/pr-preview/pr-<number>/` |
-| Prose style | [Vale](https://vale.sh) | Error-level alerts on lines you changed (wrong product names,  leftover TODO text) (`.vale.ini`) |
+| Prose style | [Vale](https://vale.sh) | Error-level alerts on lines you changed, such as wrong product names and leftover TODO text (`.vale.ini`) |
 
 Run the same checks locally before pushing:
 
