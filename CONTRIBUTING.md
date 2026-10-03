@@ -29,13 +29,19 @@ mkdocs serve
 | Style/format | [markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2) | Heading structure, missing image alt text, formatting issues (`.markdownlint-cli2.jsonc`) |
 | Links | [lychee](https://github.com/lycheeverse/lychee) | Dead internal or external links (`.lychee.toml`) |
 | Preview | [pr-preview-action](https://github.com/rossjrw/pr-preview-action) | N/A — deploys a rendered preview of the PR to `gh-pages/pr-preview/pr-<number>/` |
+| Prose style | [Vale](https://vale.sh) | Error-level alerts on lines you changed (wrong product names,  leftover TODO text) (`.vale.ini`) |
 
 Run the same checks locally before pushing:
 
 ```bash
 mkdocs build --strict
 npx markdownlint-cli2 "docs/**/*.md"
+# Vale must be installed first
+vale sync
+vale docs
 ```
+
+See the [NellStyle rules](.vale/styles/NellStyle/README.md) for what each rule checks.
 
 ## Versioning
 

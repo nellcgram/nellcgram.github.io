@@ -1,6 +1,6 @@
 # NellStyle: custom Vale rules
 
-These rules run on top of the [Google developer documentation style guide](https://developers.google.com/style) package. `.vale.ini` loads both, so a page is checked against Google's rules and these.
+These rules run on top of the [Google developer documentation style guide](https://developers.google.com/style) package. `.vale.ini` loads both, so a page gets checked against Google's rules and these.
 
 Severity decides what blocks a pull request. Only `error` rules fail CI. `warning` and `suggestion` alerts show up as annotations and never block a merge.
 
@@ -8,7 +8,7 @@ Severity decides what blocks a pull request. Only `error` rules fail CI. `warnin
 
 | Rule | File | Severity | What it flags |
 | --- | --- | --- | --- |
-| Heading case | `HeadingCase.yml` | warning | Headings that are not sentence case (the pronoun "I" and listed proper nouns are allowed) |
+| Heading case | `HeadingCase.yml` | warning | Headings that aren't sentence case (the pronoun "I" and listed proper nouns are allowed) |
 | Product names | `ProductNames.yml` | error | Wrong capitalization of GitHub, MkDocs, Markdown, Claude Code, Visual Studio Code |
 | Editor name | `EditorName.yml` | warning | A page that uses both "VS Code" and "Visual Studio Code" |
 | Filler words | `FillerWords.yml` | warning | simply, just, easy, easily, basically, obviously, actually, clearly |
@@ -19,9 +19,10 @@ Severity decides what blocks a pull request. Only `error` rules fail CI. `warnin
 | Placeholders | `Placeholders.yml` | error | TODO, TBD, FIXME, lorem ipsum, XXX |
 | UI terms | `UiTerms.yml` | warning | "click on", "log in", "login" |
 
+
 ## Results on this site's pages
 
-These counts come from the Vale job on PR #13, the first real run (Vale could not run in the authoring environment, so nothing earlier was tested). Counts are for `docs/` after the fixes in the second commit.
+These counts come from the Vale job on PR #13, the first run. Counts are for `docs/` after the fixes in the second commit.
 
 | Rule | Alerts | What they were |
 | --- | --- | --- |
@@ -44,8 +45,8 @@ False positives found in that run and fixed:
 
 False positives still present:
 
-- **"is unresolved" in `docs-assistant.md`** is flagged as passive voice, but "unresolved" is an adjective.
-- **`Google.WordListCase`, `Google.Colons`, `Google.Will` and `Google.Contractions`** produce many warnings on this site's deliberate wording. They are Google rules, not NellStyle rules, and none blocks a merge.
+- **"is unresolved" in `docs-assistant.md`** flagged as passive voice, but "unresolved" is an adjective.
+- **`Google.WordListCase`, `Google.Colons`, `Google.Will` and `Google.Contractions`** produce many warnings on this site's deliberate wording. They're Google rules, not NellStyle rules, and none blocks a merge.
 
 ## Known false positives
 
@@ -73,4 +74,4 @@ vale docs
 
 ## What can block a pull request
 
-The Vale CI job fails only when an `error`-level alert lands on a line the pull request changes. NellStyle has two error rules: product names and placeholders. `.vale.ini` lowers `Google.EmDash` and `Google.Ordinal` from error to warning so they cannot block either.
+The Vale CI job fails only when an `error`-level alert lands on a line the pull request changes. NellStyle has two error rules: product names and placeholders. `.vale.ini` lowers `Google.EmDash` and `Google.Ordinal` from error to warning so they can't block either.
