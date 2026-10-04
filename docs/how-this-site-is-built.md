@@ -1,4 +1,4 @@
-# Building this site
+# How I built this site
 
 I build this site with [MkDocs](https://www.mkdocs.org/) and host it on
 [GitHub Pages](https://pages.github.com/). The source files live in a public
