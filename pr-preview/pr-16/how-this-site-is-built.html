@@ -167,7 +167,7 @@ and a preview before it reaches the live site.</p>
 </tr>
 <tr>
 <td>markdownlint</td>
-<td>Checks Markdown formatting, such as heading structure and image alt text</td>
+<td>Checks Markdown formatting, including heading structure, image alt text, and blank lines</td>
 </tr>
 <tr>
 <td>lychee</td>
@@ -208,10 +208,10 @@ and a preview before it reaches the live site.</p>
 <h2 id="what-each-check-caught">What each check caught</h2>
 <p>These examples come from the pull requests that built this pipeline.</p>
 <ul>
-<li><strong>Strict build (<code>mkdocs build --strict</code>):</strong> nothing so far. It has passed on every pull request, so it hasn't caught a real problem yet. It exists to fail on a broken navigation entry or a Markdown warning.</li>
+<li><strong>Strict build:</strong> nothing so far. <code>mkdocs build --strict</code> has passed on every pull request, so it hasn't caught a real problem yet. It exists to fail on a broken navigation entry or a Markdown warning.</li>
 <li><strong>markdownlint:</strong> when I added it, it found 11 problems in existing pages. They were trailing spaces, a malformed table, a missing blank line before a heading, and a bare email address. Later it flagged a compact table separator row and another missing blank line in newer pages.</li>
-<li><strong>Link check (lychee):</strong> on one pull request it failed three times on a link to my <code>docs-assistant</code> repository, which returned a 503 error from GitHub. The link was fine. The check passed a few minutes later with no change to the link. A failed link check is a reason to look, not proof that a link is broken.</li>
-<li><strong>Vale:</strong> the first run showed three problems in my own setup. Two Google rules, for em dashes and ordinal numbers like "7th," were set to errors that would have blocked any pull request touching those lines. One rule message printed an empty term. The heading rule flagged the pronoun "I." It also found real writing issues: 7 title-case headings and 11 passive-voice sentences. I fixed the setup problems and exempted my portfolio pieces from Google's rules, so their published wording stays. Vale now reports 2 alerts across the site. The <a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/.vale/styles/NellStyle/README.md">NellStyle rules</a> list each check and its known false positives.</li>
+<li><strong>Link check:</strong> on one pull request, lychee failed three times on a link to my <code>docs-assistant</code> repository, which returned a 503 error from GitHub. The link was fine. The check passed a few minutes later with no change to the link. A failed link check is a reason to look, not proof that a link broke.</li>
+<li><strong>Vale:</strong> the first run showed three problems in my own setup. Google's rules for em dashes and ordinal numbers ran as errors, and they would have blocked any pull request that touched those lines. One rule message printed an empty term. The heading rule flagged the pronoun "I." It also found real writing issues: 7 title-case headings and 11 passive-voice sentences. I fixed the setup problems and exempted my portfolio pieces from Google's rules, so their published wording stays. Vale now reports 2 alerts across the site. The <a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/.vale/styles/NellStyle/README.md">NellStyle rules</a> list each check and its known false positives.</li>
 <li><strong>Preview and deploy:</strong> the original deploy command, <code>mkdocs gh-deploy --force</code>, rewrote the whole <code>gh-pages</code> branch and deleted every open preview, so a preview link returned a 404. Previews also never cleaned up, because the workflow didn't listen for the pull request closing. <a href="https://github.com/nellcgram/nellcgram.github.io/pull/11">Pull request 11</a> fixed both. After it merged, a preview survived a deploy to <code>main</code>, which the old command would have deleted.</li>
 </ul>
 <h2 id="deployment">Deployment</h2>
@@ -220,7 +220,7 @@ and a preview before it reaches the live site.</p>
 <p>Source: <a href="https://github.com/nellcgram/nellcgram.github.io/tree/main/.github/workflows">.github/workflows/</a></p>
 <h2 id="repository">Repository</h2>
 <p>Source code: <a href="https://github.com/nellcgram/nellcgram.github.io">github.com/nellcgram/nellcgram.github.io</a></p>
-<p>Contributing guide: <a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a></p></div>
+<p>See <a href="https://github.com/nellcgram/nellcgram.github.io/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a> for the contributing guide.</p></div>
             </div>
         </div>
 
