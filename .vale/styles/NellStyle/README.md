@@ -29,7 +29,7 @@ These counts come from the Vale job on PR #13, the first run, after the config f
 | --- | --- | --- |
 | Heading case | 7 | "How This Site is Built", "Contact Information", "Release Notes", "eReader App Monthly Updates", "Help Center Article", "Internal Knowledge Base Article", and the case study title. All are real title-case headings. |
 | Product names | 0 | |
-| Editor name | 2 | `how-this-site-is-built.md` uses "Visual Studio Code" once and "VS Code" twice. |
+| Editor name | 2 | `how-I-build-this-site.md` uses "Visual Studio Code" once and "VS Code" twice. |
 | Filler words | 0 | |
 | Inflated words | 1 | "leverage" in `release-notes.md`. |
 | Passive voice (`Google.Passive`) | 11 | Includes "was checked", "were created", and the headline "is Built". |
@@ -51,7 +51,7 @@ False positives from that run that exemptions now hide:
 
 ### Current state (PR #14)
 
-After the exemptions in `.vale.ini` and edits to `how-this-site-is-built.md`, the Vale job on PR #14 (Oct 3, 2026) reported 2 alerts across all of `docs/`. Both are in `docs/index.md` and neither blocks a merge:
+After the exemptions in `.vale.ini` and edits to `how-I-build-this-site.md`, the Vale job on PR #14 (Oct 3, 2026) reported 2 alerts across all of `docs/`. Both are in `docs/index.md` and neither blocks a merge:
 
 | Rule | Alerts | What it was |
 | --- | --- | --- |

@@ -23,7 +23,7 @@ mkdocs serve
 4. Review the preview, then merge when the checks pass.
 5. The deploy workflow publishes the site to GitHub Pages and removes the preview.
 
-For what each check has caught so far, see [How I build this site](https://nellcgram.github.io/how-this-site-is-built.html).
+For what each check has caught so far, see [How I build this site](https://nellcgram.github.io/how-I-build-this-site.html).
 
 ## Contributing
 
