@@ -13,7 +13,7 @@ and a preview before it reaches the live site.
 | GitHub | Version control and remote repository hosting |
 | GitHub Pages | Free static site hosting, deployed with GitHub Actions |
 | GitHub Actions | Runs the checks on every pull request and deploys the site when a change merges |
-| markdownlint | Checks Markdown formatting, such as heading structure and image alt text |
+| markdownlint | Checks Markdown formatting, including heading structure, image alt text, and blank lines |
 | lychee | Checks that internal and external links work |
 | Vale | Checks prose against the Google developer documentation style guide and my own rules |
 | pr-preview-action | Publishes a rendered preview of each pull request |
@@ -35,10 +35,10 @@ and a preview before it reaches the live site.
 
 These examples come from the pull requests that built this pipeline.
 
-- **Strict build (`mkdocs build --strict`):** nothing so far. It has passed on every pull request, so it hasn't caught a real problem yet. It exists to fail on a broken navigation entry or a Markdown warning.
+- **Strict build:** nothing so far. `mkdocs build --strict` has passed on every pull request, so it hasn't caught a real problem yet. It exists to fail on a broken navigation entry or a Markdown warning.
 - **markdownlint:** when I added it, it found 11 problems in existing pages. They were trailing spaces, a malformed table, a missing blank line before a heading, and a bare email address. Later it flagged a compact table separator row and another missing blank line in newer pages.
-- **Link check (lychee):** on one pull request it failed three times on a link to my `docs-assistant` repository, which returned a 503 error from GitHub. The link was fine. The check passed a few minutes later with no change to the link. A failed link check is a reason to look, not proof that a link is broken.
-- **Vale:** the first run showed three problems in my own setup. Two Google rules, for em dashes and ordinal numbers like "7th," were set to errors that would have blocked any pull request touching those lines. One rule message printed an empty term. The heading rule flagged the pronoun "I." It also found real writing issues: 7 title-case headings and 11 passive-voice sentences. I fixed the setup problems and exempted my portfolio pieces from Google's rules, so their published wording stays. Vale now reports 2 alerts across the site. The [NellStyle rules](https://github.com/nellcgram/nellcgram.github.io/blob/main/.vale/styles/NellStyle/README.md) list each check and its known false positives.
+- **Link check:** on one pull request, lychee failed three times on a link to my `docs-assistant` repository, which returned a 503 error from GitHub. The link was fine. The check passed a few minutes later with no change to the link. A failed link check is a reason to look, not proof that a link broke.
+- **Vale:** the first run showed three problems in my own setup. Google's rules for em dashes and ordinal numbers ran as errors, and they would have blocked any pull request that touched those lines. One rule message printed an empty term. The heading rule flagged the pronoun "I." It also found real writing issues: 7 title-case headings and 11 passive-voice sentences. I fixed the setup problems and exempted my portfolio pieces from Google's rules, so their published wording stays. Vale now reports 2 alerts across the site. The [NellStyle rules](https://github.com/nellcgram/nellcgram.github.io/blob/main/.vale/styles/NellStyle/README.md) list each check and its known false positives.
 - **Preview and deploy:** the original deploy command, `mkdocs gh-deploy --force`, rewrote the whole `gh-pages` branch and deleted every open preview, so a preview link returned a 404. Previews also never cleaned up, because the workflow didn't listen for the pull request closing. [Pull request 11](https://github.com/nellcgram/nellcgram.github.io/pull/11) fixed both. After it merged, a preview survived a deploy to `main`, which the old command would have deleted.
 
 ## Deployment
@@ -53,4 +53,4 @@ Source: [.github/workflows/](https://github.com/nellcgram/nellcgram.github.io/tr
 
 Source code: [github.com/nellcgram/nellcgram.github.io](https://github.com/nellcgram/nellcgram.github.io)
 
-Contributing guide: [CONTRIBUTING.md](https://github.com/nellcgram/nellcgram.github.io/blob/main/CONTRIBUTING.md)
+See [CONTRIBUTING.md](https://github.com/nellcgram/nellcgram.github.io/blob/main/CONTRIBUTING.md) for the contributing guide.
