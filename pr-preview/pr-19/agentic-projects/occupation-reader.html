@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://nellcgram.github.io/agentic-projects/occupation-reader.html">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Blind Occupation Reader - Nell Gram</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">Nell Gram</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../index.html" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Writing Samples</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../writing-samples/help-article.html" class="dropdown-item">Help Center Article</a>
+</li>
+                                    
+<li>
+    <a href="../writing-samples/kb-article.html" class="dropdown-item">KB Article</a>
+</li>
+                                    
+<li>
+    <a href="../writing-samples/release-notes.html" class="dropdown-item">Release Notes</a>
+</li>
+                                    
+<li>
+    <a href="../writing-samples/eob-guide.html" class="dropdown-item">EOB Guide</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Agentic Projects</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="docs-assistant.html" class="dropdown-item">Docs Assistant Skills</a>
+</li>
+                                    
+<li>
+    <a href="occupation-reader.html" class="dropdown-item active" aria-current="page">Blind Occupation Reader</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../how-I-build-this-site.html" class="nav-link">How I build this site</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="docs-assistant.html" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../how-I-build-this-site.html" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#case-study-a-blind-reader-test-for-show-dont-tell" class="nav-link">Case Study: A Blind-Reader Test for "Show, Don't Tell"</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#what-i-built" class="nav-link">What I built</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#results" class="nav-link">Results</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#what-i-learned" class="nav-link">What I learned</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#known-limits" class="nav-link">Known limits</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="case-study-a-blind-reader-test-for-show-dont-tell">Case Study: A Blind-Reader Test for "Show, Don't Tell"</h1>
+<p>I built this to test whether a character's behavior shows their job without anyone stating it, and to practice designing and debugging a multi-agent workflow.</p>
+<p>Source and full write-up: <a href="https://github.com/nellcgram/blind-occupation-reader">github.com/nellcgram/blind-occupation-reader</a></p>
+<h2 id="what-i-built">What I built</h2>
+<ul>
+<li><strong>A Claude Code skill with two agents.</strong> A blind reader sees only the scene text and guesses the character's job. Five independent runs vote, and a second agent checks the winning answer against occupations I had already considered.</li>
+<li><strong>A web version.</strong> A small Flask app does the same job, with a per-visitor rate limit, a daily cap, and a limit on text length. A Render blueprint is included. I have not deployed it.</li>
+</ul>
+<p>The test character comes from a private manuscript, so the repository uses an invented sample character instead.</p>
+<h2 id="results">Results</h2>
+<table>
+<thead>
+<tr>
+<th>What I measured</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Three runs on my manuscript, using different scene sets</td>
+<td>A narrow answer, then a broad one, then the narrow one again</td>
+</tr>
+<tr>
+<td>A correct re-run on the full manuscript</td>
+<td>Matched the broad answer, 5 of 5</td>
+</tr>
+<tr>
+<td>Invented sample, two five-vote runs</td>
+<td>Same answer both times, 5 of 5</td>
+</tr>
+<tr>
+<td>Runs that quoted a line stating the job, before and after a new rule</td>
+<td>1 of 5, then 0 of 5</td>
+</tr>
+<tr>
+<td>Cheapest model on the sample</td>
+<td>Gave a nearby but different answer</td>
+</tr>
+</tbody>
+</table>
+<p>These come from one invented sample and a handful of runs. The sample is clear on purpose, so it shows that the pipeline works, not how it handles subtle writing.</p>
+<h2 id="what-i-learned">What I learned</h2>
+<ol>
+<li><strong>A tool restriction fixed a runaway-agent incident.</strong> Parallel agents re-ran the whole workflow, and one pushed a deletion to an unrelated repository. They had shell access they never needed. Limiting them to reading files, plus a permission prompt before any push, fixed it.</li>
+<li><strong>A changing answer was my input, not the model.</strong> One run picked scenes by one of the character's two names and dropped the rest. Logging the exact text used for each run is what made that visible.</li>
+<li><strong>The cheapest model missed the evidence.</strong> Haiku 5.5 answered "paramedic" where the scenes point to a nurse. Sonnet 5.5 matched the strongest model, so it is the default.</li>
+<li><strong>A rule helped but did not close the problem.</strong> Telling the reader not to quote lines that state the job cut those quotes on the sample. Two of five runs still quoted a line about the schedule.</li>
+</ol>
+<h2 id="known-limits">Known limits</h2>
+<p>This is a prompt-based experiment, not a validated measure. Votes from one model are correlated, so five votes overstate independence. I did not compare the answers with human readers, and the web app's 13 tests use a fake model. The <a href="https://github.com/nellcgram/blind-occupation-reader/blob/main/docs/case-study.md">case study</a> in the repository covers each limit and lists the next steps.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
