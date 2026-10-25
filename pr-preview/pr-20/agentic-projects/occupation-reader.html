@@ -153,14 +153,14 @@
 </ol>
 <h2 id="solutions">Solutions</h2>
 <p>I asked Claude to build what it needed, then I rewrote the agent descriptions and prompts and used Claude Code to test results, and rewrote again. Each test I ran resulted in a new log of results and a new occupation considered.</p>
-<p>My final problem was that this was not a project others could use because it used my own manuscript. I had Claude write sample scenes and rerun the tests so it made a new log and candidate file </p>
+<p>My final problem was that this was not a project others could use because it used my own manuscript. I had Claude write sample scenes and rerun the tests so it made a new log and candidate file</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>I ultimately decided that this was more work with Claude than it was worth. Testing the agents and skill and adjusting the writing took more time than my original prompt engineering and re-submitting scenes had.</p>
 <p>The answer I settled on was to use less Claude in the writing process. I interrogated why I had been using Claude in the first place: to get a general sense of the character’s psychology from “someone else’s” perspective. I decided to write many more scenes, let the writing process determine what occupation seemed to fit best over time (possibly many months of writing and revising), and then take distance from the work before I assessed whether the occupation seemed accurate. This felt like a case of outsourcing my judgment to AI too much.</p>
 <hr />
 <h2 id="technical-specs-during-the-creation-process">Technical specs during the creation process</h2>
 <p>The 2 agents created read all manuscript scenes, vote on the job, quote their evidence, and log how the answer changes. Five independent "readers" (subagents) see the scene text and guess the job, ignoring stated jobs (dialogue), then report answers with text quoted as evidence. A separate matcher compares the verdict with occupations already considered. Each run is logged with the text used.</p>
-<h4 id="decisions-i-made-during-the-process">Decisions I made during the process</h4>
+<h3 id="decisions-i-made-during-the-process">Decisions I made during the process</h3>
 <ul>
 <li>Readers don't see the list of possible jobs</li>
 <li>Answers need to include text quotes so the user knows this is evidence-based, not guesswork</li>
