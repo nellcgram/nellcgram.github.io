@@ -160,7 +160,7 @@
 <p>The result is a Claude Code skill with two agents. Five independent readers see only the scene text, guess the job, and quote their evidence. A separate matcher compares the verdict with occupations I had already considered. Each run is logged with the exact text used.</p>
 <p>My final problem was that this was not a project others could use because it used my own manuscript. I had Claude write sample scenes and rerun the tests so it made a new log and candidate file.</p>
 <h2 id="what-went-wrong">What went wrong</h2>
-<p>While testing, parallel agents re-ran the whole workflow, and one pushed a deletion to an unrelated repository. The agents had shell access they never needed. I limited them to reading files and added a permission prompt before any push. The lesson: ask what an agent can do, not only what it was told.</p>
+<p>While testing, parallel agents re-ran the whole workflow, and one pushed a deletion to an unrelated repository. The agents had shell access they never needed. I limited them to reading files and added a permission prompt before any push.</p>
 <h2 id="what-i-did-not-measure">What I did not measure</h2>
 <p>I did not compare the answers with human readers, test subtle or ambiguous writing (the sample is clear on purpose), or try other models.</p>
 <p>The agent design, decisions and other problems I fixed are in the <a href="https://github.com/nellcgram/blind-occupation-reader/blob/main/docs/case-study.md">full technical case study</a> in the repository.</p>
