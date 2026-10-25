@@ -25,7 +25,7 @@ My final problem was that this was not a project others could use because it use
 
 ## What went wrong
 
-While testing, parallel agents re-ran the whole workflow, and one pushed a deletion to an unrelated repository. The agents had shell access they never needed. I limited them to reading files and added a permission prompt before any push. The lesson: ask what an agent can do, not only what it was told.
+While testing, parallel agents re-ran the whole workflow, and one pushed a deletion to an unrelated repository. The agents had shell access they never needed. I limited them to reading files and added a permission prompt before any push.
 
 ## What I did not measure
 
