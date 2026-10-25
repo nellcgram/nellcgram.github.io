@@ -12,38 +12,26 @@ I built this to solve a characterization problem. I wanted to submit all manuscr
 
 1. I wanted the answer to come from the character’s psychology and behavior, not how he or other characters described him in dialogue, in case he was saying he was a soldier but was actually a spy.
 2. I wanted a solution that allowed me to avoid adding the same scenes to each fresh Claude chat.
-3. I was tired of constant prompt engineering, asking variations on the same questions: "From his behavior here, has his likely job changed? Are both operator and intelligence viable options? Which is more viable? Ignore all dialogue from any character and focus on his behavior.”
+3. I was tired of constant prompt engineering, asking variations on the same questions.
 4. I wanted to learn from Claude what system instructions worked best for this problem.
 
 ## Solutions
 
 I asked Claude to build what it needed, then I rewrote the agent descriptions and prompts and used Claude Code to test results, and rewrote again. Each test I ran resulted in a new log of results and a new occupation considered.
 
+The result is a Claude Code skill with two agents. Five independent readers see only the scene text, guess the job, and quote their evidence. A separate matcher compares the verdict with occupations I had already considered. Each run is logged with the exact text used.
+
 My final problem was that this was not a project others could use because it used my own manuscript. I had Claude write sample scenes and rerun the tests so it made a new log and candidate file.
 
-## Technical specs during the creation process
+## What went wrong
 
-The 2 agents created read all manuscript scenes, vote on the job, quote their evidence, and log how the answer changes. Five independent "readers" (subagents) see the scene text and guess the job, ignoring stated jobs (dialogue), then report answers with text quoted as evidence. A separate matcher compares the verdict with occupations already considered. Each run is logged with the text used.
+While testing, parallel agents re-ran the whole workflow, and one pushed a deletion to an unrelated repository. The agents had shell access they never needed. I limited them to reading files and added a permission prompt before any push. The lesson: ask what an agent can do, not only what it was told.
 
-### Decisions I made during the process
+## What I did not measure
 
-- Readers don't see the list of possible jobs
-- Answers need to include text quotes so the user knows this is evidence-based, not guesswork
-- Agents can use only the Read tool, do not write or run anything
-- Agents should reference the whole manuscript, not only some scenes
-- One candidates file per character, with a `Manuscript:` path and aliases (a hard-coded path and name-based scene selection both caused errors)
+I did not compare the answers with human readers, test subtle or ambiguous writing (the sample is clear on purpose), or try other models.
 
-### What went wrong
-
-1. **Runaway agents.** Parallel subagents re-ran the whole workflow and, in one case, pushed a deletion to an unrelated
-   repo. The agents had full shell access they never needed. Fix: Read-only tools, plus a permission prompt before any push.
-   Lesson: ask what an agent *can* do, not only what it was told.
-2. **Stated-job quotes.** Subagents kept quoting lines that named the job (dialogue, not behavior). I added a rule to cut this.
-3. **The character had 2 names.** One run picked scenes by one of the character's two names. Fix: per-character manuscript path and alias rules.
-
-### Not measured
-
-Agreement with human readers; subtle or ambiguous writing (the sample is clear on purpose); behavior of other models.
+The agent design, decisions and other problems I fixed are in the [full technical case study](https://github.com/nellcgram/blind-occupation-reader/blob/main/docs/case-study.md) in the repository.
 
 ## Conclusion
 
