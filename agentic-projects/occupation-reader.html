@@ -124,7 +124,11 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#technical-specs-during-the-creation-process" class="nav-link">Technical specs during the creation process</a>
+            <li class="nav-item" data-bs-level="2"><a href="#what-went-wrong" class="nav-link">What went wrong</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#what-i-did-not-measure" class="nav-link">What I did not measure</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -148,32 +152,18 @@
 <ol>
 <li>I wanted the answer to come from the character’s psychology and behavior, not how he or other characters described him in dialogue, in case he was saying he was a soldier but was actually a spy.</li>
 <li>I wanted a solution that allowed me to avoid adding the same scenes to each fresh Claude chat.</li>
-<li>I was tired of constant prompt engineering, asking variations on the same questions: "From his behavior here, has his likely job changed? Are both operator and intelligence viable options? Which is more viable? Ignore all dialogue from any character and focus on his behavior.”</li>
+<li>I was tired of constant prompt engineering, asking variations on the same questions.</li>
 <li>I wanted to learn from Claude what system instructions worked best for this problem.</li>
 </ol>
 <h2 id="solutions">Solutions</h2>
 <p>I asked Claude to build what it needed, then I rewrote the agent descriptions and prompts and used Claude Code to test results, and rewrote again. Each test I ran resulted in a new log of results and a new occupation considered.</p>
+<p>The result is a Claude Code skill with two agents. Five independent readers see only the scene text, guess the job, and quote their evidence. A separate matcher compares the verdict with occupations I had already considered. Each run is logged with the exact text used.</p>
 <p>My final problem was that this was not a project others could use because it used my own manuscript. I had Claude write sample scenes and rerun the tests so it made a new log and candidate file.</p>
-<h2 id="technical-specs-during-the-creation-process">Technical specs during the creation process</h2>
-<p>The 2 agents created read all manuscript scenes, vote on the job, quote their evidence, and log how the answer changes. Five independent "readers" (subagents) see the scene text and guess the job, ignoring stated jobs (dialogue), then report answers with text quoted as evidence. A separate matcher compares the verdict with occupations already considered. Each run is logged with the text used.</p>
-<h3 id="decisions-i-made-during-the-process">Decisions I made during the process</h3>
-<ul>
-<li>Readers don't see the list of possible jobs</li>
-<li>Answers need to include text quotes so the user knows this is evidence-based, not guesswork</li>
-<li>Agents can use only the Read tool, do not write or run anything</li>
-<li>Agents should reference the whole manuscript, not only some scenes</li>
-<li>One candidates file per character, with a <code>Manuscript:</code> path and aliases (a hard-coded path and name-based scene selection both caused errors)</li>
-</ul>
-<h3 id="what-went-wrong">What went wrong</h3>
-<ol>
-<li><strong>Runaway agents.</strong> Parallel subagents re-ran the whole workflow and, in one case, pushed a deletion to an unrelated
-   repo. The agents had full shell access they never needed. Fix: Read-only tools, plus a permission prompt before any push.
-   Lesson: ask what an agent <em>can</em> do, not only what it was told.</li>
-<li><strong>Stated-job quotes.</strong> Subagents kept quoting lines that named the job (dialogue, not behavior). I added a rule to cut this.</li>
-<li><strong>The character had 2 names.</strong> One run picked scenes by one of the character's two names. Fix: per-character manuscript path and alias rules.</li>
-</ol>
-<h3 id="not-measured">Not measured</h3>
-<p>Agreement with human readers; subtle or ambiguous writing (the sample is clear on purpose); behavior of other models.</p>
+<h2 id="what-went-wrong">What went wrong</h2>
+<p>While testing, parallel agents re-ran the whole workflow, and one pushed a deletion to an unrelated repository. The agents had shell access they never needed. I limited them to reading files and added a permission prompt before any push.</p>
+<h2 id="what-i-did-not-measure">What I did not measure</h2>
+<p>I did not compare the answers with human readers, test subtle or ambiguous writing (the sample is clear on purpose), or try other models.</p>
+<p>The agent design, decisions and other problems I fixed are in the <a href="https://github.com/nellcgram/blind-occupation-reader/blob/main/docs/case-study.md">full technical case study</a> in the repository.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>I ultimately decided that this was more work with Claude than it was worth. Testing the agents and skill and adjusting the writing took more time than my original prompt engineering and re-submitting scenes had.</p>
 <p>The answer I settled on was to use less Claude in the writing process. I interrogated why I had been using Claude in the first place: to get a general sense of the character’s psychology from “someone else’s” perspective. I decided to write many more scenes, let the writing process determine what occupation seemed to fit best over time (possibly many months of writing and revising), and then take distance from the work before I assessed whether the occupation seemed accurate. This felt like a case of outsourcing my judgment to AI too much.</p>
