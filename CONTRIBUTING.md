@@ -45,5 +45,4 @@ See the [NellStyle rules](.vale/styles/NellStyle/README.md) for what each rule c
 
 ## Versioning
 
-This site has a single live version — there's no versioned docs history to
-switch between, so there's no version-switcher (e.g. `mike`) in the build.
+This site has a single live version. There's no versioned docs history to switch between, so there's no version-switcher (e.g. `mike`) in the build.
