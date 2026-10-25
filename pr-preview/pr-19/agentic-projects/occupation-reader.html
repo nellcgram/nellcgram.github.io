@@ -139,10 +139,7 @@
 <p>I built this to test whether a character's behavior shows their job without anyone stating it, and to practice designing and debugging a multi-agent workflow.</p>
 <p>Source and full write-up: <a href="https://github.com/nellcgram/blind-occupation-reader">github.com/nellcgram/blind-occupation-reader</a></p>
 <h2 id="what-i-built">What I built</h2>
-<ul>
-<li><strong>A Claude Code skill with two agents.</strong> A blind reader sees only the scene text and guesses the character's job. Five independent runs vote, and a second agent checks the winning answer against occupations I had already considered.</li>
-<li><strong>A web version.</strong> A small Flask app does the same job, with a per-visitor rate limit, a daily cap, and a limit on text length. A Render blueprint is included. I have not deployed it.</li>
-</ul>
+<p>A Claude Code skill with two agents. A blind reader sees only the scene text and guesses the character's job. Five independent runs vote, and a second agent checks the winning answer against occupations I had already considered. Each run is logged with the exact text it used.</p>
 <p>The test character comes from a private manuscript, so the repository uses an invented sample character instead.</p>
 <h2 id="results">Results</h2>
 <table>
@@ -169,10 +166,6 @@
 <td>Runs that quoted a line stating the job, before and after a new rule</td>
 <td>1 of 5, then 0 of 5</td>
 </tr>
-<tr>
-<td>Cheapest model on the sample</td>
-<td>Gave a nearby but different answer</td>
-</tr>
 </tbody>
 </table>
 <p>These come from one invented sample and a handful of runs. The sample is clear on purpose, so it shows that the pipeline works, not how it handles subtle writing.</p>
@@ -180,11 +173,10 @@
 <ol>
 <li><strong>A tool restriction fixed a runaway-agent incident.</strong> Parallel agents re-ran the whole workflow, and one pushed a deletion to an unrelated repository. They had shell access they never needed. Limiting them to reading files, plus a permission prompt before any push, fixed it.</li>
 <li><strong>A changing answer was my input, not the model.</strong> One run picked scenes by one of the character's two names and dropped the rest. Logging the exact text used for each run is what made that visible.</li>
-<li><strong>The cheapest model missed the evidence.</strong> Haiku 5.5 answered "paramedic" where the scenes point to a nurse. Sonnet 5.5 matched the strongest model, so it is the default.</li>
 <li><strong>A rule helped but did not close the problem.</strong> Telling the reader not to quote lines that state the job cut those quotes on the sample. Two of five runs still quoted a line about the schedule.</li>
 </ol>
 <h2 id="known-limits">Known limits</h2>
-<p>This is a prompt-based experiment, not a validated measure. Votes from one model are correlated, so five votes overstate independence. I did not compare the answers with human readers, and the web app's 13 tests use a fake model. The <a href="https://github.com/nellcgram/blind-occupation-reader/blob/main/docs/case-study.md">case study</a> in the repository covers each limit and lists the next steps.</p></div>
+<p>This is a prompt-based experiment, not a validated measure. Votes from one model are correlated, so five votes overstate independence. I did not compare the answers with human readers or try other models. The <a href="https://github.com/nellcgram/blind-occupation-reader/blob/main/docs/case-study.md">case study</a> in the repository covers each limit and lists the next steps.</p></div>
             </div>
         </div>
 
