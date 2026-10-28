@@ -8,7 +8,9 @@ This project is about writing an unambiguous spec for an LLM, debugging it the w
 
 [The changelog](https://github.com/nellcgram/nellcgram.github.io/blob/main/.claude/skills/book-recommendations/CHANGELOG.md)
 
-[The eval run](https://github.com/nellcgram/nellcgram.github.io/blob/main/offline-projects/agentic-projects/evals/run-01.md)
+[The eval run (Run 1)](https://github.com/nellcgram/nellcgram.github.io/blob/main/offline-projects/agentic-projects/evals/run-01.md)
+
+[The second eval run (Run 2)](https://github.com/nellcgram/nellcgram.github.io/blob/main/offline-projects/agentic-projects/evals/run-02.md)
 
 [The eval notes](https://github.com/nellcgram/nellcgram.github.io/blob/main/offline-projects/agentic-projects/evals/eval-notes.md)
 
@@ -48,7 +50,7 @@ In the third round, I found a state-persistence limitation in the model. Results
 
 ## How I Evaluated It
 
-Passing my own read-through isn't the same as verifying the output against a fixed standard, so I wrote a 12-criterion rubric and scored a real run against it (see the eval run above). Two results from that pass stood out more than a clean scorecard would have:
+Passing my own read-through isn't the same as verifying the output against a fixed standard, so I wrote a 12-criterion rubric and scored a real run against it (see the eval run above). Several results from that pass stood out more than a clean scorecard would have:
 
 - **A hallucination that the first score hid.** The model's draft attributed "The Suite Spot" to the wrong author. Claude checked all 15 titles and authors against publisher pages, Goodreads, and reviews in-session, and I spot-checked a subset by hand — the manual spot-check is what actually caught the misattribution. I corrected the entry before delivering the list, which meant the attribution criterion scored a clean pass: the rubric had graded the corrected output, not what the model produced. I fixed the rubric so it grades what the model actually produced — a caught-and-fixed error still fails that criterion for the run — and rescored Run 1 accordingly.
 - **A defect in the rubric itself.** My first rubric only had pass and fail, which meant a criterion nobody could actually verify (like heat level, which isn't reliably documented anywhere outside the book's text) silently resolved to "pass." I added "unverifiable" as a distinct, separately-counted outcome so the rubric reports what's actually known rather than defaulting unknowns to clean.
@@ -57,8 +59,31 @@ Passing my own read-through isn't the same as verifying the output against a fix
 - **A note that leaked the thing it was supposed to hide.** Six of Run 1's fifteen entries carried "Note: this author has other books that qualify." The word "qualify" implies a pass/fail filter exists, which conflicts with the skill's own rule that the exclusion process stay invisible — the reader should never learn that anything was screened. I cut the instruction and its note from the skill entirely, closing the open question the regrade had raised without resolving.
 - **Genre scope disagreed across files, and the fallback didn't exist.** The README described the skill as covering contemporary and fantasy romance; SKILL.md's own genre list is wider (contemporary, fantasy, historical, regency, romantic suspense). Run 2 recommended a historical title, which the README's narrower description wouldn't have covered — I synced the README to match SKILL.md. Separately, SKILL.md's instruction to ask the user for a genre assumes a live conversation always exists. Run 2 had no user turn to ask, so it silently mixed genres with no rule telling it what to do. I added a fallback: default to contemporary, and state that a default was applied, whenever there's no one to ask.
 
-Final score on Run 1: 8 pass, 2 fail, 2 unverifiable (of 12 criteria).
+## Run 2
+
+After the fixes above, I ran the skill a second time (see the second eval run above). Before the list was finalized, I rejected 8 candidates during vetting, for reasons such as a main character who kidnaps or tortures another character, a main character with a child, and a book credited to the wrong author on the first guess. Because those errors were caught before any output existed, none of them counts against the score.
+
+Run 2 scored 10 pass, 0 fail, 2 unverifiable (of 12 criteria). Two limits apply:
+
+- I graded it in the same session that produced it, so the grader had the skill loaded. Same-session grading missed a real failure twice in Run 1, so this score has not been independently confirmed.
+- It ran against SKILL.md as it stood before the 2026-09-12 edits, so it does not test the genre fallback, the guardianship rule, or the removal of the "other books that qualify" note.
+
+## Scores
+
+| Run | Pass | Fail | Unverifiable | Graded by |
+| --- | --- | --- | --- | --- |
+| Run 1 | 8 | 2 | 2 | Same session, then an independent regrade |
+| Run 2 | 10 | 0 | 2 | Same session only |
+
+Criteria 9 (content-warning coverage) and 10 (heat level) stay unverifiable in both runs, because they need the book text and review sites don't settle them.
 
 ## Future Improvements
 
-I used to list "grade with a separate session, not the one that produced the output" here as the next thing to try. I did it (above), and it's not a one-time fix. It caught a real defect same-session grading missed twice, so it's worth running regularly rather than treating as solved. The same regrade raised whether the "other books that qualify" note gave away too much of the exclusion logic; that's resolved now by cutting the note. Still open: whether the book summary in each entry is necessary at all.
+Still open:
+
+- Regrade Run 2 with an independent session that sees only the rubric, the exclusion file and the raw output. Same-session grading missed a real failure in Run 1, so this is a standing step for every run.
+- Run the skill again against the current SKILL.md, so the 2026-09-12 fixes are tested.
+- Decide how to handle criteria 9 and 10. I could check them against the book text, or accept "unverifiable" and say so.
+- Decide whether the book summary in each entry is necessary at all.
+- Check every other rubric criterion against SKILL.md, the way criterion 3 was checked, to find rules that only one of them states.
+- Rename already-read.md, since it now also holds books that were only recommended.
