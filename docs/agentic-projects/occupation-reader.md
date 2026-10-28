@@ -31,7 +31,7 @@ While testing, parallel agents re-ran the whole workflow, and one pushed a delet
 
 I did not compare the answers with human readers, test subtle or ambiguous writing (the sample is clear on purpose), or try other models.
 
-The agent design, decisions and other problems I fixed are in the [full technical case study](https://github.com/nellcgram/blind-occupation-reader/blob/main/docs/case-study.md) in the repository.
+The [README](https://github.com/nellcgram/blind-occupation-reader#readme) in the repository describes the agents. The [full technical case study](https://github.com/nellcgram/blind-occupation-reader/blob/main/docs/case-study.md) covers my design decisions and other problems I fixed.
 
 ## Conclusion
 
