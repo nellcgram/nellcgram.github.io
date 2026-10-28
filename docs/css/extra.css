@@ -1,0 +1,23 @@
+/* Shadcn theme tweaks: bigger body text, tighter space around headings. */
+div.typography {
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+div.typography h2 {
+  margin-top: 2rem;
+}
+
+div.typography h3 {
+  margin-top: 1.5rem;
+}
+
+div.typography h4 {
+  margin-top: 1.25rem;
+}
+
+div.typography h2 + p,
+div.typography h3 + p,
+div.typography h4 + p {
+  margin-top: 0.5rem !important;
+}

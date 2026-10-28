@@ -3,6 +3,8 @@ site_url: https://nellcgram.github.io/
 use_directory_urls: false
 theme:
   name: shadcn
+extra_css:
+  - css/extra.css
 markdown_extensions:
   - md_in_html
 nav:
