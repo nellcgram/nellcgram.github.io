@@ -9,14 +9,14 @@ markdown_extensions:
   - md_in_html
 nav:
   - About: index.md
+  - Agentic Projects:
+    - About agentic projects: agentic-projects/about-agentic-projects.md
+    - Docs Assistant Skills: agentic-projects/docs-assistant.md
+    - Blind Occupation Reader: agentic-projects/occupation-reader.md
+    - Book Recommendations Skill: agentic-projects/book-recommendations.md
   - Writing Samples:
     - Help Center Article: writing-samples/help-article.md
     - KB Article: writing-samples/kb-article.md
     - Release Notes: writing-samples/release-notes.md
     - EOB Guide: writing-samples/eob-guide.md
-  - Agentic Projects:
-    - Docs Assistant Skills: agentic-projects/docs-assistant.md
-    - Blind Occupation Reader: agentic-projects/occupation-reader.md
-    - Book Recommendations Skill: agentic-projects/book-recommendations.md
-  - About agentic projects: about-agentic-projects.md
   - How I build this site: how-I-build-this-site.md
