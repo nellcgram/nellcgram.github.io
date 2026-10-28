@@ -1,6 +1,10 @@
 site_name: Nell Gram
 site_url: https://nellcgram.github.io/
 use_directory_urls: false
+theme:
+  name: shadcn
+extra_css:
+  - css/extra.css
 markdown_extensions:
   - md_in_html
 nav:
@@ -14,4 +18,5 @@ nav:
     - Docs Assistant Skills: agentic-projects/docs-assistant.md
     - Blind Occupation Reader: agentic-projects/occupation-reader.md
     - Book Recommendations Skill: agentic-projects/book-recommendations.md
+  - About agentic projects: about-agentic-projects.md
   - How I build this site: how-I-build-this-site.md
