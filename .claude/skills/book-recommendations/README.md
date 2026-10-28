@@ -6,6 +6,7 @@ types (criminal, mafia, vampire, demon, alien, serial killer), no pregnancy, gua
 
 ## Files
 - SKILL.md — the instruction file
+- case-study.md — how the skill was built, tested, and graded
 - do-not-recommend-example.md — template for the private exclusion file
 - CHANGELOG.md — what changed in SKILL.md, and why
 - ../../../docs/agentic-projects/evals/rubric.md — the 12-criterion evaluation rubric
