@@ -4,15 +4,15 @@ This project is about writing an unambiguous spec for an LLM, debugging it the w
 
 [The skill](https://github.com/nellcgram/nellcgram.github.io/blob/main/.claude/skills/book-recommendations/SKILL.md)
 
-[The rubric](https://github.com/nellcgram/nellcgram.github.io/blob/main/offline-projects/agentic-projects/evals/rubric.md)
+[The rubric](evals/rubric.md)
 
 [The changelog](https://github.com/nellcgram/nellcgram.github.io/blob/main/.claude/skills/book-recommendations/CHANGELOG.md)
 
-[The eval run (Run 1)](https://github.com/nellcgram/nellcgram.github.io/blob/main/offline-projects/agentic-projects/evals/run-01.md)
+[The eval run (Run 1)](evals/run-01.md)
 
-[The second eval run (Run 2)](https://github.com/nellcgram/nellcgram.github.io/blob/main/offline-projects/agentic-projects/evals/run-02.md)
+[The second eval run (Run 2)](evals/run-02.md)
 
-[The eval notes](https://github.com/nellcgram/nellcgram.github.io/blob/main/offline-projects/agentic-projects/evals/eval-notes.md)
+[The eval notes](evals/eval-notes.md)
 
 ## The Problem
 
@@ -28,11 +28,11 @@ A written skill (SKILL.md) that encodes my preferences as rules: genre and conte
 
 Here is what that looks like:
 
-![Book Recommendations Skill 1](../images/1.png)
+![Book Recommendations Skill 1](../images/book-recs-1.png)
 
-![Book Recommendations Skill 2](../images/2.png)
+![Book Recommendations Skill 2](../images/book-recs-2.png)
 
-![Book Recommendations Skill 3](../images/3.png)
+![Book Recommendations Skill 3](../images/book-recs-3.png)
 
 </details>
 
@@ -44,20 +44,21 @@ I wrote SKILL.md in VS Code and tested it iteratively with Claude Code, running 
 
 In the first round of testing, I had two instruction defects. First, a missing closing "---" that would have broken the file. Second, a sentence that contradicted itself (it said no children but also allowed for children in the epilogue).
 
-In the second round, the list of books I didn't want recommended had grown too large to keep inline — it would have made the skill file too long to read easily. I moved it into a separate already-read.md file, which is a progressive-disclosure fix: the exclusion list only loads when the skill actually runs, instead of bloating the instructions Claude reads every time.
+In the second round, the list of books I didn't want recommended had grown too large to keep inline — it would have made the skill file too long to read easily. I moved it into a separate file (called do-not-recommend.md at the time), which is a progressive-disclosure fix: the exclusion list only loads when the skill actually runs, instead of bloating the instructions Claude reads every time.
 
-In the third round, I found a state-persistence limitation in the model. Results still included books I had already read that hadn't made it into already-read.md yet. I edited the skill to add every recommendation to the "do not recommend" list immediately after recommending it, rather than relying on me to update it separately. That means already-read.md now also holds books that were only recommended, not necessarily read — the name is a holdover from before this fix and no longer fully describes what the file stores.
+In the third round, I found a state-persistence limitation in the model. Results still included books I had already read that hadn't made it into that file yet. I edited the skill to add every recommendation to the "do not recommend" list immediately after recommending it, rather than relying on me to update it separately. That means the file also holds books that were only recommended, not necessarily read, so I later renamed it do-not-recommend.md.
 
 ## How I Evaluated It
 
-Passing my own read-through isn't the same as verifying the output against a fixed standard, so I wrote a 12-criterion rubric and scored a real run against it (see the eval run above). Several results from that pass stood out more than a clean scorecard would have:
+Passing my own read-through isn't the same as verifying the output against a fixed standard, so I wrote a 12-criterion rubric (17 now, see below) and scored a real run against it (see the eval run above). Several results from that pass stood out more than a clean scorecard would have:
 
 - **A hallucination that the first score hid.** The model's draft attributed "The Suite Spot" to the wrong author. Claude checked all 15 titles and authors against publisher pages, Goodreads, and reviews in-session, and I spot-checked a subset by hand — the manual spot-check is what actually caught the misattribution. I corrected the entry before delivering the list, which meant the attribution criterion scored a clean pass: the rubric had graded the corrected output, not what the model produced. I fixed the rubric so it grades what the model actually produced — a caught-and-fixed error still fails that criterion for the run — and rescored Run 1 accordingly.
-- **A defect in the rubric itself.** My first rubric only had pass and fail, which meant a criterion nobody could actually verify (like heat level, which isn't reliably documented anywhere outside the book's text) silently resolved to "pass." I added "unverifiable" as a distinct, separately-counted outcome so the rubric reports what's actually known rather than defaulting unknowns to clean.
-- **A same-session blind spot, caught by a separate grader.** I had an independent agent regrade Run 1 with only the rubric, the exclusion file, and the raw output — no SKILL.md, no prior grading, no case study. It caught a real defect that two rounds of same-session grading had both missed: in *Life's Too Short*, the main character becomes her niece's guardian mid-book, which the pregnancy/child rule explicitly forbids before the epilogue. It also exposed a wording gap: the skill appends every recommendation to already-read.md right after delivering it, so a grader without a snapshot of that file from before the run will always see this run's own titles sitting in it and misgrade the exclusion criterion as a fail. I fixed the rubric's wording so it grades against the file as it stood before the run.
+- **A defect in the rubric itself.** My first rubric only had pass and fail, which meant a criterion nobody could actually verify (like heat level, which isn't reliably documented anywhere outside the book's text) silently resolved to "pass." I added "unverifiable" as a distinct, separately counted outcome so the rubric reports what's actually known rather than defaulting unknowns to clean.
+- **A same-session blind spot, caught by a separate grader.** I had an independent agent regrade Run 1 with only the rubric, the exclusion file, and the raw output — no SKILL.md, no prior grading, no case study. It caught a real defect that two rounds of same-session grading had both missed: in *Life's Too Short*, the main character becomes her niece's guardian mid-book, which the pregnancy/child rule explicitly forbids before the epilogue. It also exposed a wording gap: the skill appends every recommendation to do-not-recommend.md right after delivering it, so a grader without a snapshot of that file from before the run will always see this run's own titles sitting in it and misgrade the exclusion criterion as a fail. I fixed the rubric's wording so it grades against the file as it stood before the run.
 - **A rule the rubric enforced that the skill never stated.** The regrade's guardianship catch worked because the rubric already checked for it — but SKILL.md's own rule only mentioned "a child or pregnancy," never guardianship. The two documents disagreed about what the rule actually was. I added guardianship to SKILL.md directly, so the instruction and the rubric now state the same rule instead of the rubric silently covering a gap the instruction left open.
 - **A note that leaked the thing it was supposed to hide.** Six of Run 1's fifteen entries carried "Note: this author has other books that qualify." The word "qualify" implies a pass/fail filter exists, which conflicts with the skill's own rule that the exclusion process stay invisible — the reader should never learn that anything was screened. I cut the instruction and its note from the skill entirely, closing the open question the regrade had raised without resolving.
 - **Genre scope disagreed across files, and the fallback didn't exist.** The README described the skill as covering contemporary and fantasy romance; SKILL.md's own genre list is wider (contemporary, fantasy, historical, regency, romantic suspense). Run 2 recommended a historical title, which the README's narrower description wouldn't have covered — I synced the README to match SKILL.md. Separately, SKILL.md's instruction to ask the user for a genre assumes a live conversation always exists. Run 2 had no user turn to ask, so it silently mixed genres with no rule telling it what to do. I added a fallback: default to contemporary, and state that a default was applied, whenever there's no one to ask.
+- **Five rules in SKILL.md had no rubric criterion.** I checked the rubric against SKILL.md rule by rule. Most rules had a matching criterion. The rubric had no check for main characters under 18, high school settings and YA; the man-and-woman rule; main characters who molest, stalk, or kidnap (it covered only rape, torture, and murder); value judgments about content; or the default-genre statement. I added them as criteria 13 to 17. The rubric's murder clause needed no change, because SKILL.md covers it through "no criminal main characters." Runs 1 and 2 were graded on criteria 1 to 12 only, so they don't test the new ones.
 
 ## Run 2
 
@@ -75,15 +76,13 @@ Run 2 scored 10 pass, 0 fail, 2 unverifiable (of 12 criteria). Two limits apply:
 | Run 1 | 8 | 2 | 2 | Same session, then an independent regrade |
 | Run 2 | 10 | 0 | 2 | Same session only |
 
-Criteria 9 (content-warning coverage) and 10 (heat level) stay unverifiable in both runs, because they need the book text and review sites don't settle them.
+Both runs were graded on criteria 1 to 12. Criteria 9 (content-warning coverage) and 10 (heat level) stay unverifiable in both runs, because they need the book text and review sites don't settle them.
 
 ## Future Improvements
 
 Still open:
 
 - Regrade Run 2 with an independent session that sees only the rubric, the exclusion file and the raw output. Same-session grading missed a real failure in Run 1, so this is a standing step for every run.
-- Run the skill again against the current SKILL.md, so the 2026-09-12 fixes are tested.
+- Run the skill again against the current SKILL.md and grade it on all 17 criteria, so the 2026-09-12 fixes and criteria 13 to 17 are tested.
 - Decide how to handle criteria 9 and 10. I could check them against the book text, or accept "unverifiable" and say so.
 - Decide whether the book summary in each entry is necessary at all.
-- Check every other rubric criterion against SKILL.md, the way criterion 3 was checked, to find rules that only one of them states.
-- Rename already-read.md, since it now also holds books that were only recommended.

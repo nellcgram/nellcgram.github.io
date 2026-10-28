@@ -8,7 +8,7 @@ harness limitation, not a result.
 Update, [2026-09-10]: Scored against SKILL.md and rubric.md as they stood before the 2026-09-12 edits (guardianship added, the "other books that qualify" note removed, the no-live-user genre fallback added). Differences from the current files are expected, not new defects.
 
 Update, [2026-09-10]: this run was regraded by an independent agent 
-given only the rubric, the exclusion file, and run-01-ouput.md — no 
+given only the rubric, the exclusion file, and run-01-output.md — no 
 SKILL.md, no prior grading, no case study. That pass caught a real 
 defect this same-session grading missed twice (criterion 3, below) 
 and exposed a wording gap in the rubric's criterion 4 (since fixed in 

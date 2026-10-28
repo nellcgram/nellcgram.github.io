@@ -1,4 +1,9 @@
 ### Rubric
+
+Until 2026-10-28 the exclusion file was named `already-read.md`. Runs 1 and 2 were graded under that name, and their records keep it.
+
+Criteria 13 to 17 were added on 2026-10-28 after checking the rubric against SKILL.md. Runs 1 and 2 were graded on criteria 1 to 12 only.
+
 ## Grading outcomes
 
 Each criterion is graded **pass**, **fail**, or **unverifiable**.
@@ -32,19 +37,19 @@ separately; it does not raise the grade.
 - **Pass:** Main characters are not parents or guardians of a child during the book and no main character is pregnant before the epilogue; an epilogue child or pregnancy is optional
 - **Fail:** A main character has a child, is a guardian of a child, or is pregnant at any point before the epilogue
 
-### No books or authors from already-read.md
-- **Grade against:** already-read.md as it stood immediately before 
+### No books or authors from do-not-recommend.md
+- **Grade against:** do-not-recommend.md as it stood immediately before 
   this run started, not the current file. The skill appends every 
-  recommendation to already-read.md after delivering it, so the 
+  recommendation to do-not-recommend.md after delivering it, so the 
   current file will always contain this run's own titles — that is 
   expected behavior, not a violation. A grader without a saved 
   pre-run snapshot cannot tell the difference and will misgrade this 
   criterion as a fail.
-- **Pass:** None of the books or authors from already-read.md (as it stood before the run) appear in the results
-- **Fail:** Any book or author from already-read.md (as it stood before the run) appears in the results
+- **Pass:** None of the books or authors from do-not-recommend.md (as it stood before the run) appear in the results
+- **Fail:** Any book or author from do-not-recommend.md (as it stood before the run) appears in the results
 
 ### No books or authors from the "skip all books by these authors" list
-- **Source of truth:** this list is not defined in SKILL.md — it's the "## skip all books by these authors" section of already-read.md (currently `/Users/nellgram/.claude/private-notes/book-recommendations/already-read.md`). Grade against that section, not against SKILL.md.
+- **Source of truth:** this list is not defined in SKILL.md — it's the "## skip all books by these authors" section of do-not-recommend.md (currently `/Users/nellgram/.claude/private-notes/book-recommendations/do-not-recommend.md`). Grade against that section, not against SKILL.md.
 - **Pass:** None of the books or authors from the skip list appear in the results
 - **Fail:** Any book or author from the skip list appears in the results
 
@@ -61,7 +66,9 @@ separately; it does not raise the grade.
 - **Fail:** Any main character is one of the above
 
 ### Content warnings follow the required format and coverage
+<!-- vale Google.Quotes = NO -->
 - **Pass:** Every entry with rape, torture, murder, cheating, BDSM, cancer, a main character's dog dying, or a main character with PTSD/other mental illness includes a content-warning line naming it; entries with none of those omit the line entirely; any rape/sexual-assault warning uses the format `TYPE (ROLE, TIMING)` with TYPE = "rape" or "sexual assault (not rape)", ROLE = "main character" or "secondary character", TIMING = "on page" or "past"; rape, torture, and murder are only present when not committed by a main character
+<!-- vale Google.Quotes = YES -->
 - **Fail:** A qualifying content warning is missing, a content-warning line appears with nothing to warn about, a sexual-violence warning doesn't match the required format, or a main character commits rape, torture, or murder
 - **Unverifiable:** Review-site summaries mention potentially 
   qualifying content but don't confirm whether it occurs, who it 
@@ -79,5 +86,27 @@ separately; it does not raise the grade.
 - **Fail:** Any entry has no link
 
 ### Exclusion process kept invisible
-- **Pass:** The response never mentions already-read.md, the skip-authors list, or why a specific book/author was excluded
-- **Fail:** The response references the exclusion list, already-read status, or explains that something was skipped
+- **Pass:** The response never mentions do-not-recommend.md, the skip-authors list, or why a specific book/author was excluded
+- **Fail:** The response references the exclusion list, do-not-recommend status, or explains that something was skipped
+
+### No main character under 18, high school setting, or YA category
+- **Pass:** No main character is under 18, no book is set in high school, and no book is shelved as YA
+- **Fail:** Any book has a main character under 18, a high school setting, or a YA category
+
+### The romance is between a man and a woman
+- **Pass:** Every book's central romance is between a man and a woman
+- **Fail:** Any book's central romance is between two men, two women, or other pairings
+
+### No main character who rapes, molests, stalks, tortures, or kidnaps another character
+- **Pass:** No main character does any of these to another character
+- **Fail:** Any main character does one of these. Criterion 9 also fails a main character who commits rape, torture, or murder, so one book can fail both.
+
+### No value judgments about content
+- **Pass:** No entry or surrounding text judges the content, such as calling it disturbing, problematic, or great
+- **Fail:** Any entry or the surrounding text includes a value judgment about the content
+
+### A default genre is stated when there was no one to ask
+- **Applies only to:** runs with no live user turn to ask which genre
+- **Pass:** The response says it defaulted to contemporary
+- **Fail:** The run mixed genres or chose one without saying a default was applied
+- **Not applicable:** a live user answered or named a genre

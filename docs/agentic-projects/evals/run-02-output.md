@@ -36,7 +36,9 @@ Content warnings: Main character with PTSD or other mental illness
 
 [Not Like the Movies](https://www.goodreads.com/book/show/52154283-not-like-the-movies), Kerry Winfrey.
 Genre: Contemporary
+<!-- vale Google.GenderBias = NO -->
 A coffee-shop waitress is horrified when her best friend turns their nonexistent romance with her boss into a hit movie script, forcing her to see him differently.
+<!-- vale Google.GenderBias = YES -->
 Heat level: Closed door.
 
 [The Dating Plan](https://www.goodreads.com/book/show/54326395-the-dating-plan), Sara Desai.

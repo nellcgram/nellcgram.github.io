@@ -53,7 +53,7 @@ to grade down, since nothing defective was ever produced.
 **Overall: 10 pass, 0 fail, 2 unverifiable (of 12 criteria).**
 Unverifiable = criteria 9 and 10. Both need the book text; review-site
 summaries can't settle them. This run has not yet had the separate-
-session regrade that found a real, previously-missed failure in Run 1
+session regrade that found a real, previously missed failure in Run 1
 — treat this score with the same caution until it does.
 
 already-read.md has been updated with these 15 titles (both title and
