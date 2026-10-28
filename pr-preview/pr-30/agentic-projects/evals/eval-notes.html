@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://nellcgram.github.io/agentic-projects/evals/eval-notes.html" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Eval notes - Nell Gram</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Eval notes";
+        var mkdocs_page_input_path = "agentic-projects/evals/eval-notes.md";
+        var mkdocs_page_url = "/agentic-projects/evals/eval-notes.html";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../index.html" class="icon icon-home"> Nell Gram
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../index.html">About</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Writing Samples</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../writing-samples/help-article.html">Help Center Article</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../writing-samples/kb-article.html">KB Article</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../writing-samples/release-notes.html">Release Notes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../writing-samples/eob-guide.html">EOB Guide</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Agentic Projects</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../docs-assistant.html">Docs Assistant Skills</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../occupation-reader.html">Blind Occupation Reader</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../book-recommendations.html">Book Recommendations Skill</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../how-I-build-this-site.html">How I build this site</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Nell Gram</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../index.html" class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Eval notes</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="eval-notes">Eval notes</h1>
+<h2 id="rubric-defect-unverifiable-is-not-pass">Rubric defect: unverifiable is not pass</h2>
+<p>Found during Run 1.</p>
+<p><strong>The problem:</strong> The rubric only has pass and fail, so a criterion nobody can check resolves to pass by default. That means it reports "verified compliant" when the truth is "no contradicting evidence found.</p>
+<p><strong>Which criteria are affected:</strong> 9 and 10. Both need the book text; review sites don't carry heat level or precise content-warning detail.</p>
+<p><strong>Why it matters:</strong> A rubric that can't say "unknown" will report clean runs forever and stop being useful.</p>
+<p><strong>How I'd close it:</strong> I want all criterion to be used so I added unverifiable as a permanent third outcome that's counted separately.</p>
+<h2 id="grading-defect-scoring-the-corrected-output-not-the-produced-output">Grading defect: scoring the corrected output, not the produced output</h2>
+<p>Found during Run 1.</p>
+<p><strong>The problem:</strong> Criterion 2 was graded pass because the delivered list already had "The Suite Spot" correctly attributed — the misattribution was caught and swapped before the run was scored. The grade reflected a hand-corrected result, not what the model actually produced.</p>
+<p><strong>Which criteria are affected:</strong> 2, and any criterion where an error could plausibly be caught and corrected before scoring.</p>
+<p><strong>Why it matters:</strong> If catching and quietly fixing an error resolves to the same grade as never having had the error, the score stops measuring the model's actual output — the same silent-clean-result problem the unverifiable outcome was meant to prevent.</p>
+<p><strong>How I'd close it:</strong> Added a rule to the rubric: grade what the model produced, not a corrected version. A caught-and-fixed error is logged separately but still fails that criterion for the run.</p>
+<h2 id="grading-defect-same-session-grading-missed-a-real-failure-twice">Grading defect: same-session grading missed a real failure twice</h2>
+<p>Found when Run 1 was regraded by an independent agent given only the rubric, the exclusion file, and the raw output — no SKILL.md, no prior grading, no case study.</p>
+<p><strong>The problem:</strong> In <em>Life's Too Short</em>, the main character becomes her niece's guardian mid-book. Criterion 3 exists specifically to catch this, and it was graded pass — twice, across two separate same-session gradings — before an independently run pass caught it. Same-session grading isn't just less reliable in theory; here it produced the same wrong answer on repeat.</p>
+<p><strong>Which criteria are affected:</strong> Any criterion requiring a careful read of the output against the rules, not just a records check. Criterion 3 is the confirmed case; there's no reason to assume it's the only one a same-session grader is prone to waving through.</p>
+<p><strong>Why it matters:</strong> A grading process that repeats its own mistake isn't self-correcting just because someone runs it again — it takes a genuinely separate check to surface what it's blind to.</p>
+<p><strong>How I'd close it:</strong> Regrade with an independent session or agent that never sees SKILL.md, the prior grading, or the case study — not as a one-time fix, but as a standing step for every run. The same pass also surfaced a second, distinct defect (below) that's worth its own entry.</p>
+<h2 id="rubric-defect-already-readmd-criterion-didnt-specify-a-pre-run-snapshot">Rubric defect: already-read.md criterion didn't specify a pre-run snapshot</h2>
+<p>Found by the same independent regrade above.</p>
+<p><strong>The problem:</strong> The skill appends every recommendation to already-read.md right after delivering it, so the file's current state always contains the just-recommended titles. The rubric's wording for "no books or authors from already-read.md" didn't say to grade against the file as it stood <em>before</em> the run — so a grader working from the live file will always see this run's own titles sitting in it and misgrade a passing run as a fail.</p>
+<p><strong>Which criteria are affected:</strong> 4. Criterion 5 (skip-all-authors) is unaffected — that section isn't auto-appended to.</p>
+<p><strong>Why it matters:</strong> This isn't a rare edge case; it will misfire on every single future run until it's fixed, because the auto-append behavior it's tripping over is the skill's normal, intended behavior.</p>
+<p><strong>How I'd close it:</strong> Added wording to rubric.md specifying that criterion 4 grades against already-read.md as it stood before the run started, and explaining why, so a future grader isn't left to guess.</p>
+<h2 id="skill-defect-instruction-and-rubric-disagreed-on-what-the-rule-was">Skill defect: instruction and rubric disagreed on what the rule was</h2>
+<p>Found by the same independent regrade that caught the guardianship
+failure in Run 1.</p>
+<p><strong>The problem:</strong> The rubric's criterion 3 already failed a run for a
+main character becoming a child's guardian mid-book. SKILL.md's own
+rule never mentioned guardianship — it only said "a child or
+pregnancy." The regrade worked because the rubric happened to be
+stricter than the instruction it was supposed to check; nothing
+forced the two to agree.</p>
+<p><strong>Which criteria are affected:</strong> 3. No other criterion is currently
+known to have language SKILL.md doesn't also state, but that hasn't
+been checked systematically — this one was found by coincidence, not
+by an audit.</p>
+<p><strong>Why it matters:</strong> A rubric can only check what an instruction
+actually says. Here it happened to check for more than the
+instruction covered, which looks like a rubric strength but is really
+two documents stating different rules under the same name.</p>
+<p><strong>How I'd close it:</strong> Added guardianship to SKILL.md's rule directly,
+so the instruction and the rubric state the same thing. Worth a pass
+checking whether any other rubric criterion is similarly ahead of, or
+behind, what SKILL.md actually instructs.</p>
+<h2 id="rubric-defect-five-skillmd-rules-had-no-criterion">Rubric defect: five SKILL.md rules had no criterion</h2>
+<p>Found on 2026-10-28 by checking every rubric criterion against SKILL.md, the audit the previous entry called for.</p>
+<p><strong>The problem:</strong> The rubric covered most of SKILL.md, but five rules had no criterion: no main character under 18, high school setting, or YA; a man-and-woman romance; no main character who molests, stalks, or kidnaps (criterion 9 covered only rape, torture, and murder); no value judgments about content; and stating the default genre when no one is there to ask. Run 2's vetting notes show the man-and-woman and kidnapping rules were applied by hand, so the rubric would have scored a run clean that broke them.</p>
+<p><strong>Which criteria are affected:</strong> None of 1 to 12 changed. Runs 1 and 2 were graded on those 12 only.</p>
+<p><strong>Why it matters:</strong> A rubric can only fail what it checks. A rule the skill states but the rubric omits is enforced only by whoever happens to notice a violation.</p>
+<p><strong>How I closed it:</strong> Added criteria 13 to 17 to the rubric. The rubric's murder clause needed no change, because SKILL.md covers it through "no criminal main characters." Rules about adding books to the exclusion file are behavior, not output, so no output-based criterion can check them.</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://nellcgram.github.io/agentic-projects/evals/run-01.html" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Run 1 — [2026-09-04] (graded against run-01-output.md) - Nell Gram</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Run 1 \u2014 [2026-09-04] (graded against run-01-output.md)";
+        var mkdocs_page_input_path = "agentic-projects/evals/run-01.md";
+        var mkdocs_page_url = "/agentic-projects/evals/run-01.html";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../index.html" class="icon icon-home"> Nell Gram
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../index.html">About</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Writing Samples</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../writing-samples/help-article.html">Help Center Article</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../writing-samples/kb-article.html">KB Article</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../writing-samples/release-notes.html">Release Notes</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../writing-samples/eob-guide.html">EOB Guide</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Agentic Projects</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../docs-assistant.html">Docs Assistant Skills</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../occupation-reader.html">Blind Occupation Reader</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../book-recommendations.html">Book Recommendations Skill</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../how-I-build-this-site.html">How I build this site</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Nell Gram</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../index.html" class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Run 1 — [2026-09-04] (graded against run-01-output.md)</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="run-1-2026-09-04-graded-against-run-01-outputmd">Run 1 — [2026-09-04] (graded against run-01-output.md)</h1>
+<p>Grading limitation: this run was graded in the same session that
+produced the output, so the grader had the skill loaded. A grader with
+only the rubric and the raw output would be more reliable. Noted as a
+harness limitation, not a result.</p>
+<p>Update, [2026-09-10]: Scored against SKILL.md and rubric.md as they stood before the 2026-09-12 edits (guardianship added, the "other books that qualify" note removed, the no-live-user genre fallback added). Differences from the current files are expected, not new defects.</p>
+<p>Update, [2026-09-10]: this run was regraded by an independent agent
+given only the rubric, the exclusion file, and run-01-output.md — no
+SKILL.md, no prior grading, no case study. That pass caught a real
+defect this same-session grading missed twice (criterion 3, below)
+and exposed a wording gap in the rubric's criterion 4 (since fixed in
+rubric.md) that would otherwise misgrade every future run. Criterion
+12 is unchanged but now carries a flagged open question from that
+pass — see below.</p>
+<ul>
+<li>Criterion 1 (15 books): pass — 15 entries returned.</li>
+<li>
+<p>Criterion 2 (real/attributed): fail — the model's output misattributed "The Suite Spot" to Mia Sosa; it's actually by Trish Doller. Verification (checking all 15 titles/authors, not just the 3-sample minimum, against publisher pages, Goodreads, and reviews) was done by Claude in-session; a manual spot-check of a subset by the grader is what actually caught this one.</p>
+</li>
+<li>
+<p>FAILURE FOUND AND FIXED PRE-DELIVERY, GRADED AS A FAILURE ANYWAY:
+    the draft attributed "The Suite Spot" to Mia Sosa. It is by Trish
+    Doller. Hallucinated attribution — the defect criterion 2 exists
+    to catch. Caught during verification and swapped before the list
+    was delivered, but per the rubric's grade-what-was-produced rule
+    (see rubric.md), this run is still graded on the model's original,
+    uncorrected output. A caught-and-fixed error is not the same as a
+    run that never had the error, and grading the corrected version
+    would have hidden that.</p>
+</li>
+<li>
+<p>Criterion 3 (no pregnancy/child): fail — in <em>Life's Too Short</em> (Abby Jimenez), Vanessa Price, the main character, becomes her infant niece's sole guardian mid-book (her half-sister leaves the baby with her while dealing with addiction), not in an epilogue. Missed in the original grading; caught by an independent regrade and confirmed separately against plot summaries.</p>
+</li>
+<li>Criterion 4 (not in already-read.md): pass — none of the 15 titles or authors appear in the specific-books or skip-all-authors sections of already-read.md as it stood before this run.</li>
+<li>Criterion 5 (not on skip-all-authors list): pass — cross-checked all 15 authors against the skip-all-authors section; no matches.</li>
+<li>Criterion 6 (no duplicate author): pass — 15 distinct authors.</li>
+<li>Criterion 7 (no novellas): pass — all 15 are full-length novels.</li>
+<li>Criterion 8 (no prohibited main-character types): pass — no criminal/mafia/vampire/demon/alien/serial-killer main characters; all contemporary-set.</li>
+<li>Criterion 9 (content-warning format/coverage): pass, with 2 unresolved low-confidence items with unverifiable (2 of 15 entries)</li>
+<li><em>Take the Lead</em> (Alexis Daria): outside sources describe the hero as "sexually harassed," but available reviews don't specify whether this rises to on-page sexual assault or stays verbal/non-physical harassment. The run included no content-warning line for this. If the scene involves physical contact, the entry is missing a <code>sexual assault (not rape) (main character, on page/past)</code> line and this criterion would fail for that entry.</li>
+<li><em>The Bodyguard</em> (Katherine Center): one source flagged "suicidal ideation" among the book's content but didn't identify which character it belongs to (Hannah's mother's backstory is the likelier candidate, per other sources' framing of that same backstory). The run omitted a mental-illness warning on the assumption it isn't the main character's. Unconfirmed from primary text.</li>
+<li>No other entry showed evidence of an uncovered required topic (rape, torture, murder, cheating, BDSM, cancer, MC's dog dying) or a misformatted warning.</li>
+<li>Criterion 10 (heat level correctness): unverifiable (1 of 15 entries) — <em>The Matchmaker's List</em> (Sonya Lalli): no source found confirmed this as open- or closed-door; the run left off a heat-level line (defaulting to open-door), which is unverified either way.</li>
+<li>Criterion 11 (every entry has a link): pass — all 15 entries link to a real page for the title (Goodreads for 14; romance.io for <em>The Spanish Love Deception</em>, since no Goodreads URL was confirmed for it during the run).</li>
+<li>Criterion 12 (exclusion process invisible): pass — the response never mentions already-read.md, the skip-authors list, or why any book/author was excluded. Open question raised by an independent regrade, not yet resolved either way: six entries carry "Note: this author has other books that qualify," and "qualify" implies a pass/fail filter exists, which arguably reveals more than SKILL.md's own format example ("Note: This author has other books on this topic") does. Left as pass pending a decision on whether that wording crosses the line.</li>
+</ul>
+<p><strong>Overall: 8 pass, 2 fail, 2 unverifiable (of 12 criteria).</strong>
+Unverifiable = criteria 9 and 10. Both need the book text; review-site
+summaries can't settle them.</p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
