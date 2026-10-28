@@ -13,19 +13,6 @@ Two Claude Code skills for documentation work:
 
 I built a full evaluation around `release-notes`: 20 commits, a hand-written answer key, a graded rubric, scripted runs, and a GitHub Action that fails a push when quality drops. The doc-review skill was checked by eye, and is less well-developed because it was used as proof of concept.
 
-## Results
-
-| What I measured | Result |
-| --- | --- |
-| First version of the skill | 0 of 20 |
-| After fixing the spec | 19 of 20 |
-| First scripted run (one API call per commit) | 15 of 20 |
-| Cases that pass in all 5 repeats | 9 of 20 |
-| Whether the right skill fires | 18 of 20, before and after rewording |
-| CI check on a deliberately broken skill | failed at 0.10, passed at 0.85 once fixed |
-
-All scores come from the same 20 commits I tuned the skill against, graded by me. They show how the skill behaved on those cases, not that it works on commits it has never seen.
-
 ## What I learned
 
 1. **My first 0 of 20 was my own documents disagreeing.** The rubric required past tense and no internal file names, and the skill never said either. Most of the climb to 19 of 20 was making the spec and the rubric agree, not the model improving.
@@ -47,4 +34,4 @@ I have since retired the workflow because it made API calls on every push. The s
 
 ## Known limits
 
-The automated check catches large regressions but not subtle ones. The skill descriptions miss vague or out-of-scope prompts, and repeat consistency is unresolved. The [case study](https://github.com/nellcgram/docs-assistant/blob/main/case-study.md) in the repository covers each one, and every number links to the file behind it. This project could be expanded in the future to fill in these gaps.
+All scores come from the same 20 commits I tuned the skill against, graded by me. They show how the skill behaved on those cases, not that it works on commits it has never seen. The automated check catches large regressions but not subtle ones. The skill descriptions miss vague or out-of-scope prompts, and repeat consistency is unresolved. The [case study](https://github.com/nellcgram/docs-assistant/blob/main/case-study.md) in the repository covers each one, and every number links to the file behind it.
