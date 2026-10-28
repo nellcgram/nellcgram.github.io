@@ -1,5 +1,5 @@
 ---
-name: already-read
+name: do-not-recommend
 description: Don't recommend these books or authors.
 
 ---

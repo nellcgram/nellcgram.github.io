@@ -28,7 +28,7 @@ Found during Run 1.
 
 Found when Run 1 was regraded by an independent agent given only the rubric, the exclusion file, and the raw output — no SKILL.md, no prior grading, no case study.
 
-**The problem:** In *Life's Too Short*, the main character becomes her niece's guardian mid-book. Criterion 3 exists specifically to catch this, and it was graded pass — twice, across two separate same-session gradings — before an independently-run pass caught it. Same-session grading isn't just less reliable in theory; here it produced the same wrong answer on repeat.
+**The problem:** In *Life's Too Short*, the main character becomes her niece's guardian mid-book. Criterion 3 exists specifically to catch this, and it was graded pass — twice, across two separate same-session gradings — before an independently run pass caught it. Same-session grading isn't just less reliable in theory; here it produced the same wrong answer on repeat.
 
 **Which criteria are affected:** Any criterion requiring a careful read of the output against the rules, not just a records check. Criterion 3 is the confirmed case; there's no reason to assume it's the only one a same-session grader is prone to waving through.
 
@@ -50,27 +50,39 @@ Found by the same independent regrade above.
 
 ## Skill defect: instruction and rubric disagreed on what the rule was
 
-Found by the same independent regrade that caught the guardianship 
+Found by the same independent regrade that caught the guardianship
 failure in Run 1.
 
-**The problem:** The rubric's criterion 3 already failed a run for a 
-main character becoming a child's guardian mid-book. SKILL.md's own 
-rule never mentioned guardianship — it only said "a child or 
-pregnancy." The regrade worked because the rubric happened to be 
-stricter than the instruction it was supposed to check; nothing 
+**The problem:** The rubric's criterion 3 already failed a run for a
+main character becoming a child's guardian mid-book. SKILL.md's own
+rule never mentioned guardianship — it only said "a child or
+pregnancy." The regrade worked because the rubric happened to be
+stricter than the instruction it was supposed to check; nothing
 forced the two to agree.
 
-**Which criteria are affected:** 3. No other criterion is currently 
-known to have language SKILL.md doesn't also state, but that hasn't 
-been checked systematically — this one was found by coincidence, not 
+**Which criteria are affected:** 3. No other criterion is currently
+known to have language SKILL.md doesn't also state, but that hasn't
+been checked systematically — this one was found by coincidence, not
 by an audit.
 
-**Why it matters:** A rubric can only check what an instruction 
-actually says. Here it happened to check for more than the 
-instruction covered, which looks like a rubric strength but is really 
+**Why it matters:** A rubric can only check what an instruction
+actually says. Here it happened to check for more than the
+instruction covered, which looks like a rubric strength but is really
 two documents stating different rules under the same name.
 
-**How I'd close it:** Added guardianship to SKILL.md's rule directly, 
-so the instruction and the rubric state the same thing. Worth a pass 
-checking whether any other rubric criterion is similarly ahead of, or 
+**How I'd close it:** Added guardianship to SKILL.md's rule directly,
+so the instruction and the rubric state the same thing. Worth a pass
+checking whether any other rubric criterion is similarly ahead of, or
 behind, what SKILL.md actually instructs.
+
+## Rubric defect: five SKILL.md rules had no criterion
+
+Found on 2026-10-28 by checking every rubric criterion against SKILL.md, the audit the previous entry called for.
+
+**The problem:** The rubric covered most of SKILL.md, but five rules had no criterion: no main character under 18, high school setting, or YA; a man-and-woman romance; no main character who molests, stalks, or kidnaps (criterion 9 covered only rape, torture, and murder); no value judgments about content; and stating the default genre when no one is there to ask. Run 2's vetting notes show the man-and-woman and kidnapping rules were applied by hand, so the rubric would have scored a run clean that broke them.
+
+**Which criteria are affected:** None of 1 to 12 changed. Runs 1 and 2 were graded on those 12 only.
+
+**Why it matters:** A rubric can only fail what it checks. A rule the skill states but the rubric omits is enforced only by whoever happens to notice a violation.
+
+**How I closed it:** Added criteria 13 to 17 to the rubric. The rubric's murder clause needed no change, because SKILL.md covers it through "no criminal main characters." Rules about adding books to the exclusion file are behavior, not output, so no output-based criterion can check them.

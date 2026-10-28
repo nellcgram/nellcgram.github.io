@@ -16,24 +16,24 @@ description: Use this when the user asks for book recommendations.
 - Include only 1 book by each author.
 
 ## Check before running
-Before you run the skill, check already-read.md at /Users/nellgram/.claude/private-notes/book-recommendations/already-read.md (this file lives outside the git repo on purpose and must never be copied into the repo or committed).
+Before you run the skill, check do-not-recommend.md at /Users/nellgram/.claude/private-notes/book-recommendations/do-not-recommend.md (this file lives outside the git repo on purpose and must never be copied into the repo or committed).
 
-If already-read.md is not found at that path, stop. Tell the user the file is missing and do not recommend anything. Never proceed without the exclusion list.
+If do-not-recommend.md is not found at that path, stop. Tell the user the file is missing and do not recommend anything. Never proceed without the exclusion list.
 
-already-read.md's author skip-list must stay under the heading exactly named ## skip all books by these authors:, since both this skill and the grading rubric locate it by that heading text.
+do-not-recommend.md's author skip-list must stay under the heading exactly named ## skip all books by these authors:, since both this skill and the grading rubric locate it by that heading text.
 
 ## Running, filtering and updating
-Keep the exclusion-checking invisible. Never mention the excluded-authors list, the already-read list, or why a book/author was skipped. Just present the final clean list of recommendations.
+Keep the exclusion-checking invisible. Never mention the excluded-authors list, the do-not-recommend list, or why a book/author was skipped. Just present the final clean list of recommendations.
 
 Recommend only real, published romance novels. Verify each title and author exist before listing them, and say so if you can't confirm one.
 
 Every recommendation should include a link to the title.
 
-If the user mentions a new author or book they've read or want avoided, add it to already-read.md so it's remembered next time.
+If the user mentions a new author or book they've read or want avoided, add it to do-not-recommend.md so it's remembered next time.
 
 The recommendation should include no value judgments on Claude's part about the content.
 
-After giving the final list of recommendations, add each one to already-read.md in the same format as the rest before you end your reply.
+After giving the final list of recommendations, add each one to do-not-recommend.md in the same format as the rest before you end your reply.
 
 ## Content warnings
 

@@ -1,5 +1,8 @@
 ## Changelog
 
+### Renamed already-read.md to do-not-recommend.md [2026-10-28]
+- Fixed: The file also holds every book the skill recommends, not only books read, so the old name was wrong. Old: `already-read.md` (SKILL.md, README, example file, rubric). New: `do-not-recommend.md` everywhere, including the private file at `/Users/nellgram/.claude/private-notes/book-recommendations/`. Earlier entries below and the Run 1 and Run 2 records keep the old name, since that is what the file was called when they were written.
+
 ### Edited SKILL to differentiate between live user and tool [2026-09-12]
 - Fixed: Added wording for situation if there is no live user. Old: "If the user does not mention it, Claude should ask for each request: What genre?" New: "If the user does not mention it, ask which genre. If there is no live user turn to ask (e.g. an automated or eval run), default to contemporary and state that the default was applied."
 

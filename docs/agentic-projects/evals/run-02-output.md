@@ -1,4 +1,4 @@
-### Run-02 Output [2026-09-10]
+# Run-02 Output [2026-09-10]
 
 Genre note: the skill's format section says to ask which genre if the
 user doesn't specify one. This run had no live user turn to ask, so it
@@ -36,7 +36,9 @@ Content warnings: Main character with PTSD or other mental illness
 
 [Not Like the Movies](https://www.goodreads.com/book/show/52154283-not-like-the-movies), Kerry Winfrey.
 Genre: Contemporary
+<!-- vale Google.GenderBias = NO -->
 A coffee-shop waitress is horrified when her best friend turns their nonexistent romance with her boss into a hit movie script, forcing her to see him differently.
+<!-- vale Google.GenderBias = YES -->
 Heat level: Closed door.
 
 [The Dating Plan](https://www.goodreads.com/book/show/54326395-the-dating-plan), Sara Desai.
