@@ -18,4 +18,5 @@ nav:
     - Docs Assistant Skills: agentic-projects/docs-assistant.md
     - Blind Occupation Reader: agentic-projects/occupation-reader.md
     - Book Recommendations Skill: agentic-projects/book-recommendations.md
+  - About agentic projects: about-agentic-projects.md
   - How I build this site: how-I-build-this-site.md
