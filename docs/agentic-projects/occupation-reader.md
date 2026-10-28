@@ -19,7 +19,7 @@ I built this to solve a characterization problem. I wanted to submit all manuscr
 
 I asked Claude to build what it needed, then I rewrote the agent descriptions and prompts and used Claude Code to test results, and rewrote again. Each test I ran resulted in a new log of results and a new occupation considered.
 
-The result is a Claude Code skill. Independent readers see only the scene text, guess the job, and quote their evidence. A separate matcher compares the verdict with occupations I had already considered.
+The result is a Claude Code skill with two agents. Five independent readers see only the scene text, guess the job, and quote their evidence. A separate matcher compares the verdict with occupations I had already considered. Each run is logged with the exact text used.
 
 My final problem was that this was not a project others could use because it used my own manuscript. I had Claude write sample scenes and rerun the tests so it made a new log and candidate file.
 
@@ -29,9 +29,9 @@ While testing, parallel agents re-ran the whole workflow, and one pushed a delet
 
 ## What I did not measure
 
-I did not compare the answers with human readers or try other models.
+I did not compare the answers with human readers, test subtle or ambiguous writing (the sample is clear on purpose), or try other models.
 
-The design decisions and other problems I fixed are in the [full technical case study](https://github.com/nellcgram/blind-occupation-reader/blob/main/docs/case-study.md) in the repository.
+The agent design, decisions and other problems I fixed are in the [full technical case study](https://github.com/nellcgram/blind-occupation-reader/blob/main/docs/case-study.md) in the repository.
 
 ## Conclusion
 
