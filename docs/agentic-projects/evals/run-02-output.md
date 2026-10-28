@@ -1,4 +1,4 @@
-### Run-02 Output [2026-09-10]
+# Run-02 Output [2026-09-10]
 
 Genre note: the skill's format section says to ask which genre if the
 user doesn't specify one. This run had no live user turn to ask, so it
