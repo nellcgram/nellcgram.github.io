@@ -104,9 +104,12 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            
+            <li class="nav-item" data-bs-level="1"><a href="#rubric" class="nav-link">Rubric</a>
+              <ul class="nav flex-column">
             <li class="nav-item" data-bs-level="2"><a href="#grading-outcomes" class="nav-link">Grading outcomes</a>
               <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -114,7 +117,7 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h3 id="rubric">Rubric</h3>
+<h1 id="rubric">Rubric</h1>
 <p>Until 2026-10-28 the exclusion file was named <code>already-read.md</code>. Runs 1 and 2 were graded under that name, and their records keep it.</p>
 <p>Criteria 13 to 17 were added on 2026-10-28 after checking the rubric against SKILL.md. Runs 1 and 2 were graded on criteria 1 to 12 only.</p>
 <h2 id="grading-outcomes">Grading outcomes</h2>
@@ -122,17 +125,17 @@
 <ul>
 <li><strong>Pass</strong> — positive evidence the criterion is met.</li>
 <li><strong>Fail</strong> — positive evidence the criterion is violated.</li>
-<li><strong>Unverifiable</strong> — the evidence needed to decide is not available 
-  from the sources used. Not a pass. Every unverifiable grade must 
+<li><strong>Unverifiable</strong> — the evidence needed to decide is not available
+  from the sources used. Not a pass. Every unverifiable grade must
   name the entry, the missing evidence, and what would settle it.</li>
 </ul>
-<p>Unverifiable is counted separately in results and never folded into 
+<p>Unverifiable is counted separately in results and never folded into
 the pass count.</p>
-<p>If any entry in a criterion is unverifiable, the whole criterion is 
+<p>If any entry in a criterion is unverifiable, the whole criterion is
 graded unverifiable.</p>
-<p>Grade the output the model actually produced, not a version corrected 
-after the fact. If an error is caught and fixed before the run is 
-delivered, the run is still graded on the error — log the fix 
+<p>Grade the output the model actually produced, not a version corrected
+after the fact. If an error is caught and fixed before the run is
+delivered, the run is still graded on the error — log the fix
 separately; it does not raise the grade.</p>
 <h3 id="minimum-15-books-returned">Minimum 15 books returned</h3>
 <ul>
@@ -151,12 +154,12 @@ separately; it does not raise the grade.</p>
 </ul>
 <h3 id="no-books-or-authors-from-do-not-recommendmd">No books or authors from do-not-recommend.md</h3>
 <ul>
-<li><strong>Grade against:</strong> do-not-recommend.md as it stood immediately before 
-  this run started, not the current file. The skill appends every 
-  recommendation to do-not-recommend.md after delivering it, so the 
-  current file will always contain this run's own titles — that is 
-  expected behavior, not a violation. A grader without a saved 
-  pre-run snapshot cannot tell the difference and will misgrade this 
+<li><strong>Grade against:</strong> do-not-recommend.md as it stood immediately before
+  this run started, not the current file. The skill appends every
+  recommendation to do-not-recommend.md after delivering it, so the
+  current file will always contain this run's own titles — that is
+  expected behavior, not a violation. A grader without a saved
+  pre-run snapshot cannot tell the difference and will misgrade this
   criterion as a fail.</li>
 <li><strong>Pass:</strong> None of the books or authors from do-not-recommend.md (as it stood before the run) appear in the results</li>
 <li><strong>Fail:</strong> Any book or author from do-not-recommend.md (as it stood before the run) appears in the results</li>
@@ -184,22 +187,24 @@ separately; it does not raise the grade.</p>
 </ul>
 <h3 id="content-warnings-follow-the-required-format-and-coverage">Content warnings follow the required format and coverage</h3>
 <!-- vale Google.Quotes = NO -->
+
 <ul>
 <li><strong>Pass:</strong> Every entry with rape, torture, murder, cheating, BDSM, cancer, a main character's dog dying, or a main character with PTSD/other mental illness includes a content-warning line naming it; entries with none of those omit the line entirely; any rape/sexual-assault warning uses the format <code>TYPE (ROLE, TIMING)</code> with TYPE = "rape" or "sexual assault (not rape)", ROLE = "main character" or "secondary character", TIMING = "on page" or "past"; rape, torture, and murder are only present when not committed by a main character</li>
 </ul>
 <!-- vale Google.Quotes = YES -->
+
 <ul>
 <li><strong>Fail:</strong> A qualifying content warning is missing, a content-warning line appears with nothing to warn about, a sexual-violence warning doesn't match the required format, or a main character commits rape, torture, or murder</li>
-<li><strong>Unverifiable:</strong> Review-site summaries mention potentially 
-  qualifying content but don't confirm whether it occurs, who it 
+<li><strong>Unverifiable:</strong> Review-site summaries mention potentially
+  qualifying content but don't confirm whether it occurs, who it
   happens to, or whether it's on page. Settled by: the book text.</li>
 </ul>
 <h3 id="closed-dooropen-door-heat-level-noted-correctly">Closed-door/open-door heat level noted correctly</h3>
 <ul>
 <li><strong>Pass:</strong> A closed-door book includes a "Heat level: Closed door." line; an open-door book includes no heat-level line at all</li>
 <li><strong>Fail:</strong> An open-door book includes a heat-level line, or a closed-door book has no heat-level line</li>
-<li><strong>Unverifiable:</strong> No source consulted states whether the book is 
-  open or closed door. Settled by: the book text, or a review that 
+<li><strong>Unverifiable:</strong> No source consulted states whether the book is
+  open or closed door. Settled by: the book text, or a review that
   explicitly names heat level.</li>
 </ul>
 <h3 id="every-recommendation-includes-a-link">Every recommendation includes a link</h3>
