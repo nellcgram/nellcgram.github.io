@@ -1,0 +1,29 @@
+/* Shadcn theme tweaks: bigger body text, tighter space around headings. */
+div.typography {
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+div.typography h2 {
+  margin-top: 2rem;
+}
+
+div.typography h3 {
+  margin-top: 1.5rem;
+}
+
+div.typography h4 {
+  margin-top: 1.25rem;
+}
+
+/* Whatever follows a heading (paragraph, list, table, code) sits close to it. */
+div.typography h2 + *,
+div.typography h3 + *,
+div.typography h4 + * {
+  margin-top: 0.5rem !important;
+}
+
+/* The theme hides the page's own H1, so pull the first block up under the page title. */
+div.typography > h1 + * {
+  margin-top: 0 !important;
+}
