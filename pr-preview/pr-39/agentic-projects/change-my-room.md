@@ -1,4 +1,6 @@
 # Room planner
+
+
 This was my first experimental project with Claude in an attempt to make something agentic. I realized through creating this project that it wasn't useful to me; it was more work than drawing out options on a piece of paper but not any more effective. But creating this project helped me understand what Claude Code could do.
 
 Below is the explanation of what the app does.
