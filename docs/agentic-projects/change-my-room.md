@@ -1,4 +1,10 @@
-# Room planner case study
+# Room planner
+
+This was my first experimental project with Claude in an attempt to make something agentic. I realized through creating this project that it wasn't useful to me; it was more work than drawing out options on a piece of paper but not any more effective. But creating this project helped me understand what Claude Code could do.
+
+Below is the explanation of what the app does.
+
+## Case study
 
 Source: [github.com/nellcgram/room_change](https://github.com/nellcgram/room_change)
 
@@ -9,7 +15,7 @@ Change My Room is a to-scale room planner for reworking a bedroom. You enter the
 ## What it does
 
 - Room setup takes a width, a length, and any number of doors or openings, in inches.
-- Each piece of furniture has a real width and depth, any rotation angle, and one job. The jobs are seating, storage, surface, light, footrest, decorative, or other.
+- Each piece of furniture has a real width and depth, any rotation angle, and a job: seating, storage, surface, light, footrest, decorative, or other.
 - You can group furniture into named zones, such as "Reading Nook." A running list shows overlaps, pieces with no job, and zones that are missing something.
 - The AI design review sends a text description of the room to Claude, which returns a critique with specific fixes.
 - "Tell Claude what to change" takes a plain-English request, and Claude edits the furniture directly.
@@ -23,4 +29,4 @@ A web page can't safely hold an API key, so the AI features call a small Cloudfl
 
 The [README](https://github.com/nellcgram/room_change#readme) in the repository covers setup.
 
-Disclaimer: written by Claude, edits by Nell pending
+Disclaimer: written by Claude, edits by Nell
